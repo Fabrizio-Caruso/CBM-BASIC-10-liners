@@ -1,10 +1,11 @@
 MINES
 
-Goal:
+Goals:
 - Walk the longest distances (highest number of steps) in the mine field (1 point per step)
+- Collect $ bonus items (5 extra points)
 - End the game by bumping on a mine (0 points) or reaching the top or bottom border (50 bonus points)
 - Try to reach the highest record
 
 Controls:
 - Use W A S D to move 
-- Use SPACE to free nearby area of mines (max 3 times)
+- Use SPACE to clear nearby area (max 3 times)
