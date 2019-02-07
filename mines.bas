@@ -5,6 +5,6 @@
 50ifa$="d"tHpOp,m:p=p+1:y=1:gO80
 60ifa$="w"tHpOp,m:p=p-40:y=1:gO80
 70ifa$=" "tHiff<=2tH:pOp-1,32:pOp+1,32:pOp-40,32:pOp+40,32:f=f+1
-80ify=1andj>40thenpoke1024+int(rnd(0)*1000),36:ifpE(p)=36tHj=j+5
+80ify=1aNj>40tHpO1024+int(rN(0)*1000),36:ifpE(p)=36tHj=j+5:iff>0tHf=f-1
 90ify=1tHq=q-0.01:j=j+1:y=0:ifpE(p)=mtHfOi=1tou:nE:j=0:f=0:gO10
 99on-(p<daNp>u)gO20:j=j+50:ifj>rtHr=j:?"{clear}bonus points!":fOi=1tod:nE:j=0:f=0:gO10
