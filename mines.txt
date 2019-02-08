@@ -4,7 +4,7 @@ Setting:
 You are in a minefield where mines appear 
 - under your feet once you move and 
 - around you (more if you do not move)
-You can clear the area around you with some special charges "$" but you can only carry max 5 at the time.
+You can clear the area around you with some special charges "$" but you can only carry max 9 at the time.
 Some charges will appear at random positions on the screen.
 The field has upper and lower borders kill you if reached. Left and Right border wrap arround (as text on the screen).
 
