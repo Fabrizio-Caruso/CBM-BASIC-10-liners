@@ -13,8 +13,8 @@ I) Code segments
 3...:gEa$:s=.:ifa$<>""tHs=aS(a$):e=saN1:y=.
 4...c=s-75+e:ifc>-3tHifc<2tHy=1:pOp,m:p=p+c*(39*e+1):...
 
-- Score board
-5l...?"{home}  {yellow}$:{white}";9-f;"  {gray}score:{white}";j;"   {dark gray}high score:{white}";r...
+- Score board + Change player's color to have it flash + Updare record
+5...?"{home}  {yellow}$:{white}";9-f;"  {gray}score:{white}";j;"   {dark gray}high score:{white}";r:pOp+t,3:ifj>rtHr=j
 
 - Handle input for " " and its action
 6ifa$=" "tHiff<9tHpOn,2:pOp-1,32:pOp+1,32:pOp-40,32:pOp+40,32:f=f+1:pOn,0:pOp,90
@@ -28,6 +28,10 @@ I) Code segments
 - Handle player on walls
 9...on-(p<daNp>o)gO2:j=.:f=.:?"{red}aargh!!!":fOi=1tod:nE:gO0
 
+The remainig instructions that are not decribed above are primarily:
+- preparing some helper variables for the next lines
+- poking the video and color ram to display MINES in two alternating colors
+
 
 II) Some Variables
 - p is the position of the player
@@ -38,7 +42,7 @@ II) Some Variables
 - y is a Boolean to detect the player's movement
 - q is the probability of a new mine popping up around the player
 - d and o describe the positions of the lower and upper border
-- t is the different between the video memory address and the color ram address -> <addr>+t is used to set the color corresponding to the position whose data (not color) is pointed by <addr>
+- t is the difference between the video memory address and the color ram address, i.e., <addr>+t is used to set the color corresponding to the position whose data (not color) is pointed by <addr>
 
 
 III)  "IJKL double symmetry" formula (*)
