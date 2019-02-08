@@ -55,6 +55,7 @@ I exploit the special symmetry of the ASCII codes of the keys I J K L:
 So, given s=ASC(a$) with a$ either I or J or K or L, we update the position p with
 p=p+c*(39*e+1) 
 where
-e=s and 1 -> parity of the code, i.e., vertical vs horizontal movement
-c=s-75+e -> separate before or after in the video memory, i.e., -1 for left/up vs +1 for right/down
-39e+1 -> vertical vs horizontal offset absolute value, i.e., 1 vs 40 
+- e=s and 1 -> parity of the code, i.e., vertical vs horizontal movement
+- c=s-75+e -> separate before or after in the video memory, i.e., -1 for left/up vs +1 for right/down
+- 39e+1 -> vertical vs horizontal offset absolute value, i.e., 1 vs 40 
+
