@@ -1,4 +1,4 @@
-CODE EXPLANATION
+CODE DOCUMENTATION
 
 I) Code segments 
 
