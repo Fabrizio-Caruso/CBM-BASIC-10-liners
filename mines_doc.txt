@@ -1,14 +1,14 @@
 CODE EXPLANATION
 
 
-- Initialization
+- [Start of outer loop] Initialization
 0m=87:n=53280:pOn,0:pOn+1,0:v=54296:d=1904:u=1082:?"{clear}{red}mines   {white}use ijkl space"
 1t=v-24:fOi=1tod:nE:j=.:?"{clear}":p=1524:o=1143:q=.9:fOi=0to39:pOo-i,102:pOd+i,102:nE
 
 - Generate mines around the player
 2...ifrN(0)>qtHx=p-4+2*(int(rN(0)*5))+80*((int(rN(0)*3))-1):pOx,m:pOx+t,1
 
-- Handle input for I J K L with a special formula "IJKL double symmetry" (*)
+- [Start of inner/match loop] Handle input for I J K L with a special formula "IJKL double symmetry" (*)
 3...:gEa$:s=.:ifa$<>""tHs=aS(a$):e=saN1:y=.
 4...c=s-75+e:ifc>-3aNc<2tHy=1:pOp,m:p=p+c*(39*e+1):...
 
