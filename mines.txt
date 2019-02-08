@@ -7,5 +7,5 @@ Goals:
 - Try to reach the highest record
 
 Controls:
-- Use W A S D to move 
+- Use I J K L to move 
 - Use SPACE to clear nearby area (max 3 times + extra escapes collected with $)
