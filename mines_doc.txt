@@ -20,7 +20,7 @@ I) Code segments
 6ifa$=" "tHiff<9tHpOn,2:pOp-1,32:pOp+1,32:pOp-40,32:pOp+40,32:f=f+1:pOn,0:pOp,90
 
 - Generate random extra anti-mine charges
-7if-ytHifztHg=int(rN(0)*800):pOo+g,w:pOo+g+t,7:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
+7if-ytHifztHg=int(rN(0)*760):pOo+g,w:pOo+g+t,7:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
 
 - Handle player on mine
 8...if-ytHq=q-.01:j=j+1:y=.:ifpE(p)=mtH?"{red}boom!!!":fOi=1tod:nE:j=.:f=.:gO0
