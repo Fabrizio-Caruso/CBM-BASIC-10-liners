@@ -7,4 +7,4 @@
 6pOp+t,2:?"{home}  {yellow}$:{white}";9-f;"  {gray}score:{white}";j;"  {dark gray}high score:{white}";r:ifj>rtHr=j
 7ifa$=" "tHiff<9tHpOn,2:pOp-1,32:pOp+1,32:pOp-40,32:pOp+40,32:f=f+1:pOn,0:pOp,90
 8pOo+g,w:pOo+g+t,7:if-ytHifztHifltHg=int(rN(0)*760):pOo+g,90:pOo+g+t,4
-9on-((p<daNp>o)aN(pE(p)<>m))gO2:f=.:pOp,h:?"{red}boom!!!":fOi=1tod:nE:gO0
+9on-((p<daNp>o)aN(pE(p)<>m))gO2:f=.:pOp,h:?"{red}boom!!":pO198,0:wA198,1:pO198,0:gO0
