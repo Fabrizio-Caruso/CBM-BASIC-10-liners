@@ -1,0 +1,21 @@
+MINES by Fabrizio Caruso
+
+Setting:
+You are in a minefield where mines appear 
+- under your feet once you move and 
+- around you (more if you do not move)
+You can clear the area around you with some special charges "$" but you can only carry max 9 at the time.
+Some charges will appear at random positions on the screen.
+The field has upper and lower borders that kill you if reached. Left and Right border wrap arround (as text on the screen).
+
+Points:
+- Walk into an empty position: 1 point
+- Walk into a charge "$": 5 points
+
+Goals:
+- Reach the highest score possible by walking on empty positions or collecting charges "$"
+- Avoid stepping on mines or the upper and lower borders. 
+
+Controls:
+- Use I J K L to move 
+- Use SPACE to clear nearby area (if you have enough charges)
