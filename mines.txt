@@ -10,7 +10,7 @@ The field has upper and lower borders kill you if reached. Left and Right border
 
 Points:
 - Walk into an empty position: 1 point
-- Walk into a charge "$": 9 points
+- Walk into a charge "$": 5 points
 
 Goals:
 - Reach the highest score possible by walking on empty positions or collecting charges "$"
