@@ -30,7 +30,7 @@ I) Code segments
 
 The remainig instructions that are not decribed above are primarily:
 - preparing some helper variables for the next lines
-- poking the video and color ram to display MINES in two alternating colors
+- poking the video and color ram to display "MINES" in two alternating colors
 
 
 II) Some Variables
