@@ -4,7 +4,7 @@
 <!-- Project Target : VIC 20 -->
 <Project>
     <Target>1</Target>
-    <Executable>bomber.prg</Executable>
+    <Executable>xchase.prg</Executable>
     <StartAddress>4097</StartAddress>
     <FilesGlobal>False</FilesGlobal>
     <BatchMode>False</BatchMode>
@@ -14,7 +14,7 @@
     <d64Name />
     <Comments />
     <Author />
-    <AutoLaunchName>bomber.prg</AutoLaunchName>
+    <AutoLaunchName>xchase.prg</AutoLaunchName>
     <NoSingleFileBuild>False</NoSingleFileBuild>
     <Cartridge>
         <CrtBuildingCartridge>False</CrtBuildingCartridge>
@@ -40,21 +40,21 @@
         <FileName>mines.bas</FileName>
         <FileName>optimized_mines.bas</FileName>
         <FileName>optimized_mines_long.bas</FileName>
-        <FileName>bomber.bas</FileName>
+        <FileName>xchase.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
     <AssyBinaryFileLocation />
     <SourceFiles>
         <SourceFile>
-            <Name>bomber.bas</Name>
+            <Name>xchase.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>False</Topmost>
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>
