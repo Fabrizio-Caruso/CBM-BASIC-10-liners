@@ -6,5 +6,5 @@
 5c=s-75+e:ifc>-3tHifc<2tHy=1:pOv,15:pOv,0:pOp,m:p=p+c*(21*e+1):j=j+1:q=q-.004
 6pOo+g+t,6:pOp+t,2:?"{home}{yellow}${white}";9-f;" {cyan}pts{white}";j;" {cyan}hi{white}";r:ifj>rtHr=j
 7ifa$=" "aNf<9tHpOn,10:pOp-1,32:pOp+1,32:pOp-22,32:pOp+22,32:f=f+1:pOn,8:pOp,90
-8pOo+g+t,7:pOo+g,w:if-ytHifztHg=b:ifltHg=int(rN(0)*354):pOo+g+t,4:pOo+g,90
+8pOo+g+t,7:pOo+g,w:g=b:if-ytHifztHifltHg=int(rN(0)*354):pOo+g+t,4:pOo+g,90
 9on-((p<daNp>o)aN(pE(p)<>m))gO2:f=.:pOp,h:?"the end":pO198,0:wA198,1:pO198,0:gO0
