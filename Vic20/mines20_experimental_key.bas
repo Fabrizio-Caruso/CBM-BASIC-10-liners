@@ -1,10 +1,10 @@
-0m=87:j=.:w=36:b=-117:n=53280:pOn,0:pOn+1,0:v=54296:d=1904:?"{clear}{gray}use {white}joy2"
-1t=v-24:p=1524:o=1143:fOi=1top:nE:?"{clear}":h=81:q=1:l=.5:z=56320:g=b:u=o+t:a=.001:
-2fOi=0to39:pOo-i,102:pOd+i,102:nE:?"{home}{down}           {light gray}{119}{gray}{119}{dark gray}{119} {red}mines {dark gray}{119}{gray}{119}{light gray}{119}{white}     (fc)"
-3y=.:pOp,h:ifrN(0)>qtHx=p-4+2*(int(rN(0)*5))+80*((int(rN(0)*3))-1):pOx,m:pOx+t,1
-4s=pE(z):e=(s>124)*l:c=(-s+121-9*e)*(l-3*e):ifpE(p)=wtHj=j+4:iff>0tHf=f-1
-5ifs=111tHiff<9tHpOn,2:pOp-1,32:pOp+1,32:pOp-40,32:pOp+40,32:f=f+1:pOn,0:pOp,90
-6pOp+t,1:ifaB(c)=1tHy=1:pOv,15:pOv,0:pOp,m:p=p+c*(-78*e+1):j=j+1
-7pOp+t,2:?"{home}  {yellow}$:{white}";9-f;"  {gray}score:{white}";j;"  {dark gray}high score:{white}";r:ifj>rtHr=j
-8q=q-a:pOu+g,7:pOo+g,w:g=b:if-ytHif(jaN7)=0tHg=int(rN(0)*760):pOu+g,4:pOo+g,90
-9on-((p<daNp>o)aN(pE(p)<>m))gO3:f=.:pOp,h:?"the end":pO198,0:wA198,1:pO198,0:gO0
+0m=87:j=.:v=36878:w=36:b=-65:g=b:n=v+1:pOn,8:t=30720:d=8098:?"{clear}{white}use ijkl space"
+1p=7933:o=7745:fOi=1too/4:nE:h=81:q=.9:?"{clear}":fOi=0to21:pOo-i,102:pOd+i,102:nE
+2?"{home}{down}   {119}{119}{119}  {red}mines  {white}{white}{119}{119}{119}(fc)":ifpE(p)=wtHj=j+4:iff>0tHf=f-1
+3ifrN(0)>qtHx=p-4+2*(int(rN(0)*5))+44*((int(rN(0)*3))-1):pOx,m:pOx+t,1
+4l=jaN3:gEa$:s=.:y=.:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1
+5c=s-75+e:ifc>-3tHifc<2tHy=1:pOv,15:pOv,0:pOp,m:p=p+c*(21*e+1):j=j+1:q=q-.004
+6pOp+t,2:?"{home}{yellow}${white}";9-f;" {cyan}pts{white}";j;" {cyan}hi{white}";r:ifj>rtHr=j
+7ifa$=" "aNf<9tHpOn,10:pOp-1,32:pOp+1,32:pOp-22,32:pOp+22,32:f=f+1:pOn,8:pOp,90
+8pOo+g+t,7:pOo+g,w:g=b:if-ytHifl=3tHg=int(rN(0)*354):pOo+g+t,4:pOo+g,90
+9on-((p<daNp>o)aN(pE(p)<>m))gO2:f=.:pOp,h:?"the end":pO198,0:wA198,1:pO198,0:gO0
