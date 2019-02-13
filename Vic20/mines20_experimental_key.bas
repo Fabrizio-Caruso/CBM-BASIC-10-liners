@@ -1,6 +1,6 @@
-0m=87:v=36878:w=36:b=-65:g=b:n=v+1:pOn,8:t=30720:d=8098:?"{clear}{white}use ijkl space"
-1p=7933:o=7745:fOi=1too/4:nE:?"{clear}":ifj>rtHr=j:?"{blue}record!":pO198,0:wA198,1:pO198,0
-2h=81:q=.9:j=.:fOi=0to21:pOo-i,102:pOd+i,102:nE:?"{home}{down}   {white}{119}{119}{119}  {red}mines  {white}{white}{119}{119}{119}(fc)"
+0:o=7745:v=36878:b=-65:n=v+1:pOn,8:p=7933:ifj>rtHr=j:?"{clear}{blue}record!":fOi=1too/4:nE
+1h=81:t=30720:d=8098:?"{clear}{white}use ijkl space":w=36:g=b:pO198,0:wA198,1:pO198,0:m=87
+2?"{clear}":q=.9:j=.:fOi=0to21:pOo-i,102:pOd+i,102:nE:?"{home}{down}   {white}{119}{119}{119}  {red}mines  {white}{white}{119}{119}{119}(fc)"
 3?"{home}{yellow}${white}";9-f;" {cyan}pts{white}";j;" {cyan}hi{white}";r:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
 4ifrN(0)>qtHx=p-4+2*(int(rN(0)*5))+44*((int(rN(0)*3))-1):pOx,m:pOx+t,1
 5l=jaN3:gEa$:s=.:y=.:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1
