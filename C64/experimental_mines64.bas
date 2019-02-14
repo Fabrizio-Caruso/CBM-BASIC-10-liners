@@ -1,6 +1,6 @@
 0o=1143:b=-117:n=53280:pOn,0:pOn+1,0:p=1524:ifj>rtHr=j:?"{clear}{blue}record!":fOi=1too:nE
-1q=0.9:g=b:v=54296:h=81:t=v-24:d=1904:?"{clear}{gray}use ijkl space{light gray}":w=36:fOi=1top:nE:m=87
-2j=.:fOi=0to39:pOo-i,102:pOd+i,102:nE:?"{home}{down}";spc(12);"{119}{gray}{119}{dark gray}{119}  {red}mines  {dark gray}{119}{gray}{119}{light gray}{119}{white}   (fc)"
+1q=1:g=b:v=54296:h=81:t=v-24:d=1904:?"{clear}{gray}use ijkl space{light gray}":w=36:fOi=1top:nE:m=87
+2j=.:?"{clear}{down}";spc(12);"{119}{gray}{119}{dark gray}{119} {red}mines {dark gray}{119}{gray}{119}{light gray}{119}{white} (fc)":fOi=0to39:pOo-i,102:pOd+i,102:nE:
 3?"{home}  {yellow}$:{white}";9-f;"  {gray}score:{white}";j;"  {dark gray}high score:{white}";r:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
 4ifrN(0)>qtHx=p-4+2*(int(rN(0)*5))+80*((int(rN(0)*3))-1):pOx,m:pOx+t,1
 5l=jaN3:gEa$:s=.:y=.:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1
