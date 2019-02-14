@@ -4,7 +4,7 @@
 3?"{home}{yellow}${white}";9-f;" {cyan}pts{white}";j;" {cyan}hi{white}";r:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
 4ifrN(0)>qtHx=p-4+2*(int(rN(0)*5))+44*((int(rN(0)*3))-1):pOx,m:pOx+t,1
 5l=jaN3:gEa$:s=.:y=.:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1
-6c=s-75+e:ifsgn(c)=ctHy=1:pOv,15:pOv,0:pOp,m:p=p+c*(21*e+1):j=j+1:q=q-.004
+6c=s-75+e:ifsgn(c)=ctHy=1:pOv,15:pOv,0:pOp,m:p=p+c*(21*e+1):j=j+1:q=q-.001
 7pOp+t,2:pOo+g+t,7:pOo+g,w:g=b:if-ytHifl=3tHg=int(rN(0)*354):pOo+g+t,4:pOo+g,90
 8ifa$=" "aNf<9tHpOn,10:pOp-1,32:pOp+1,32:pOp-22,32:pOp+22,32:f=f+1:pOn,8:pOp,90
 9on-((p<daNp>o)aN(pE(p)<>m))gO3:f=.:pOp,h:?"the end":pO198,0:wA198,1:pO198,0:gO0
