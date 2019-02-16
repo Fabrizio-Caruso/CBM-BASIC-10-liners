@@ -17,6 +17,7 @@ Points:
 Goals:
 - Reach the highest score possible by walking on empty positions or collecting charges "$"
 - Avoid stepping on mines or the upper and lower borders. 
+- Reach the next 100 points to get a full recharge of your anti-mine charges
 
 Controls:
 - Use I J K L to move 
