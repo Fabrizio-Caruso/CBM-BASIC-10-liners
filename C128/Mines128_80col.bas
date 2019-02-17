@@ -1,4 +1,4 @@
-0fast:graphic5,1:of=128:b=8192:o=236:n=53280:poken,0:poken+1,0:v=54296:w=36:g=o-213:h=81:d=1817:ifj>rthenr=j:print"{clear}{cyan}record!":fori=1tob/4:next
+0fast:graphic5,1:of=128:b=8192:o=236:n=53280:poken,0:poken+1,0:v=54296:w=36:g=o-213:h=81:d=1817:ifj>rthenr=j:print"{clear}{cyan}record!":fori=1tod:next
 1print"{clear}{white}use ijkl space":p=910:fori=8429to9929:pokei,0:next:bo$="":fori=1to79:bo$=bo$+"{230}":next:m=87:k=1:q=.8:j=.:print"{clear}{down}";spc(32);"{gray}{119}{119}{119} {red}mines {gray}{119}{119}{119}     (fc)":print bo$:char1,0,23,bo$
 2print"{home}";spc(23);"{yellow}$:{white}";9-f;"{gray}  score:{white}";j;"  {dark gray}high score:{white}";r:ifpeek(p+b)=wthenj=j+4:iff>0thenf=f-1
 3l=jand3:s=.:ifrnd(0)>qthenx=p-4+2*int(rnd(0)*5)+158*(int(rnd(0)*3)-1):i=m:a=x:c=1:gosub9
