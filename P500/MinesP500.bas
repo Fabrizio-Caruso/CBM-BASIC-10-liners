@@ -1,5 +1,5 @@
-0o=1143+52224:n=53280+2048:pOn,0:pOn+1,0:b=-117:v=54296:t=1024:ifj>rtHr=j:?chr$(147);"record!":fOi=1tot:nE
-1w=36:g=o+b:h=81:d=1904+52224:?chr$(147);"use ijkl space":p=1524+52224:fOi=1tot:nE:m=87:k=1
+0o=1143+52224:n=53280+2048:pOn,0:pOn+1,0:b=-117:v=55832:t=1024:ifj>rtHr=j:?chr$(147);"record!":fOi=1tot:nE
+1w=36:g=o+b:h=81:d=1904+52224:?chr$(142);chr$(147);"use ijkl space":p=1524+52224:fOi=1tot:nE:m=87:k=1
 2q=.9:j=.:?chr$(147);chr$(17);spc(12);"ooo mines ooo (fc)":fOi=0to39:pOo-i,102:pOd+i,102:nE
 3?chr$(19);"  $:";9-f;"  score:";j;"  high score:";r:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
 4l=jaN3:s=.:ifrN(0)>qtHx=p-4+2*int(rN(0)*5)+80*(int(rN(0)*3)-1):pOx,m:pOx+t,1
