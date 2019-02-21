@@ -4,7 +4,7 @@
 3?"{home}  $:";9-f;spc(22);"score:";j;"  high score:";r:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
 4ifrN(1)>qtHx=p-4+2*(int(rN(1)*5))+160*((int(rN(1)*3))-1):pOx,m
 5l=jaN3:gEa$:s=.:y=.:pOp,h:ifa$<>""tHs=aS(a$):e=saN1:ifj>k*100-2tHk=k+1:f=0
-6c=s-75+e:ifsG(c)=ctHy=1:pOp,m:p=p+c*(79*e+1):j=j+1:q=q-a:pOv-1,1:pOv-3,255
+6c=s-75+e:ifsG(c)=ctHy=1:pOp,m:p=p+c*(79*e+1):j=j+1:q=q-a:pOv-1,15:pOv-3,255
 7pOg,w:g=o+b:pOv-3,0:if-ytHifl=3tHg=o+1+int(rN(1)*1520):pOg,90
-8ifa$=" "aNf<9tHpOp-1,32:pOp+1,32:pOp-80,32:pOp+80,32:f=f+1:pOp,90
+8ifs=32tHiff<9tHpOp-1,32:pOp+1,32:pOp-80,32:pOp+80,32:f=f+1:pOp,90
 9on-((p<daNp>o)aN(pE(p)<>m))gO3:f=.:pOp,h:?"the end":fOi=1too/9:nE:gO0

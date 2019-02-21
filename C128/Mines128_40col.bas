@@ -6,5 +6,5 @@
 5geta$:y=.:pokep,h:pokep+t,1:ifa$<>""thens=asc(a$):e=sand1:ifj>k*100-2thenk=k+1:poken,k:f=0
 6c=s-75+e:poken,0:ifsgn(c)=ctheny=1:pokev,15:pokev,0:pokep,m:p=p+c*(39*e+1):j=j+1:q=q-.001
 7pokep+t,2+k:pokeg+t,7:pokeg,w:g=o+b:if-ythenifl=3theng=o+1+int(rnd(1)*760):pokeg+t,4:pokeg,90
-8ifa$=" "andf<9thenpoken,2:pokep-1,32:pokep+1,32:pokep-40,32:pokep+40,32:f=f+1:pokep,90:poken,0
+8ifs=32theniff<9thenpoken,2:pokep-1,32:pokep+1,32:pokep-40,32:pokep+40,32:f=f+1:pokep,90:poken,0
 9on-((p<dandp>o)and(peek(p)<>m))goto3:f=.:pokep,h:print"the end":getkeya$:goto0

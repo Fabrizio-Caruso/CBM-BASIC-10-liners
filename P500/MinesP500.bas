@@ -6,5 +6,5 @@
 5gEa$:y=.:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1:ifj>k*100-2tHk=k+1:f=0:pOn,k
 6c=s-75+e:ifsG(c)=ctHy=1:pOp,m:p=p+c*(39*e+1):j=j+1:q=q-.001:pOn,0: pOv,15:pOv,0
 7pOp+t,2+k:pOg+t,7:pOg,w:g=o+b:if-ytHifl=3tHg=o+1+int(rN(1)*760):pOg+t,4:pOg,90
-8ifa$=" "aNf<9tHpOn,2:pOp-1,32:pOp+1,32:pOp-40,32:pOp+40,32:f=f+1:pOp,90:pOn,0
+8ifs=32tHiff<9tHpOn,2:pOp-1,32:pOp+1,32:pOp-40,32:pOp+40,32:f=f+1:pOp,90:pOn,0
 9on-((p<daNp>o)aN(pE(p)<>m))gO3:f=.:pOp,h:?"the end":fOi=1tot:nE:gO0
