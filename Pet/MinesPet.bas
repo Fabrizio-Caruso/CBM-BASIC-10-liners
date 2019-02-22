@@ -1,4 +1,4 @@
-0pO59468,12:v=59467:o=33007:p=33768:ifj>rtHr=j:?"{clear}record!":fOi=1to999:nE:a=0.002
+0pO59468,12:v=59467:o=33007:p=33768:a=0.002:ifj>rtHr=j:?"{clear}record!":fOi=1to999:nE
 1b=-237:q=.8:g=o+b:h=81:d=34528:?"{clear}use ijkl space":fOi=1too/9:nE:m=87:k=1:pOv,16
 2w=36:j=.:?"{clear}{down}";spc(32);"ooo  mines  ooo  (fc)":fOi=0to79:pOo-i,102:pOd+i,102:nE
 3?"{home}  $:";9-f;spc(22);"score:";j;"  high score:";r:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
