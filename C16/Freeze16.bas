@@ -1,4 +1,4 @@
-0b=3072:s=.:n=65305:pOn-4,0:pOn,0:v=54296:h=81:o=3191:d=3992:?"{blue}{clear}":ifu>rtHr=u
+0b=3072:s=.:n=65305:pOn-4,0:pOn,0:v=54296:h=81:o=3191:d=4032:?"{blue}{clear}":ifu>rtHr=u
 1j=102:w=90:t=1024:m=87:e=40:p(0)=20:p(1)=14:f=1604:fOi=0to21:pOd-e*i,j:c=.:vO5
 2n=15:pOo+e*i,j:nE:?"{home}{down}";spc(11);"{purple}{122}{122}{122} {cyan}freeze!{purple} {122}{122}{122}{gray}  (fc)":fOi=0to39:pOo-i,m
 3pOd+i,m:nE:fOi=0to7:g(0,i)=4+4*i:g(1,i)=3+(iaN1)*17:nE:l=840:u=.:a=32
