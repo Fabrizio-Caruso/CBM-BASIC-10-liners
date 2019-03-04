@@ -10,3 +10,7 @@ Personal Collection of 10-liners
 ![Mines20](Vic20/Mines20.jpg)
 ![Mines16](C16/Mines16.jpg)
 ![Mines128_80col](C128/Mines128_80col.jpg)
+
+
+## Freeze!
+![Freeze64](C64/Freeze64.jpg)
