@@ -40,6 +40,7 @@
         <FileName>mines64.bas</FileName>
         <FileName>mines64.bas</FileName>
         <FileName>Mines16.bas</FileName>
+        <FileName>Freeze16_1.bas</FileName>
         <FileName>Freeze16.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
@@ -48,6 +49,17 @@
     <SourceFiles>
         <SourceFile>
             <Name>Freeze16.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>Freeze16_1.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>

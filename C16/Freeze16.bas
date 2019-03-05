@@ -1,10 +1,10 @@
-0b=3072:s=.:n=65305:pOn-4,0:pOn,0:v=54296:h=81:o=3191:d=4032:?"{blue}{clear}":ifu>rtHr=u
-1j=102:w=90:t=1024:m=87:e=40:p(0)=20:p(1)=14:f=1604:fOi=0to21:pOd-e*i,j:c=.:vO5
-2n=15:pOo+e*i,j:nE:?"{home}{down}";spc(11);"{purple}{122}{122}{122} {cyan}freeze!{purple} {122}{122}{122}{gray}  (fc)":fOi=0to39:pOo-i,m
-3pOd+i,m:nE:fOi=0to7:g(0,i)=4+4*i:g(1,i)=3+(iaN1)*17:nE:l=840:u=.:a=32
-4pOf,h:pOf-t,2-(s<0):?"{home}{red} S{blue}:";9-k;spc(7);"score:{white}";u;"{blue}  hi{white}";r;:q=int(rN(1)*2)
-5c=0:i=iaN7:ify<0tHx=b+g(0,i)+e*g(1,i):g(q,i)=g(q,i)+sgn(p(q)-g(q,i)):pOx,a
-6s=s+1:gEa$:y=y-1:x=b+g(0,i)+e*g(1,i):pOx-t,113+36*(y>=0):ifpE(x)=wtHs=-int(u/e)
-7pOx,m:q=o+1+int(rN(1)*l):pOq,w:pOq-t,4:ifa$=" "tHifk<9tHs=0:y=m+int(u/n):k=k+1
-8ifa$<>""aNs>0tHpOf,a:c=aS(a$)-72:p(0)=p(0)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3)
-9vO-5*(c>0):sO2,e,2:f=b+p(0)+e*p(1):u=u-(pE(f)=w):i=i+1:on-(pE(f)<>m)gO4:k=.:gO0
+0b=3072:j=102:n=65305:t=1024:pOn,0:o=3191:r=1:d=4032:?"{blue}{clear}":ifu>rrtHrr=u
+1pOn-4,0:s=.:w=35:m=87:e=40:p(0)=20:p(1)=14:f=3652:fOi=0to21:pOd-e*i,j:v=113
+2x=o+1:h=81:pOo+e*i,j:nE:?"{home}{down}";spc(13);"{purple}{122} {cyan}freeze!{purple} {122} {blue}(fc)":fOi=0to39:pOo-i,j
+3pOd+i,j:nE:fOi=0to4:g(0,i)=6+9*i:g(1,i)=3+20*(iaN1):nE:l=840:u=.:a=32:z=280:y=.
+4g=int((f-o)/z):?"{home}{red} S{blue}";3-k;spc(7);"score{white}";u;"{blue}  hi{white}";rr;:ifpE(f)=wtHs=.:u=u+1
+5gEa$:pOf,h:i=g+(paN1):ify<0tHfOq=0to1:g=g(q,i):g(q,i)=g+sgn(p(q)-g):nE:pOx(i),a
+6pOf-t,2:y=y-1:x(i)=b+g(0,i)+e*g(1,i):pOx(i),m:pOx(i)-t,v:ifu>=r*100tHk=.:r=r+1
+7if-stHifa$<>""tHc=aS(a$)-72:p(0)=p(0)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3):pOf,a
+8s=1.:p=p+1:q=x+int(rN(1)*l):pOq,w:pOq-t,h:ifc=-etHifk<3tHpOn,2:y=e:k=k+1:pOn,0
+9vO-5*(c>0):sO1,m,1:c=.:f=b+p(0)+e*p(1):on-(pE(f)<m)gO4:k=.:fOi=0tod+o:nE:gO0
