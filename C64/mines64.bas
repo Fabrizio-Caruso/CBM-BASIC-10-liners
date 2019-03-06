@@ -1,6 +1,6 @@
 0o=1143:n=53280:b=-117:pOn,0:pOn+1,0:v=54296:ifj>rtHr=j:?"{clear}{blue}record!":fOi=1too:nE
 1w=36:g=o+b:h=81:t=v-24:d=1904:?"{clear}{gray}use ijkl space":p=1524:fOi=1top:nE:m=87:k=1
-2q=.9:j=.:?"{clear}{down}";spc(12);"{gray}{119}{119}{119} {red}mines {gray}{119}{119}{119} (fc)":fOi=0to39:pOo-i,102:pOd+i,102:nE
+2q=.9:j=.:?"{clear}{down}";sP12);"{gray}{119}{119}{119} {red}mines {gray}{119}{119}{119} (fc)":fOi=0to39:pOo-i,102:pOd+i,102:nE
 3?"{home}  {yellow}$:{white}";9-f;"  {gray}score:{white}";j;"  {dark gray}high score:{white}";r:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
 4l=jaN3:s=.:ifrN(1)>qtHx=p-4+2*int(rN(1)*5)+80*(int(rN(1)*3)-1):pOx,m:pOx+t,1
 5gEa$:y=.:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1:ifj>k*100-2tHk=k+1:pOn,k:f=0
