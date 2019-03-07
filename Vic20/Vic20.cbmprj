@@ -40,16 +40,40 @@
         <FileName>mines.bas</FileName>
         <FileName>optimized_mines.bas</FileName>
         <FileName>optimized_mines_long.bas</FileName>
-        <FileName>test.bas</FileName>
+        <FileName>romrammix.bas</FileName>
         <FileName>mines20.bas</FileName>
         <FileName>mines20_experimental_key.bas</FileName>
+        <FileName>test.bas</FileName>
+        <FileName>Meteors20.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
     <AssyBinaryFileLocation />
     <SourceFiles>
         <SourceFile>
+            <Name>Meteors20.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
             <Name>mines20.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>romrammix.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
