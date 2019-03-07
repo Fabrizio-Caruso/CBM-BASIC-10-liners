@@ -1,4 +1,4 @@
-0dIp(99):x=300:p(36)=20:p(90)=50:p(88)=100:w=4071:b$="{home}{down}":vO5:n=65305:o=3140
+0dIp(99):x=300:p(36)=20:p(90)=50:p(88)=100:w=4071:b$="{home}{down}":vO5:n=65305:o=3151
 1pOn-4,0:pOn,0:m=9:l=3:u=1:y=40:a=42:e=34:ifj>rtHr=j:?"{clear}{blue}record!":fOi=0tow/2:nE
 2t=1024:j=.:?"{clear}{white}use j l space":fOi=0tow/2:nE:?"{clear}":i=1:f=1000:p=4051:g=4031:q=39
 3b=int(i/x):fOk=0tob:?b$;tAint(rN(1)*q));"{white}*":nE:ifj>u*ftHu=u+1:m=9:ifl<9tH:l=l+1
