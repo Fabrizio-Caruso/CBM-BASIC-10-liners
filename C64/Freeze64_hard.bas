@@ -7,4 +7,4 @@
 6x(i)=b+g(0,i)+e*g(1,i):pOx(i)+t,1:pOx(i),m:on-(pE(f)=m)gO9:if(paN15)=0tHpOh,w
 7ifa$<>""tHc=aS(a$)-72:p(0)=p(0)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3):pOf,a:pOv,15
 8pOv,0:y=y-1:f=b+p(0)+e*p(1):ifc=-etHifk<9tHpOn,2:pOn,2:y=e:k=k+1:pOv,15:pOn,0
-9pOh+t,7:i=pE(f):u=u-s*(i=w)-((c>0)aN(c<5)):on-(pE(f)<m)gO4:k=.:fOi=0tod:nE:gO0
+9pOh+t,7:i=pE(f):u=u-s*(i=w)-((c>0)aN(c<5)):on-(i<m)gO4:k=.:fOi=0tod:nE:gO0
