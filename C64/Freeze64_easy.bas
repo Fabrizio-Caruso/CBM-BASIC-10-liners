@@ -5,6 +5,6 @@
 4pOf+t,2:pOf,81:c=.:g=int((f-o)/r):?"{home}{cyan}{122}{gray}";9-k;sP9);"{blue}score{light gray}";u;"  {blue}hi{light gray}";q
 5gEa$:i=g+(yaN3):ify<0tHfOj=0to1:g=g(j,i):g(j,i)=g+sG(p(j)-g):nE:pOx(i),a
 6x(i)=b+g(0,i)+e*g(1,i):pOx(i)+t,1:pOx(i),m:on-(pE(f)=m)gO9:if(yaN15)=9tHpOh,w
-7ifa$<>""tHc=aS(a$)-x:fOi=0to1:p(i)=p(i)+(c=2-i)-(c=4-i):nE:pOf,a:pOv,15:pOv,0
-8y=y-1:f=b+p(0)+e*p(1):ifc=-etHifk<9tHpOn,2:y=e:k=k+1:pOn,4:pOv,15:pOn,0
+7ifa$<>""tHc=aS(a$)-x:p(0)=p(0)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3):pOf,a:pOv,15
+8pOv,0:y=y-1:f=b+p(0)+e*p(1):ifc=-etHifk<9tHpOn,2:y=e:k=k+1:pOn,4:pOv,15:pOn,0
 9pOh+t,7:i=pE(f):u=u-(i=w):on-(i<m)gO4:k=.:fOi=0tod:nE:gO0
