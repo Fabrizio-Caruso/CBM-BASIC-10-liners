@@ -1,10 +1,10 @@
 0b=1024:j=102:n=53281:v=54296:t=v-24:pOn,0:o=1103:d=1984:r=120:h=1604:ifu>qtHq=u
-1pOn-1,0:?"{clear}{blue}record{gray}";q:f=h:fOc=0toh:nE:a=32:w=36:m=87:e=40:p(0)=20:p(1)=14:p=81
-2?"{blue}{clear}{cyan}{122}":fOi=0to22:pOd-e*i,j:pOo+e*i,j:nE:pO650,128:x=72:s=h+t:fOi=0to39:pOo-i,j
-3pOd+i,j:nE:fOi=0to7:g(0,i)=1+37*(iaN1):g(1,i)=6+i*2:nE:u=.:y=.:z=15:l=9:z3=1
+1pOn-1,0:?"{clear}{blue}record{blue}";q:f=h:fOc=0toh:nE:a=32:w=36:m=87:e=40:p(0)=20:p(1)=14:p=81
+2?"{clear}{cyan}{122}":fOi=0to22:pOd-e*i,j:pOo+e*i,j:nE:xx=72:pO650,128:s=h+t:fOi=0to39:pOo-i,j
+3pOd+i,j:nE:fOi=0to7:g(0,i)=1+37*(iaN1):g(1,i)=6+i*2:nE:u=.:y=.:z=15:l=9:x=1
 4pOf+t,2:c=int((f-o)/r):?"{home}{right}{gray}";l-k;sPz);"{yellow}${gray}";u:ifpE(f)=wtHu=u+1
-5pOf,p:gEa$:i=c+(yaNz3):ify<0tHfOj=0to1:g=g(j,i):g(j,i)=g+sG(p(j)-g):nE:pOx(i),a
+5pOf,p:gEa$:i=c+(yaNx):ify<0tHfOj=0to1:g=g(j,i):g(j,i)=g+sG(p(j)-g):nE:pOx(i),a
 6x(i)=b+g(0,i)+e*g(1,i):pOx(i)+t,1:pOx(i),m:on-(pE(f)=m)gO9:if(yaNz)=ltHpOh,w
-7ifa$<>""tHc=aS(a$)-x:p(0)=p(0)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3):pOf,a:pOv,z
-8pOv,0:f=b+p(0)+e*p(1):ifc=-etHifk<ltHpOn,2:y=a:k=k+1:pOn,4:pOv,z:pOn,0
-9y=y-1:pOs,7:on-(pE(f)<m)gO4:k=.:fOi=0tod:nE:gO0
+7ifa$<>""tHc=aS(a$)-xx:p(0)=p(0)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3):pOf,a:pOv,z
+8pOv,0:f=b+p(0)+e*p(1):ifc=-etHifk<ltHpOn,2:y=a:k=k+1:pOn,4:pOv,z
+9pOn,0:y=y-1:pOs,7:on-(pE(f)<m)gO4:k=.:fOi=0tod:nE:gO0
