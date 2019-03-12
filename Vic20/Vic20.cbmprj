@@ -46,6 +46,7 @@
         <FileName>test.bas</FileName>
         <FileName>Meteors20.bas</FileName>
         <FileName>Race20.bas</FileName>
+        <FileName>MiniMans.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -59,7 +60,7 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
+            <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
@@ -74,7 +75,7 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>Race20.bas</Name>
+            <Name>MiniMans.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
