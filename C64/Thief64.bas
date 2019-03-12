@@ -1,5 +1,5 @@
 0b=1024:u=-1:n=53281:v=54296:t=v-24:o=1103:d=1984:r=176:h=1604:?"{blue}{clear}{cyan}":e=40:f=h+e
-1p(0)=20:p(1)=15:j=102:y=.:pO650,128:fOi=0to7:g(0,i)=1+37*(iaN1):g(1,i)=6+i*2:nE
+1p(0)=20:p(1)=15:j=102:y=.:pO650,128:fOi=0to7:g(0,i)=4+31*(iaN1):g(1,i)=6+i*2:nE
 2z=15:x=3:w=36:pOn,0:pOn-1,0:p=81:s=h+t:fOa=0to39:pOo-a,j:pOd+a,j:nE:u=u+1:a=32
 3q=int(u/3):fOl=0to22:fOm=0to1:c=d+(39-2*q)*m+q-e*l:pOc,j:pOc+t,6:nE:nE:pOf,p
 4pOf+t,2:pOx((i+4)aN7),87:c=int((f-o)/r):?"{home}{cyan}{122}{gray}";9-k;sPz);"{yellow}${gray}";u:ifpE(f)=wgO2
