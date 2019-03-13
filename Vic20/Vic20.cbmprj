@@ -42,9 +42,10 @@
         <FileName>optimized_mines_long.bas</FileName>
         <FileName>romrammix.bas</FileName>
         <FileName>mines20_experimental_key.bas</FileName>
-        <FileName>test.bas</FileName>
+        <FileName>Mines20.bas</FileName>
         <FileName>Meteors20.bas</FileName>
         <FileName>Race20.bas</FileName>
+        <FileName>Mines20_ORIG.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -58,7 +59,18 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>Mines20_ORIG.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
@@ -73,14 +85,14 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>test.bas</Name>
+            <Name>Mines20.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>False</Topmost>
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>
