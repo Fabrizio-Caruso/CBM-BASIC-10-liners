@@ -5,6 +5,6 @@
 4s=int(rN(1)*(b+1)):h=pE(p-e):ifh>32tHpOn,2:l=l+1:pOn,42:pOv,15:pOv,0
 5?sPo);l$;sPs);c$;sPb-s);r$:gEa$:ifa$<>""tHc=aS(a$)-k:p=p+(c=2)-(c=4)
 6pOp+t-1-j*x,j:pOp+t+1-j*x,j:?"{home}{down}{left}{148}":pOz,w:pOp+t,2:pOp,m:ifpE(p-e)=ytHl=9
-7?"{home}{red}";l;" {cyan}pts{purple}";i;" {cyan}hi{purple}";r:ifo>1-dtHifo+d+b<15tHo=o-1+d
+7?"{home}{red}";l;" {cyan}pts{purple}";i;" {cyan}hi{purple}";r:ifo>1-dtHifo+d+b<16tHo=o-1+d
 8c$=" ":if(iaN1)=0tHifrN(1)>.4tHc$=cH(30+(faN1))+"Q":f=f+1
 9on-(l<9aNb>3)gO3:pOn,25:?"{home}{down}{down}{down}{down}{down}{down}{down}{down}{black}   {191}{191}{191}{red} the end {black}{191}{191}{191}":l=.:fOk=0top/2:nE:gO0
