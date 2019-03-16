@@ -4,49 +4,50 @@ Expanded (no abbreviations), indented and commented code
 
 
 0
-o=1143:n=53280:b=-117:
+o=1143:n=53280:b=-117:v=54296:
 poken,0:poken+1,0:
-v=54296:
 if j>r then
     r=j:
     print"{clear}{blue}record!":
-	fori=1too:next
+    fori=1too:next
 
 1
-q=.9:j=.:w=36:g=o+b:h=81:t=v-24:
+q=.9:j=.:w=36:g=o+b:h=81:t=v-24:m=87:k=1:p=1524:
 print"{clear}{gray}use ijkl space":
-p=1524:
-fori=1top:next:
-m=87:k=1
+fori=1top:next
 
 2
 a=32:d=1944:
 print"{clear}{down}";spc(14);"{light gray}{119}{119}{119} {red}mines {light gray}{119}{119}{119}(fc)":
-fori=0to39:pokeo-i,102:poked+i,102:next
+fori=0to39:
+    pokeo-i,102:poked+i,102:
+next
 
 3
 print"{home}  {yellow}${white}";9-f;"    {dark gray}score{white}";j;"  {dark gray}high score{white}";r:
 if peek(p)=w then
     j=j+4:
-	if f>0 then
-	    f=f-1
+    if f>0 then
+        f=f-1
 
 4
-l=jand3:c=2:
+l=jand3:
+c=2:
 if rnd(1)>q then
     x=p-4+2*int(rnd(1)*5)+80*(int(rnd(1)*3)-1):
-	pokex,m:pokex+t,1
+    pokex,m:pokex+t,1
 
 5
 s=.:
 geta$:
 pokep,h:pokep+t,1:
-if a$<>"" then
+if a$<>"" then 
     s=asc(a$):
-	e=sand1:
-	c=s-75+e:
-	q=q-.001:
-	pokev,15:pokev,0
+    e=sand1:
+    c=s-75+e:
+    q=q-.001:
+    pokev,15:pokev,0
+
 
 6
 y=.:
@@ -57,9 +58,10 @@ if sgn(c)=c then
     p=p+c*(39*e+1):
     j=j+1:
     if j>=k*100 then
-       k=k+1:
-	   poken,k:
-	   f=0
+        k=k+1:
+        poken,k:
+        f=0
+
 
 7
 pokep+t,2+k:
@@ -67,19 +69,20 @@ pokeg+t,7:pokeg,w:
 g=o+b:
 if -y then
     if l=3 then
-	    g=o+1+int(rnd(1)*800):
-		pokeg+t,4:pokeg,90
+        g=o+1+int(rnd(1)*800):
+        pokeg+t,4:pokeg,90
+
 
 8
 if s=a and f<9 then
     poken,2:
-	pokep-1,a:pokep+1,a:pokep-40,a:pokep+40,a:
-	pokep,90:
-	f=f+1:
-	poken,0
+    pokep-1,a:pokep+1,a:pokep-40,a:pokep+40,a:
+    pokep,90:
+    f=f+1:
+    poken,0
 
 9
-on-((p<d andp>o)and(peek(p)<>m))
+on-((p<d and p>o)and(peek(p)<>m))
     goto3:
 f=.:
 pokep,h:

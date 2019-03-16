@@ -3,31 +3,86 @@ METEORS20
 Expanded (no abbreviations), indented and commented code
 
 0
-dimp(99):a=42:p(36)=20:p(90)=50:p(88)=100:poke650,128:y=22:w=8185:g=w-y:h=72:d=21
+dimp(99):a=42:p(36)=20:p(90)=50:p(88)=100:y=22:w=8185:g=w-y:h=72:d=21:
+poke650,128:
 
 1
-v=36878:m=9:l=3:u=1:x=450:e=34:o=7722:q=32:ifj>rthenr=j:print"{clear}{cyan}record":fori=0too/2:next
+v=36878:m=9:l=3:u=1:x=450:e=34:o=7722:q=32:
+if j>r then
+    r=j:
+    print"{clear}{cyan}record":
+    fori=0too/2:next
 
 2
-n=v+1:poken,8:t=30720:j=.:print"{clear}{white}use j l space":fori=0tow/4:next:print"{clear}":f=1000:p=g+11:i=1
+n=v+1:t=30720:j=.:f=1000:p=g+11:
+pOn,8:
+?"{clear}{white}use j l space":
+fOi=0tow/4:nE:
+?"{clear}":
+i=1
 
 3
-b=int(i/x):fork=0tob:printtab(int(rnd(1)*d));"{white}*":next:ifj>u*fthenu=u+1:m=9:ifl<9then:l=l+1
-
+b=int(i/x):
+fork=0tob:
+    printtab(int(rnd(1)*d));"{white}*":
+next:
+if j>u*f then
+    u=u+1:
+    m=9:
+    if l<9 then
+        l=l+1
 4
-z=(iand255)=0:if(iand7)=0thens=int(rnd(1)*d):printtab(s);"{yellow}${white}";:if(iand63)=0thenprinttab(s);"{left}{cyan}{122}{white}"
+z=(iand255)=0:
+if (iand7)=0 then
+    s=int(rnd(1)*d):
+    printtab(s);"{yellow}${white}";:
+    if (iand63)=0 then 
+        printtab(s);"{left}{cyan}{122}{white}"
 
 5
-c=peek(p-y):ifc<>qthenifc<>ethenj=j+p(c):pokev,15:pokev,0:ifc=athenpoken,1:l=l-1:poken,a:poken,8
+c=peek(p-y):
+if c<>q then
+    if c<>e then
+        j=j+p(c):
+        pokev,15:pokev,0:
+        if c=a then 
+poken,1:
+l=l-1:
+poken,a:
+poken,8
 
 6
-c=.:j=j+1:geta$:ifa$<>""thenc=asc(a$)-h:k=p+(c=2)-(c=4):ifk<wthenifk>gthenp=k
+c=.:
+j=j+1:
+geta$:
+if a$<>"" then
+    c=asc(a$)-h:
+    k=p+(c=2)-(c=4):
+    if k<w then
+        if k>g then
+            p=k
 
 7
-print"{home}{down}{left}{148}":poke218,132:ifc=-40thenifm>0thenm=m-1:fork=0to2:forc=0to4:pokep-1+k-y*c,e:next:next
+print"{home}{down}{left}{148}":
+poke218,132:
+if c=-40 then
+    if m>0 then
+    m=m-1:
+    for k=0to2:
+        for c=0to4:
+            pokep-1+k-y*c,e:
+        next:
+    next
 
 8
-pokep+t,2:pokep,81:print"{home}{red}";l;"{left}{purple}";m;"{left}{white}";j;"{blue}{left} h{white}";r;"{left}{green}";b+1
+pokep+t,2:pokep,81:
+print"{home}{red}";l;"{left}{purple}";m;"{left}{white}";j;"{blue}{left} h{white}";r;"{left}{green}";b+1
 
 9
-pokeo-s,q-z*56:pokeo-s+t,1-z:i=i+1:on-(l>0)goto3:print"{home}{down}{right}{right}{right}{right}{red}the end":fori=0tow/3:next:goto1
+pokeo-s,q-z*56:pokeo-s+t,1-z:
+i=i+1:
+on-(l>0)
+    goto3:
+print"{home}{down}{right}{right}{right}{right}{red}the end":
+fori=0tow/3:next:
+goto1

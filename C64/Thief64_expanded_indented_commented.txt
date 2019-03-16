@@ -4,20 +4,35 @@ Intended, expanded (no abbreviations) and commented code:
 
 
 0 // Initialize some variables. Clear screen and set foreground text color to blue
-b=1024:u=-1:n=53281:v=54296:t=v-24:o=1103:d=1984:r=176:h=1524:print"{blue}{clear}":e=40:f=h+e
+b=1024:u=-1:n=53281:p(0)=20:v=54296:t=v-24:o=1103:r=176:h=1524:e=40:f=h+e:
+print"{blue}{clear}"
 
 1 // Set more variables. Set keyboard auto-repeat on. Initialize enemy coordinates
-p(0)=20:p(1)=13:j=102:y=.:poke650,128:fori=0to7:g(0,i)=4+31*(iand1):g(1,i)=6+i*2:next
+w=36:d=1984:p(1)=13:j=102:y=.:
+poken,0:
+fori=0to7:
+    g(0,i)=4+31*(iand1):g(1,i)=6+i*2:
+next
 
 2 // Set more variables. Display player. Set border/background color to black. Display top and bottom walls
-p=81:
-pokef,p:
-z=15:x=3:w=36:
-poken,0:poken-1,0:
-fora=0to39:pokeo-a,j:poked+a,j:next:u=u+1:s=h+t
+z=15:x=3:p=81:u=u+1:s=h+t:
+pokef,90:
+poken-1,0:
+for a=0to39:
+    pokeo-a,j:poked+a,j:
+next:
+poke650,128
+
 
 3 // Compute size of side walls to draw. Draw side walls. Set variable m.
-q=int(u/4):forl=1to22:form=0to1:c=o+(-39+2*q)*m-q+e*l:pokec,j:pokec+t,6:next:next:m=87
+q=int(u/4):
+for l=1to22:
+    for m=0to1:
+        c=o+(-39+2*q)*m-q+e*l:pokec,j:pokec+t,6:
+    next:
+next:
+m=87
+
 
 4 // Set player's color (red).
   // Display one non-active guard.
@@ -28,8 +43,9 @@ pokef+t,2:
 pokex((i+4)and7),m:
 c=int((f-o)/r):
 print"{home}{cyan}{122}{white}";9-k;spc(z);"{yellow}${white}";u:
-ifpeek(f)=w
+if peek(f)=w 
     goto2
+
 
 5 // Draw player
   // Read keyboard input into a$
@@ -39,30 +55,26 @@ pokef,p:
 geta$:
 i=c+(yandx):
 if y<0 then
-   forc=0to1:
-       g=g(c,i):
-       g(c,i)=g+sgn(p(c)-g):
-   next:
-   pokex(i),32
+    for c=0to1:
+        g=g(c,i):g(c,i)=g+sgn(p(c)-g):
+    next:
+pokex(i),32
+
 
 6 // Update enemies position and display them with their color (white)
   // If the player is now on a guard goto 9
   // Otherwise, if y = 9 mod 15, display $
 x(i)=b+g(0,i)+e*g(1,i):
-pokex(i)+t,1:
-pokex(i),m:
+pokex(i)+t,1:pokex(i),m:
 on-(peek(f)=m)
     goto9:
 if (yandz)=9 then
     pokeh,w
 
+
 7 // If a key was pressed, compute new player's coordinates. Delete player from old position. Set volume to max.
-if a$<>"" then
-    c=asc(a$)-72:
-    p(0)=p(0)+(c=2)-(c=4):
-    p(1)=p(1)+(c=1)-(c=3):
-    pokef,32:
-    pokev,z
+ifa$<>""thenc=asc(a$)-72:p(0)=p(0)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3):pokef,32:pokev,z
+
 
 8 // Set volume to 0. Compute new player's position f.
   // If key pressed was space and there are stunning bombs left then
@@ -76,7 +88,7 @@ pokev,0:
 f=b+p(0)+e*p(1):
 if c=-e then
     if k<9 then
-        poken,2:
+	    poken,2:
         y=a:
         k=k+1:
         poken,4:
@@ -96,9 +108,9 @@ y=y-1:
 pokes,7:
 on-(peek(f)<m)
     goto4:
-fori=0to7:
-    x(i)=0:
-next:
-k=.:    
-pokef,p:
-fori=0tod:next:goto0
+    fori=0to7:x(i)=0:next:
+    k=.:
+    pokef,p:
+    fori=0tod:next:
+    goto0
+
