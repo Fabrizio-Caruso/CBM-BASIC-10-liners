@@ -7,4 +7,4 @@
 6?sPo);l$;sPs);c$;sPb-s);r$:gEa$:ifa$<>""tHc=aS(a$)-k:p=p+(c=2)-(c=4)
 7g=p+t-1-j*x:pOg,j:pOg+2,j:?"{home}{down}{left}{148}":pOz,x:pOp+t,2:pOp,m:ifpE(p-e)=ytHl=9
 8?"{home}{red}";l;" {cyan}pts{purple}";i;" {cyan}hi{purple}";r:ifo>1-dtHifo+d+b<16tHo=o-1+d
-9on-(l<9aNb>q)gO3:pOn,25:?"{home}{down}{down}{down}{down}{down}{down}{down}{down}{black}   {191}{191}{191}{red} the end {black}{191}{191}{191}":l=.:fOk=0top:nE:gO0
+9on-(l<9aNb>q)gO3:pOn,25:?"{home}{down}{down}{down}{down}{down}{down}{down}{down}{black}   {191}{191}{191}{red} the end {black}{191}{191}{191} ":l=.:fOk=0top:nE:gO0
