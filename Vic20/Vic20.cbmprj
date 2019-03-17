@@ -36,19 +36,7 @@
         <PreBuildCommands />
         <PostBuildCommands />
     </BuildEvents>
-    <BuildList>
-        <FileName>mines.bas</FileName>
-        <FileName>optimized_mines.bas</FileName>
-        <FileName>optimized_mines_long.bas</FileName>
-        <FileName>romrammix.bas</FileName>
-        <FileName>mines20_experimental_key.bas</FileName>
-        <FileName>Mines20.bas</FileName>
-        <FileName>Meteors20.bas</FileName>
-        <FileName>Race20.bas</FileName>
-        <FileName>MiniMans20.bas</FileName>
-        <FileName>ExperimentalMiniMans20.bas</FileName>
-        <FileName>ExperimentalMeteors20.bas</FileName>
-    </BuildList>
+    <BuildList />
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
     <AssyBinaryFileLocation />
