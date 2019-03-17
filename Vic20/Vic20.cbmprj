@@ -54,17 +54,6 @@
     <AssyBinaryFileLocation />
     <SourceFiles>
         <SourceFile>
-            <Name>ExperimentalMeteors20.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>True</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
-        <SourceFile>
             <Name>Meteors20.bas</Name>
             <PrgName />
             <FileType>1</FileType>
@@ -72,7 +61,7 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>False</Topmost>
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>

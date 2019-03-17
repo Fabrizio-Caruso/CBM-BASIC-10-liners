@@ -3,86 +3,148 @@ METEORS20
 Expanded (no abbreviations), indented and commented code
 
 0
+// Set some variables
 dimp(99):a=42:p(36)=20:p(90)=50:p(88)=100:y=22:w=8185:g=w-y:h=72:d=21:
+
+// Enable keyboard auto-repeat
 poke650,128:
 
 1
+// Set some variables
 v=36878:m=9:l=3:u=1:x=450:e=34:o=7722:q=32:
+
+// Check if new record has been set, if yes: update it and print record message
 if j>r then
     r=j:
     print"{clear}{cyan}record":
     fori=0too/2:next
 
 2
+// Set some variables
 n=v+1:t=30720:j=.:f=1000:p=g+11:
+
+// Set border and background color to black
 pOn,8:
+
+// Display control instructions
 ?"{clear}{white}use j l space":
 fOi=0tow/4:nE:
+
+// Clear screen
 ?"{clear}":
+
+// Set progress counter to 1
 i=1
 
+// Inner/match loop starts here
 3
-b=int(i/x):
-fork=0tob:
-    printtab(int(rnd(1)*d));"{white}*":
-next:
-if j>u*f then
-    u=u+1:
-    m=9:
-    if l<9 then
-        l=l+1
+    // Computer level (i.e., number of meteors per line)
+    b=int(i/x):
+    
+    // Display next line of meteors
+    fork=0tob:
+        printtab(int(rnd(1)*d));"{white}*":
+    next:
+    
+    // If score has reached the next 1000 points, then:
+    // - Set next 1000 point-goal
+    // - Set barrier to max (i.e., 9)
+    // - If lives are less than 9, than increase number of lives by one
+    if j>u*f then
+        u=u+1:
+        m=9:
+        if l<9 then
+            l=l+1
+            
 4
-z=(iand255)=0:
-if (iand7)=0 then
-    s=int(rnd(1)*d):
-    printtab(s);"{yellow}${white}";:
-    if (iand63)=0 then 
-        printtab(s);"{left}{cyan}{122}{white}"
+    // Compute very rare "club" bonus flag z
+    z=(iand255)=0:
+    
+    // If counter i mod 8 = 0 then:
+    // - compute position s of next bonus
+    // - display a yellow $ or, if i mod 64 = 0, a cyan "diamond" 
+    if (iand7)=0 then
+        s=int(rnd(1)*d):
+        printtab(s);"{yellow}${white}";:
+        if (iand63)=0 then 
+            printtab(s);"{left}{cyan}{122}{white}"
 
 5
-c=peek(p-y):
-if c<>q then
-    if c<>e then
-        j=j+p(c):
-        pokev,15:pokev,0:
-        if c=a then 
-poken,1:
-l=l-1:
-poken,a:
-poken,8
+    // If player has hit anything (other than empty space or the barrier) then
+    // - Increase points 
+    // - Produce a beep sound by bit-banging on the volume register
+    // - If the player has hitten a meteor then:
+    //     - Set border and background to red
+    //     - Decrease life counter
+    //     - Set border and background to white
+    //     - Reset border and background to black
+    c=peek(p-y):
+    if c<>q then
+        if c<>e then
+            j=j+p(c):
+            pokev,15:pokev,0:
+            if c=a then 
+                poken,a:
+                l=l-1:
+                poken,1:
+                poken,8
 
 6
-c=.:
-j=j+1:
-geta$:
-if a$<>"" then
-    c=asc(a$)-h:
-    k=p+(c=2)-(c=4):
-    if k<w then
-        if k>g then
-            p=k
+    // Set c to zero
+    c=.:
+    
+    // Increase points
+    j=j+1:
+    
+    // Read keyboard status
+    geta$:
+    
+    // If a key is pressed then compute new player's position k and set if k is in between column 0 and 38 of the last line
+    if a$<>"" then
+        c=asc(a$)-h:
+        k=p+(c=2)-(c=4):
+        if k<w then
+            if k>g then
+                p=k
 
 7
-print"{home}{down}{left}{148}":
-poke218,132:
-if c=-40 then
-    if m>0 then
-    m=m-1:
-    for k=0to2:
-        for c=0to4:
-            pokep-1+k-y*c,e:
-        next:
-    next
+    // [Trick] Scroll down by one line 
+    print"{home}{down}{left}{148}":
+    
+    // [Trick] Force the editor to believe the line is a continuation of the other line
+    poke218,132:
+    
+    // If key pressed is space and there are barriers left then:
+    // - Decrease number of barriers
+    // - Display barrier
+    if c=-40 then
+        if m>0 then
+            m=m-1:
+            for k=0to2:
+                for c=0to4:
+                    pokep-1+k-y*c,e:
+                next:
+            next
 
 8
-pokep+t,2:pokep,81:
-print"{home}{red}";l;"{left}{purple}";m;"{left}{white}";j;"{blue}{left} h{white}";r;"{left}{green}";b+1
+    // Display player
+    pokep+t,2:pokep,81:
+    
+    // Display score board: lives, barriers, points, high score, level
+    print"{home}{red}";l;"{left}{purple}";m;"{left}{white}";j;"{blue}{left} h{white}";r;"{left}{green}";b+1
 
 9
-pokeo-s,q-z*56:pokeo-s+t,1-z:
-i=i+1:
+    // If z is set, then display the very rare "club" bonus at position o-s
+    pokeo-s,q-z*56:pokeo-s+t,1-z:
+    
+    // Increase progress counter
+    i=i+1:
+
+// If lives left then restart inner/match loop    
 on-(l>0)
     goto3:
+    
+// Otherwise, display the end message and restart the game
 print"{home}{down}{right}{right}{right}{right}{red}the end":
 fori=0tow/3:next:
 goto1

@@ -4,99 +4,155 @@ Indented, expanded (no abbreviations) and commented code:
 
 
 
-0 // Initialize some variables. Set border background color. Check if a new record has been set.
+0 
+// Initialize some variables. 
 o=7745:v=36878:b=-65:n=v+1:p=7933:
+
+//Set border and background color.
 poken,8:
+
+// Check if a new record has been set. If yes, update it, show record message 
 if j>r then
     r=j:
     print"{clear}{blue}record!":
     fori=1too/4:next
 
-
-1 // Initialize some variables. Print control instructions.
+1 
+// Initialize some variables. 
 h=81:t=30720:d=8164:k=1:m=87:a=418:w=36:g=o+b:
+
+// Print control instructions.
 print"{clear}{white}use ijkl space":
 fori=1too/4:next
 
 
-2 // Initialize some variables. Clear screen. Print top and bottom walls. Print title.
-2q=.95:j=.:
-print"{clear}":
+2 
+// Initialize some variables. 
+q=.95:j=.:
+
+// Print title line
+?"{clear}{down}   {119}{119}{119}  {red}mines  {white}{119}{119}{119}(fc)":
+
+// Print top and bottom walls.
 fori=0to21:
     pokeo-i,102:poked+i,102:
 next:
-print"{home}{down}   {white}{119}{119}{119}  {red}mines  {white}{white}{119}{119}{119}(fc)"
 
-3 // Print score and high score. Check if the player has reached a $ (anti-mine charge)
-print"{home}{yellow}${white}";9-f;" {cyan}pts{white}";j;" {cyan}hi{white}";r:
-if peek(p)=w then
-    j=j+4:
-    if f>0 then
-        f=f-1
-
-4 // Reset l (anti-mine charge spawn counter). Set c=2 to prevent a new move. If rnd(1)>q spawn a new mine somewhere around the player 
-l=jand3:
-c=2:
-if rnd(1)>q then
-    x=p-4+2*int(rnd(1)*5)+44*(int(rnd(1)*3)-1):
-    pokex,m:pokex+t,1
-
-	
-5 // Display player. If key pressed compute s,e,c to detect next position. Decrease q. Make a beep sound by bitbanging the volume register.
-s=.:
-geta$:
-pokep,h:pokep+t,1:
-if a$<>"" then
-    s=asc(a$):
-    e=sand1:
-    c=s-75+e:
-    q=q-.001:
-	pokev,15:pokev,0
-
-6 // Set y to zero (no move). Reset border and background color. 
-  // If valid move key (IJKL) is pressed:
-  // - display mine at player's position, 
-  // - compute new player's position, 
-  // - increase points j,
-  // - if points reach the next 100 points, set next bonus threshold k, set border/foreground color, reset f to zero (max anti-mine charges)
-y=.:
-poken,8:
-if sgn(c)=c then
-    y=1:
-    pokep,m:
-    p=p+c*(21*e+1):
-    j=j+1:
-    if j>=k*100 then
-        k=k+1:
-        poken,k:
-        f=0
-
-	  
-7 // Display player's color (depending on bonus threshold reached). Display last anti-mine charge. Set position of last anti-mine charge to dummy one.
-  // If player has moved and the anti-mine charge counter has reached 3 then display next charge at newly computed random position (as a purple diamond)
-pokep+t,1+kand7:
-pokeg+t,7:pokeg,w:
-g=o+b:
-if -y then
-    if l=3 then
-        g=o+1+int(rnd(1)*a):
-        pokeg+t,4:pokeg,90
+// Set variable i
+i=32
 
 
-8 // If key pressed is space and there are still some anti-mine chages then remove mines at top, bottom, left right, increase f, change border/background color
-if s=32 then
-    if f<9 then
-        pokep,90:
-        poken,10:
-        pokep-1,32:pokep+1,32:pokep-22,32:pokep+22,32:
-        f=f+1:
-        poken,8
+// Inner/match loop starts here
+3 
+    // Print score and high score.
+    print"{home}{yellow}${white}";9-f;" {cyan}pts{white}";j;" {cyan}hi{white}";r:
+
+    //  Check if the player has reached a $ (anti-mine charge)
+    if peek(p)=w then
+        j=j+4:
+        if f>0 then
+            f=f-1
+
+4 
+    // Reset l (anti-mine charge spawn counter).
+    l=jand3:
+
+    // Set c=2 to prevent a new move. 
+    c=2:
+
+    // If rnd(1)>q spawn a new mine somewhere around the player 
+    if rnd(1)>q then
+        x=p-4+2*int(rnd(1)*5)+44*(int(rnd(1)*3)-1):
+        pokex,m:pokex+t,1
+
+        
+5 
+    // Reset s to zero
+    s=.:
+
+    // Read keyboard status
+    geta$:
+
+    // Display player. 
+    pokep,h:pokep+t,1:
+
+    // If key pressed then:
+    // - Compute s,e,c to detect next position. 
+    // - Decrease q. 
+    // - Make a beep sound by bit-banging the volume register.
+    if a$<>"" then
+        s=asc(a$):
+        e=sand1:
+        c=s-75+e:
+        q=q-.001:
+        pokev,15:pokev,0
+
+6 
+    // Set y to zero (no move). 
+    y=.:
+
+    // Reset border and background color. 
+    poken,8:
+
+    // If valid move key (IJKL) is pressed:
+    // - set move flag y to 1
+    // - display mine at player's position, 
+    // - compute new player's position, 
+    // - increase points j,
+    // - if points reach the next 100 points, set next bonus threshold k, set border/foreground color, reset f to zero (max anti-mine charges)
+    if sgn(c)=c then
+        y=1:
+        pokep,m:
+        p=p+c*(21*e+1):
+        j=j+1:
+        if j>=k*100 then
+            k=k+1:
+            poken,k:
+            f=0
+
+          
+7 
+    // Display player's color (depending on bonus threshold reached). 
+    pokep+t,1+kand7:
+
+    // Display last anti-mine charge. 
+    pokeg+t,7:pokeg,w:
+
+    // Set position of last anti-mine charge to dummy one, i.e., charge symbol on the score board
+    g=o+b:
+
+    // If player has moved and the anti-mine charge counter has reached 3 then display next charge at newly computed random position (as a purple diamond)
+    if -y then
+        if l=3 then
+            g=o+1+int(rnd(1)*a):
+            pokeg+t,4:pokeg,90
 
 
-9 // If player has not reached top not bottom wall and has not landed on a mine them go back to 3 (inner loop)
-  // Otherwise set f to zero (max anti-mine charge), display player, print end message, wait for any key, go back to 0 (outer loop)
+8 
+    // If key pressed is space and there are still some anti-mine chages then:
+    // - remove mines at top, bottom, left right, 
+    // - increase f, 
+    // - change border/background color
+    if s=i then
+        if f<9 then
+            pokep,90:
+            poken,10:
+            pokep-1,i:pokep+1,i:pokep-22,i:pokep+22,i:
+            f=f+1:
+            poken,8
+
+
+9 
+// If player has not reached top not bottom wall and has not landed on a mine them go back to 3 (inner loop)
 on-((p<d and p>o)and(peek(p)<>m))
     goto3:
+    
+// Otherwise:
+// - set f to zero (max anti-mine charge), 
+// - display player, 
+// print end message, 
+// wait for any key, 
+// go back to 0 (outer loop)
 f=.:
 pokep,h:
 print"the end":

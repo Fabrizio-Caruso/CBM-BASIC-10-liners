@@ -3,114 +3,155 @@ THIEF64
 Intended, expanded (no abbreviations) and commented code:
 
 
-0 // Initialize some variables. Clear screen and set foreground text color to blue
+0 
+// Initialize some variables. 
 b=1024:u=-1:n=53281:p(0)=20:v=54296:t=v-24:o=1103:r=176:h=1524:e=40:f=h+e:
+
+// Clear screen and set foreground text color to blue
 print"{blue}{clear}"
 
-1 // Set more variables. Set keyboard auto-repeat on. Initialize enemy coordinates
+1 
+// Set more variables. Initialize enemy coordinates
 w=36:d=1984:p(1)=13:j=102:y=.:
+
+// Set background color to black
 poken,0:
 fori=0to7:
     g(0,i)=4+31*(iand1):g(1,i)=6+i*2:
 next
 
-2 // Set more variables. Display player. Set border/background color to black. Display top and bottom walls
+2 
+// Set more variables.  
 z=15:x=3:p=81:u=u+1:s=h+t:
+
+// Display player as a diamond.
 pokef,90:
+
+// Set border color to black. 
 poken-1,0:
+
+// Display top and bottom walls
 for a=0to39:
     pokeo-a,j:poked+a,j:
 next:
+
+// Enable keyboard auto-repeat
 poke650,128
 
 
-3 // Compute size of side walls to draw. Draw side walls. Set variable m.
+3 
+// Compute size of side walls to draw.
 q=int(u/4):
+
+// Draw side walls. 
 for l=1to22:
     for m=0to1:
         c=o+(-39+2*q)*m-q+e*l:pokec,j:pokec+t,6:
     next:
 next:
+
+// Set variable m.
 m=87
 
 
-4 // Set player's color (red).
-  // Display one non-active guard.
-  // Compute player's zone c.
-  // Display remaining stunning bombs and number of collected $
-  // If the player is on the $ go to 2 (to possibly shrink the side walls)
-pokef+t,2:
-pokex((i+4)and7),m:
-c=int((f-o)/r):
-print"{home}{cyan}{122}{white}";9-k;spc(z);"{yellow}${white}";u:
-if peek(f)=w 
-    goto2
+// Inner/match loop starts here
+4 
+    // Set player's color (red)
+    pokef+t,2:
+    
+    // Display one non-active guard.    
+    pokex((i+4)and7),m:
+    
+    // Compute player's zone c.    
+    c=int((f-o)/r):
+    
+    // Display remaining stunning bombs and number of collected $    
+    print"{home}{cyan}{122}{white}";9-k;spc(z);"{yellow}${white}";u:
+    
+    // If the player is on the $ go to 2 (to possibly shrink the side walls)    
+    if peek(f)=w 
+        goto2
 
 
-5 // Draw player
-  // Read keyboard input into a$
-  // Compute next active guard
-  // If guards are not stunned, then update next active guard's coordinates and delete it from its corrent position  
-pokef,p:
-geta$:
-i=c+(yandx):
-if y<0 then
-    for c=0to1:
-        g=g(c,i):g(c,i)=g+sgn(p(c)-g):
-    next:
-pokex(i),32
+5 
+    // Draw player
+    // Read keyboard input into a$
+    // Compute next active guard
+    // If guards are not stunned, then update next active guard's coordinates and delete it from its corrent position  
+    pokef,p:
+    geta$:
+    i=c+(yandx):
+    if y<0 then
+        for c=0to1:
+            g=g(c,i):g(c,i)=g+sgn(p(c)-g):
+        next:
+    pokex(i),32
 
 
-6 // Update enemies position and display them with their color (white)
-  // If the player is now on a guard goto 9
-  // Otherwise, if y = 9 mod 15, display $
-x(i)=b+g(0,i)+e*g(1,i):
-pokex(i)+t,1:pokex(i),m:
-on-(peek(f)=m)
-    goto9:
-if (yandz)=9 then
-    pokeh,w
+6 
+    // Update enemy position and display them with their color (white)
+    x(i)=b+g(0,i)+e*g(1,i):
+    pokex(i)+t,1:pokex(i),m:
+    
+    // If the player is now on a guard goto 9
+    // Otherwise, if y = 9 mod 16, display $    
+    on-(peek(f)=m)
+        goto9:
+    if (yandz)=9 then
+        pokeh,w
 
 
-7 // If a key was pressed, compute new player's coordinates. Delete player from old position. Set volume to max.
-ifa$<>""thenc=asc(a$)-72:p(0)=p(0)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3):pokef,32:pokev,z
+7 
+    // If a key was pressed:
+    // - Compute new player's coordinates. 
+    // - Delete player from old position. 
+    // Set volume to max (to have a bit-bang effect with a subsequent command)
+    if a$<>"" then 
+        c=asc(a$)-72:
+        p(0)=p(0)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3):
+        pokef,32:pokev,z
 
 
-8 // Set volume to 0. Compute new player's position f.
-  // If key pressed was space and there are stunning bombs left then
-  // - Set background color to red.
-  // - Set stunning loops y to a (=32).
-  // - Increase used bombs k.
-  // - Set background color to purple.
-  // - Short wait
-  // - Set volume to max  
-pokev,0:
-f=b+p(0)+e*p(1):
-if c=-e then
-    if k<9 then
-	    poken,2:
-        y=a:
-        k=k+1:
-        poken,4:
-        forc=0to39:next:
-        pokev,z
+8 
+    // Set volume to 0. Compute new player's position f.
+    // If key pressed was space and there are stunning bombs left then
+    // - Set background color to red.
+    // - Set stunning loops y to a (=32).
+    // - Increase used bombs k.
+    // - Set background color to purple.
+    // - Short wait
+    // - Set volume to max  
+    pokev,0:
+    f=b+p(0)+e*p(1):
+    if c=-e then
+        if k<9 then
+            poken,2:
+            y=a:
+            k=k+1:
+            poken,4:
+            forc=0to39:next:
+            pokev,z
 
-9 // Set background color to black
-  // Decrease stunning flag
-  // Set $ color (yellow)
-  // If player is not on a guard, go to 4
-  // Otherwise reset player's positions
-  // Reset max stunning bombs
-  // Wait
-  // Go to 0
-poken,0:
-y=y-1:
-pokes,7:
+9     
+    // Set background color to black
+    // Decrease stunning flag
+    // Set $ color (yellow)
+    poken,0:
+    y=y-1:
+    pokes,7:
+
+// If player is not on a guard, go to 4
 on-(peek(f)<m)
     goto4:
-    fori=0to7:x(i)=0:next:
-    k=.:
-    pokef,p:
-    fori=0tod:next:
-    goto0
+	
+// Otherwise: 
+// - Reset enemies' positions
+// - Reset max stunning bombs
+// - Short pause
+// - Restart game
+fori=0to7:x(i)=0:next:
+k=.:
+pokef,p:
+fori=0tod:next:
+goto0
 
