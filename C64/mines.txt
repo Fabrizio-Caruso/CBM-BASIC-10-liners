@@ -1,14 +1,14 @@
 MINES by Fabrizio Caruso
 
 The mine field:
-You are in a minefield where mines appear 
+You are in a minefield where mines appear both
 - under your feet once you move and 
 - around you (more if you do not move)
-You can clear the area around you with anti-mine charges "$" but you can only carry a maximum of 9.
-Some charges will appear at random positions on the screen.
+You can clear the area around you with anti-mine charges but you can only carry a maximum of 9.
+You can obtain extra charges by reaching a "$" that appear at random positions on the screen.
 The field has upper and lower borders that kill you if reached. Left and Right border wrap arround (as text would on the screen).
 
-The rate of mines appearing around you, increases continously.
+The rate of mines appearing around you, increases continuously.
 
 Points:
 - Walk into an empty position: 1 point
