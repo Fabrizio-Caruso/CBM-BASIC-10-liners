@@ -1,8 +1,32 @@
-THIEF64
+THIEF64 by Fabrizio Caruso
 
 Intended, expanded (no abbreviations) and commented code:
 
+ENEMY STRATEGY
+A good portion of the code is about the enemies' strategy, which depends on both:
+- the absolute position of the player (vertical zone where the player is) and
+- the relative position of the player with respect to all enemies.
 
+Idea: the screen is divided in 5 vertical bands 0,1,2,3,4 from top to bottom.
+If the player is on zone c, then it is only chased by the 4 guards indexed by c,c+1,c+2,c+3
+while all other guards occupy their positions.
+This is somehow similar to zone marking in football.
+This strategy prevents the formation of a big clump of chasing guards.
+Remark: guards (except guard 0 and 7) are not limited to one single zone.
+
+IMPORTANT VARIABLES:
+- p(0): x-coordinate of the player
+- p(1): y-coordinate of the player
+- f: player's position on the video memory (computed from p(0/1))
+- g(0,i): x-coordinate of the i-th guard
+- g(1,i): y-coordinate of the i-th guard 
+- x(i): i-th guard position on the video memory (computed from g(0/1,i))
+- c: (in line 3) vertical player's zone (0,1,2,3,4 from top to bottom)
+- k: number of used stunning bombs
+- u: # of collected $
+- y: stunning flag and progress counter 
+
+CODE:
 0 
 // Initialize some variables. 
 b=1024:u=-1:n=53281:p(0)=20:v=54296:t=v-24:o=1103:r=176:h=1524:e=40:f=h+e:
@@ -80,7 +104,7 @@ m=87
     // If guards are not stunned, then update next active guard's coordinates and delete it from its corrent position  
     pokef,p:
     geta$:
-    i=c+(yandx):
+    i=c+(y and x):
     if y<0 then
         for c=0to1:
             g=g(c,i):g(c,i)=g+sgn(p(c)-g):
@@ -97,7 +121,7 @@ m=87
     // Otherwise, if y = 9 mod 16, display $    
     on-(peek(f)=m)
         goto9:
-    if (yandz)=9 then
+    if (y and z)=9 then
         pokeh,w
 
 
@@ -145,7 +169,7 @@ on-(peek(f)<m)
     goto4:
 	
 // Otherwise: 
-// - Reset enemies' positions
+// - Reset enemies' positions (Remark: poking at 0 is safe on the C64)
 // - Reset max stunning bombs
 // - Short pause
 // - Restart game

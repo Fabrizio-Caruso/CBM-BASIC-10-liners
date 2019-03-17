@@ -1,8 +1,23 @@
-MINES64
+MINES64 by Fabrizio Caruso
 
 Expanded (no abbreviations), indented and commented code
 
+IMPORTANT VARIABLES:
+- m: mine character 
+- h: player's character
+- p: is the position of the player
+- x: is the position of the mines that appear around the player
+- j: is the score
+- r: is the record
+- f: is the number of used anti-mine charges (9 - number of remaining charges)
+- y: is the player's movement flag
+- q: is the 1-complement of the probability p, i.e., q 0 1-p, of a new mine popping up around the player
+- d: lower border position
+- o: upper border position
+- t: is the difference between the video memory address and the color ram address, i.e., <addr>+t is used to set the color corresponding to the position whose data (not color) is pointed by <addr>
 
+
+CODE:
 0
 // Initialize some variables. 
 o=1143:n=53280:b=-117:v=54296:
@@ -70,7 +85,7 @@ next
     pokep,h:pokep+t,1:
 
     // If key pressed then:
-    // - Compute s,e,c to detect next position. 
+    // - [TRICK] Compute s,e,c to detect the next position (see (*) for the details)
     // - Decrease q. 
     // - Make a beep sound by bit-banging the volume register.
     if a$<>"" then 
@@ -150,3 +165,21 @@ pokep,h:
 print"the end":
 poke198,0:wait198,1:poke198,0:
 goto0
+
+
+[TRICK] (*)
+I have come up with this trick (by myself). It may be a new trick.
+I do not use conditionals, nor precomputed offsets, nor Boolean expressions.
+I use an interpolating formula that computes the offset from the ASCII code of the pressed key.
+
+I exploit the special symmetry of the ASCII codes of the keys I J K L:
+- I and K have odd codes and a distance of 2 bytes
+- J and L have even codes and a distance of 2 bytes
+- I and K have odd ASCII codes
+- J and L have even ASCII codes
+So, given s=ASC(a$) with a$ either I or J or K or L, we update the position p with
+p=p+c*(39*e+1) 
+where
+- e=s and 1 -> parity of the code, i.e., vertical vs horizontal movement
+- c=s-75+e -> -1 for left/up vs +1 for right/down
+- 39e+1 -> vertical vs horizontal offset absolute value, i.e., 1 vs 40 

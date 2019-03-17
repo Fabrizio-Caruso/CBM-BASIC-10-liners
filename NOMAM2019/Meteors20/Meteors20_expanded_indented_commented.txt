@@ -1,7 +1,21 @@
-METEORS20
+METEORS20 by Fabrizio Caruso
 
 Expanded (no abbreviations), indented and commented code
 
+SOME IMPORTANT VARIABLES
+- p(ch): points given by the bonus item whose character is ch
+- i: progress counter
+- u: next 1000-point counter 
+- g/w: left/right max player's position 
+- p: player's position
+- o: right most top position (used to display rare the item red "club")
+- l: # of lives
+- m: # of barriers
+- j: score
+- r: record
+- b: level (-1)
+
+CODE:
 0
 // Set some variables
 dimp(99):a=42:p(36)=20:p(90)=50:p(88)=100:y=22:w=8185:g=w-y:h=72:d=21:
@@ -134,7 +148,7 @@ i=1
     print"{home}{red}";l;"{left}{purple}";m;"{left}{white}";j;"{blue}{left} h{white}";r;"{left}{green}";b+1
 
 9
-    // If z is set, then display the very rare "club" bonus at position o-s
+    // If z is set, then display the very rare "club" bonus at position o-s (otherwise a space character is displayed)
     pokeo-s,q-z*56:pokeo-s+t,1-z:
     
     // Increase progress counter

@@ -1,9 +1,18 @@
-MINIMANS20 
+MINIMANS20 by Fabrizio Caruso
 
 Expanded (no abbreviations), indented and commented code
 
+IMPORTANT VARIABLE:
+- b: width of the road (-1)
+- i: points/progress counter
+- r: record
+- d: left/straight/right flag
+- o: left road offset
+- s: enemy car position
+- g: position of the highest lights (produced by the headlights)
+- j: day/night flag 
 
-
+CODE:
 0
 // Initialize some variables
 u=32:d=1:q=3:w=30:p=8174:m=81:
@@ -50,7 +59,7 @@ next:
 // Move cursor to home
 print"{home}":
 
-// Set point to zero
+// Set points to zero
 i=.
 
 
@@ -69,7 +78,7 @@ i=.
     i=i+1:
     
     // If i mod 8 = 0 then compute road change (-1 for left, 0 no change, +1, right)
-    if (iand7)=0 then
+    if (i and 7)=0 then
         d=int(rnd(1)*q)
 
 4
@@ -92,7 +101,7 @@ i=.
 
 5 
     // If i is even, then with an 80% probability set c$ to car shape with alternating blue/green color 
-    if (iand1)=0 then
+    if ( i and 1 )=0 then
         if rnd(1)>.2 then
             c$=chr$(w+(fand1))+"Q":
             f=f+1
