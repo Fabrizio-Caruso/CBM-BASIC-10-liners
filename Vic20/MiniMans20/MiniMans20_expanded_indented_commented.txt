@@ -1,0 +1,167 @@
+MINIMANS20 by Fabrizio Caruso
+
+Expanded (no abbreviations), indented and commented code
+
+IMPORTANT VARIABLE:
+- b: width of the road (-1)
+- i: points/progress counter
+- r: record
+- d: left/straight/right flag
+- o: left road offset
+- s: enemy car position
+- g: position of the highest lights (produced by the headlights)
+- j: day/night flag 
+
+CODE:
+0
+// Initialize some variables
+u=32:d=1:q=3:w=30:p=8174:m=81:
+
+// If the width of the road is 3 then:
+// - Set background and border to day color (white)
+// - Print victory message
+if b = 3 then
+    poken,25:
+    print"{clear}{down}{down}   {191}{191} victory! {191}{191}":
+    fork=0top:next
+
+
+1
+// Initialize some variables
+a=511:x=132:z=218:e=22:k=72:y=88:
+
+// Set auto-repeat on
+poke650,z:
+
+// Clear screen
+print"{black}{clear}":
+
+// Set string variables (left and right road borders)
+l$="{green}{120}{120}{black}{230}":r$="{black}{230}{green}{120}{120}":
+
+// Check if new record is set, if yes, update it
+if i>r then
+    r=i
+
+
+2
+// Set some variables
+v=36878:n=v+1:t=30720:o=4:b=9:
+
+// Set background and border to day color (white)
+poken,25:
+
+// Display start road
+fori=0to19:
+    printtab(5);"{230}{191}";spc(9);"{191}{230}":
+next:
+
+// Move cursor to home
+print"{home}":
+
+// Set points to zero
+i=.
+
+
+// Inner/game loop starts here
+3
+    // Compute width of the road (b=width-1)
+    b=b+((ianda)=0):
+    
+    // Compute day/night flag
+    j=band1:
+    
+    // Set day/night background and border color
+    poken,25-17*j:
+    
+    // Increase points
+    i=i+1:
+    
+    // If i mod 8 = 0 then compute road change (-1 for left, 0 no change, +1, right)
+    if (i and 7)=0 then
+        d=int(rnd(1)*q)
+
+4
+    // Initialize enemy car to empty space
+    c$=" ":
+    
+    // Compute enemy car position
+    s=int(rnd(1)*(b+1)):
+    
+    // If player hits border or enemy cars then:
+    // - Set border to red and background to white
+    // - Increase damage
+    // - Set border and background to red
+    // - Make a beep sound by bit-banging on the volume register
+    if peek(p-e)>u then 
+        poken,2:
+        l=l+1:
+        poken,42:
+        pokev,15:pokev,0
+
+5 
+    // If i is even, then with an 80% probability set c$ to car shape with alternating blue/green color 
+    if ( i and 1 )=0 then
+        if rnd(1)>.2 then
+            c$=chr$(w+(fand1))+"Q":
+            f=f+1
+
+
+6
+    // Display the next line of the road with possibly an enemy car
+    printspc(o);l$;spc(s);c$;spc(b-s);r$:
+    
+    // Read the keyboard status
+    geta$:
+    
+    // If a key is pressed, then compute the next player's position
+    if a$<>"" then
+        c=asc(a$)-k:
+        p=p+(c=2)-(c=4)
+
+
+7
+    // If j is set to night, than activate the car lights by setting the color attributes to white at some lines above the player's car
+    g=p+t-1-j*x:
+    pokeg,j:
+    pokeg+2,j:
+    
+    // [Trick] Scroll down
+    print"{home}{down}{left}{148}":
+    
+    // [Trick] Force the editor to believe the line is a continuation of the other lines
+    pokez,x:
+    
+    // Display the player's car
+    pokep+t,2:pokep,m:
+    
+    // If the player reaches a tree, his damage is set to max
+    if peek(p-e)=y then
+        l=9
+
+
+8
+    // Display score board: damage, points, high score
+    print"{home}{red}";l;" {cyan}pts{purple}";i;" {cyan}hi{purple}";r:
+    
+    // If road's new position fits in the screen, then update border offset o
+    if o>1-d then
+        if o+d+b<16 then
+            o=o-1+d
+
+
+9
+// If there is some left damage and b has not reached minimum then go back to start of inner loop
+on-(l<9 and b>q)
+    goto3:
+    
+// Otherwise: 
+// - Set border and background to day color (white)
+// - Display end message
+// - Reset damage to 0
+// - Restart game
+poken,25:
+print"{home}{down}{down}{down}{down}{down}{down}{down}{down}{black}   {191}{191}{191}{red} the end {black}{191}{191}{191} ":
+l=.:
+fork=0top:next:
+goto0
