@@ -50,6 +50,7 @@
         <FileName>experimental2.bas</FileName>
         <FileName>experimental2.bas</FileName>
         <FileName>MiniMans20.bas</FileName>
+        <FileName>experimental3.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -57,6 +58,17 @@
     <SourceFiles>
         <SourceFile>
             <Name>experimental2.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>experimental3.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
