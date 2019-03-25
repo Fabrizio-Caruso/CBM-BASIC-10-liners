@@ -4,7 +4,7 @@
 3b=b+((iaNa)=0):j=baN1:pOn,25-17*j:i=i+1:if(iaN7)=0tHd=int(rN(1)*q):k=7727*(d=1)
 4c$=" ":s=int(rN(1)*(b+1)):ifpE(p-e)>utHpOn,2:l=l+1:pOn,42:pOv,15:pOv,0
 5gEa$:if(d=1)or(iaN1)=0tHc$=cH(w+(faN1))+"Q":f=f+1
-6?sPo);l$;sPs);c$;sPb-s);r$:pOh+t,8:pOh,93:ifa$<>""tHc=aS(a$)-72:p=p+(c=2)-(c=4)
+6?sPo);l$;sPs);c$;sPb-s);r$:pOh+t,8:pOh,86:ifa$<>""tHc=aS(a$)-72:p=p+(c=2)-(c=4)
 7g=p+t-1-j*x:pOg,j:pOg+2,j:?"{home}{down}{left}{148}":pOz,x:pOp+t,2:pOp,m:ifpE(p-e)=ytHl=9
 8h=o-k+int(b/2):?"{home}{red}";l;" {cyan}pts{purple}";i;" {cyan}hi{purple}";r:ifo>1-dtHifo+d+b<16tHo=o-1+d
 9on-(l<9aNb>q)gO3:h=.:pOn,25:?"{home}{down}{down}{down}{down}{down}{down}{down}{black}  {191}{191}{191}{red} the end {black}{191}{191}{191}":l=.:fOk=0top:nE:gO0
