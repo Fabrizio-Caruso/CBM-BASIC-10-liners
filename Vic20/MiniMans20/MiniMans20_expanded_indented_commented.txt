@@ -16,21 +16,22 @@ IMPORTANT VARIABLES:
 
 CODE:
 0
-// Initialize some variables
-d=1:cc=25:hh=230:q=3:p=8174:m=81:
+// Move basic top and variables not to overwrite ram-mapped characters
+poke56,26:poke52,26:
 
-// If the width of the road is 3 then:
-// - Set background and border to day color (white)
-// - Print victory message
-if b=3 then 
-    poken,cc:
-    print"{clear}   {191*2} victory {191*2}":
-    fork=0top:next
+// Initialize some variables
+m=.:v=36878:x=132:
+
+// [TRICK] Map characters at $1C00 -> This has the effect of keeping reversed characters as mapped in rom (no need to copy from rom into ram) 
+poke646,1:pokev-9,255:
+
+// Redefine "@" (screen code 0)
+forp=0to7:readb:poke7168+p,b:next
 
 
 1
 // Initialize some variables
-u=32:w=30:a=511:x=132:z=218:y=88:
+a=511:z=218:d=1:p=8174:y=216:
 
 // Set auto-repeat on
 poke650,z:
@@ -39,23 +40,24 @@ poke650,z:
 print"{black}{clear}":
 
 // Set string variables (left and right road borders)
-l$="{green}{120*2}{black}{230}":r$="{black}{230}{green}{120*2}":
+l$="{green}{reverse on}{120*2}{black}{230}{reverse off}":r$="{reverse on}{black}{230}{green}{120*2}":
 
 // Check if new record is set, if yes, update it
 if i>r then
     r=i
 
+	
 2
 // Set some variables
-b=9:v=36878:n=v+1:t=30720:o=4:e=22:
+w=30:b=9:q=3:n=v+1:t=30720:o=4:e=22:
 
 // Set background and border to day color (white)
-poken,cc:
+poken,25:
 
 // Display start road
 fori=0to19:
-    printtab(5);"{230}{191}";spc(9);"{191}{230}":
-next:
+    printtab(5)"{reverse on}{230}{191}"spc(9)"{reverse on}{191}{230}":
+next
 
 // Set points to zero
 i=.
@@ -67,7 +69,7 @@ i=.
     b=b+((ianda)=0):
 
     // Set day/night background and border color
-    poken,cc-17*j:    
+    poken,25-17*j:    
  
     // Compute day/night flag
     j=band1:
@@ -82,7 +84,7 @@ i=.
         d=int(rnd(1)*q):
         c=7727*(d=1)
 
-        
+		
 4
     // Initialize enemy car to empty space
     c$=" ":
@@ -95,13 +97,16 @@ i=.
     // - Increase damage
     // - Set border and background to red
     // - Make a beep sound by bit-banging on the volume register
-    if peek(p-e)>u then 
+    if peek(p-e)<>32 then 
         poken,2:
         l=l+1:
         poken,42:
-        pokev,15:pokev,0
+        pokev,15:pokev,0:
+		
+		// First byte of the car character definition
+		data24
 
-            
+	
 5 
     // Read the keyboard status
     geta$:
@@ -109,10 +114,13 @@ i=.
     // If i is even or d=1, then set c$ to car shape with alternating blue/green color 
     // d=1 -> straight line selected. Remark: straight lines are also possible with d<>1 when the curve is not possible
     if (d=1)or(iand1)=0 then
-        c$=chr$(w+(fand1))+"Q":
-        f=f+1
+        c$=chr$(w+(fand1))+"@":
+        f=f+1:
+    
+	// Most of the car character definition
+	data189,255,165,36,189,255,165
+ 
 
-        
 6
     // If j is set to night, than activate the car lights by setting the color attributes to white at some lines above the player's car
     g=p+t-1-j*x:
@@ -135,10 +143,10 @@ i=.
 
 7
     // Display the next line of the road with possibly an enemy car
-    printspc(o);l$;spc(s);c$;spc(b-s);r$:
+    printspc(o)l$spc(s)c$spc(b-s)r$:
  
     // Display two-lane separator
-    pokeh+t,6:pokeh,hh: 
+    pokeh+t,6:pokeh,230: 
     
     // If a key is pressed, then compute the next player's position
     if a$<>"" then
@@ -147,16 +155,15 @@ i=.
 
 
 8
-
     // Compute position of the two-lane separator
     h=o-c+int(b/2):
 
     // Display score board: damage, points, high score
-    print"{home}{red}";l;" {cyan}pts{purple}";i;" {cyan}hi{purple}";r:
+    print"{home}{reverse on}{red}"l" {cyan}pts{purple}"i" {cyan}hi{purple}"r:
     
     // If road's new position fits in the screen, then update border offset o
     if o>1-d then
-        if o+d+b<16 then
+        if o+d+b<17 then
             o=o-1+d
 
 
@@ -169,10 +176,10 @@ on-(l<9 and b>q)
 // - Set border and background to day color (white)
 // - Display end message
 // - Reset damage to 0
-// - Restart game
+// - Restart game from line 1
 h=.:
-poken,cc:
-print"{home}{down*7}{black}  {191*3}{red} the end {black}{191*3}":
+poken,25:
+print"{home}{down*7}{black}{reverse on} {191*3}{red} the end {black}{191*3}":
 l=.:
 fork=0top:next:
-goto0
+goto1
