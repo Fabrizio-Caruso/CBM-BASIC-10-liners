@@ -5,21 +5,29 @@ Original game by Fabrizio Caruso
 GAMEPLAY:
 You are in outer space.
 You must avoid the falling meteors "*".
+You can activate a BARRIER (press SPACE) to destroy the all objects next to you.
+You have a limited number of barriers (max 9).
+
 As you advance the number of meteors increases.
 
-You can activate a limited number of barriers to destroy the all objects next to you.
+3 types of bonus items fall and catching them provides extra points.
 
-3 types of bonus items fall and catching them provides extra points that can help reach
-the next 1000 points. If you do, you are awared an extra life (max 9) and will restore the max number of barriers.
+If you reach the next 1000 points, you are awared:
+- an extra life (up to max 9 lives) and 
+- max barriers (back to 9)
 
 SCORE:
 - Points increase automaticaly as you progress: 1 point at each step
-- Common bonus item yellow "$": 20 points
-- Less common bonus item cyan "diamand": 50 points
-- Rare bonus item red "club": 100 points
+- (Common) item yellow "$": 20 points
+- (Less common) item cyan "diamand": 50 points
+- (Rare) item red "clubs": 100 points
 
 CONTROLS:
 Use: J (left), L (right) to move
 Use: SPACE BAR to activate the barrier
+
+STATUS LINE:
+On the top line, the game shows the following status line:
+no. of lives (red), no. of barriers (purple), points (white), high score (white), current level (green)
 
 

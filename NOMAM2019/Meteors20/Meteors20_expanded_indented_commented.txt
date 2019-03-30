@@ -17,38 +17,55 @@ SOME IMPORTANT VARIABLES
 
 CODE:
 0
-// Set some variables
-dimp(99):a=42:p(36)=20:p(90)=50:p(88)=100:y=22:w=8185:g=w-y:h=72:d=21:
+// Move basic top and variables not to overwrite ram-mapped characters
+poke56,26:poke52,26:
+
+
+// Set sparse array with item points
+dimp(218)
+
+// Read spaceship graphics definition and re-define the "@" (screen code 0) character
+forp=0to7:readb:poke7168+p,b:next:
+
+
+// Define $ and diamond item points
+p(164)=20:p(218)=50:
+
+// Define color ram offset
+t=30720
+
+
+1
+// Define some variables and clubs item points
+v=36878:p(216)=100:w=8185:y=22:g=w-y:m=9:
 
 // Enable keyboard auto-repeat
 poke650,128:
 
-1
-// Set some variables
-v=36878:m=9:l=3:u=1:x=450:e=34:o=7722:q=32:
+// [TRICK] Map characters at $1C00 -> This has the effect of keeping reversed characters as mapped in rom (no need to copy from rom into ram) 
+poke646,1:pokev-9,255:
 
 // Check if new record has been set, if yes: update it and print record message
 if j>r then
     r=j:
-    print"{clear}{cyan}record":
-    fori=0too/2:next
+
 
 2
 // Set some variables
-n=v+1:t=30720:j=.:f=1000:p=g+11:
+h=72:d=21:q=32:e=162:a=170:n=v+1:j=.:p=g+11:
 
 // Set border and background color to black
-pOn,8:
+poken,8:
 
-// Display control instructions
-?"{clear}{white}use j l space":
-fOi=0tow/4:nE:
+// Set more variables
+l=3:u=1:x=450:o=7722:
 
 // Clear screen
-?"{clear}":
+print"{clear}":
 
 // Set progress counter to 1
 i=1
+
 
 // Inner/match loop starts here
 3
@@ -57,19 +74,20 @@ i=1
     
     // Display next line of meteors
     fork=0tob:
-        printtab(int(rnd(1)*d));"{white}*":
+        printtab(int(rnd(1)*d))"{white}*":
     next:
     
     // If score has reached the next 1000 points, then:
     // - Set next 1000 point-goal
     // - Set barrier to max (i.e., 9)
     // - If lives are less than 9, than increase number of lives by one
-    if j>u*f then
+    if j>u*1000 then
         u=u+1:
         m=9:
         if l<9 then
             l=l+1
-            
+ 
+ 
 4
     // Compute very rare "club" bonus flag z
     z=(iand255)=0:
@@ -79,9 +97,10 @@ i=1
     // - display a yellow $ or, if i mod 64 = 0, a cyan "diamond" 
     if (iand7)=0 then
         s=int(rnd(1)*d):
-        printtab(s);"{yellow}${white}";:
+        printtab(s)"{yellow}{reverse on}${white}";:
         if (iand63)=0 then 
-            printtab(s);"{left}{cyan}{122}{white}"
+            printtab(s)"{left}{reverse on}{cyan}{122}{white}"
+
 
 5
     // If player has hit anything (other than empty space or the barrier) then
@@ -103,6 +122,7 @@ i=1
                 poken,1:
                 poken,8
 
+
 6
     // Set c to zero
     c=.:
@@ -119,13 +139,17 @@ i=1
         k=p+(c=2)-(c=4):
         if k<w then
             if k>g then
-                p=k
+                p=k:
+                
+    // First byte of the space ship graphics definition 
+    data24
+
 
 7
-    // [Trick] Scroll down by one line 
+    // [TRICK] Scroll down by one line 
     print"{home}{down}{left}{148}":
     
-    // [Trick] Force the editor to believe the line is a continuation of the other line
+    // [TRICK] Force the editor to believe the line is a continuation of the other line
     poke218,132:
     
     // If key pressed is space and there are barriers left then:
@@ -140,16 +164,21 @@ i=1
                 next:
             next
 
+
 8
     // Display player
-    pokep+t,2:pokep,81:
+    pokep+t,2:pokep,0:
     
     // Display score board: lives, barriers, points, high score, level
-    print"{home}{red}";l;"{left}{purple}";m;"{left}{white}";j;"{blue}{left} h{white}";r;"{left}{green}";b+1
+    print"{home}{reverse on}{red}"l"{left}{purple}"m"{left}{white}"j"{blue}{left} h{white}"r"{left}{green}"b+1:
+    
+    // Remaining data for the space ship graphics definition
+    data36,60,24,60,165,231,153
+
 
 9
-    // If z is set, then display the very rare "club" bonus at position o-s (otherwise a space character is displayed)
-    pokeo-s,q-z*56:pokeo-s+t,1-z:
+    // If z is set, then display the very rare "clubs" item bonus at position o-s (otherwise a space character is displayed)
+    pokeo-s,q-z*184:pokeo-s+t,1-z:
     
     // Increase progress counter
     i=i+1:
@@ -159,6 +188,6 @@ on-(l>0)
     goto3:
     
 // Otherwise, display the end message and restart the game
-print"{home}{down}{right}{right}{right}{right}{red}the end":
-fori=0tow/3:next:
+print"{home}{down}{right}{right}{red}{reverse on}the end":
+fori=0too:next:
 goto1
