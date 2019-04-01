@@ -1,0 +1,194 @@
+MINES20 by Fabrizio Caruso
+
+Indented, expanded (no abbreviations) and commented code:
+
+IMPORTANT VARIABLES:
+- m: mine character 
+- h: player's character
+- p: is the position of the player
+- x: is the position of the mines that appear around the player
+- j: is the score
+- r: is the record
+- f: is the number of used anti-mine charges (9 - number of remaining charges)
+- y: is the player's movement flag
+- q: is the 1-complement of the probability p, i.e., q 0 1-p, of a new mine popping up around the player
+- d: lower border position
+- o: upper border position
+- t: is the difference between the video memory address and the color ram address, i.e., <addr>+t is used to set the color corresponding to the position whose data (not color) is pointed by <addr>
+
+
+CODE:
+0 
+// Initialize some variables. 
+o=7745:v=36878:b=-65:n=v+1:p=7933:
+
+//Set border and background color.
+poken,8:
+
+// Check if a new record has been set. If yes, update it, show record message 
+if j>r then
+    r=j:
+    print"{clear}{blue}record!":
+    fori=1too/4:next
+
+1 
+// Initialize some variables. 
+h=81:t=30720:d=8164:k=1:m=87:a=418:w=36:g=o+b:
+
+// Print control instructions.
+print"{clear}{white}use ijkl space":
+fori=1too/4:next
+
+
+2 
+// Initialize some variables. 
+q=.95:j=.:
+
+// Print title line
+?"{clear}{down}   {119}{119}{119}  {red}mines  {white}{119}{119}{119}(fc)":
+
+// Print top and bottom walls.
+fori=0to21:
+    pokeo-i,102:poked+i,102:
+next:
+
+// Set variable i
+i=32
+
+
+// Inner/match loop starts here
+3 
+    // Print score and high score.
+    print"{home}{yellow}${white}";9-f;" {cyan}pts{white}";j;" {cyan}hi{white}";r:
+
+    //  Check if the player has reached a $ (anti-mine charge)
+    if peek(p)=w then
+        j=j+4:
+        if f>0 then
+            f=f-1
+
+4 
+    // Reset l (anti-mine charge spawn counter).
+    l=jand3:
+
+    // Set c=2 to prevent a new move. 
+    c=2:
+
+    // If rnd(1)>q spawn a new mine somewhere around the player 
+    if rnd(1)>q then
+        x=p-4+2*int(rnd(1)*5)+44*(int(rnd(1)*3)-1):
+        pokex,m:pokex+t,1
+
+        
+5 
+    // Reset s to zero
+    s=.:
+
+    // Read keyboard status
+    geta$:
+
+    // Display player. 
+    pokep,h:pokep+t,1:
+
+    // If key pressed then:
+    // - [TRICK] Compute s,e,c to detect next position (see (*) for the details)
+    // - Decrease q. 
+    // - Make a beep sound by bit-banging the volume register.
+    if a$<>"" then
+        s=asc(a$):
+        e=sand1:
+        c=s-75+e:
+        q=q-.001:
+        pokev,15:pokev,0
+
+6 
+    // Set y to zero (no move). 
+    y=.:
+
+    // Reset border and background color. 
+    poken,8:
+
+    // If valid move key (IJKL) is pressed:
+    // - set move flag y to 1
+    // - display mine at player's position, 
+    // - compute new player's position, 
+    // - increase points j,
+    // - if points reach the next 100 points, set next bonus threshold k, set border/foreground color, reset f to zero (max anti-mine charges)
+    if sgn(c)=c then
+        y=1:
+        pokep,m:
+        p=p+c*(21*e+1):
+        j=j+1:
+        if j>=k*100 then
+            k=k+1:
+            poken,k:
+            f=0
+
+          
+7 
+    // Display player's color (depending on bonus threshold reached). 
+    pokep+t,1+kand7:
+
+    // Display last anti-mine charge. 
+    pokeg+t,7:pokeg,w:
+
+    // Set position of last anti-mine charge to dummy one, i.e., charge symbol on the score board
+    g=o+b:
+
+    // If player has moved and the anti-mine charge counter has reached 3 then display next charge at newly computed random position (as a purple diamond)
+    if -y then
+        if l=3 then
+            g=o+1+int(rnd(1)*a):
+            pokeg+t,4:pokeg,90
+
+
+8 
+    // If key pressed is space and there are still some anti-mine chages then:
+    // - remove mines at top, bottom, left right, 
+    // - increase f, 
+    // - change border/background color
+    if s=i then
+        if f<9 then
+            pokep,90:
+            poken,10:
+            pokep-1,i:pokep+1,i:pokep-22,i:pokep+22,i:
+            f=f+1:
+            poken,8
+
+
+9 
+// If player has not reached top not bottom wall and has not landed on a mine them go back to 3 (inner loop)
+on-((p<d and p>o)and(peek(p)<>m))
+    goto3:
+    
+// Otherwise:
+// - set f to zero (max anti-mine charge), 
+// - display player, 
+// print end message, 
+// wait for any key, 
+// go back to 0 (outer loop)
+f=.:
+pokep,h:
+print"the end":
+poke198,0:wait198,1:poke198,0:
+goto0
+
+
+
+[TRICK] (*)
+I have come up with this trick (by myself). It may be a new trick.
+I do not use conditionals, nor precomputed offsets, nor Boolean expressions.
+I use an interpolating formula that computes the offset from the ASCII code of the pressed key.
+
+I exploit the special symmetry of the ASCII codes of the keys I J K L:
+- I and K have odd codes and a distance of 2 bytes
+- J and L have even codes and a distance of 2 bytes
+- I and K have odd ASCII codes
+- J and L have even ASCII codes
+So, given s=ASC(a$) with a$ either I or J or K or L, we update the position p with
+p=p+c*(39*e+1) 
+where
+- e=s and 1 -> parity of the code, i.e., vertical vs horizontal movement
+- c=s-75+e -> -1 for left/up vs +1 for right/down
+- 39e+1 -> vertical vs horizontal offset absolute value, i.e., 1 vs 40 
+
