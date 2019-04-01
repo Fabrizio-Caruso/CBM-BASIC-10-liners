@@ -1,3 +1,5 @@
 *.prg
-*.D64
+*.cbmprj
 bak/*
+*.D64
+bak
