@@ -7,4 +7,4 @@
 6g=p+t-1-j*x:pOg,j:pOg+2,j:?"{home}{down}{left}{148}":pOz,x:pOp+t,2:pOp,m:ifpE(p-e)=ytHl=9
 7?sPo)l$sPs)c$sPb-s)r$:pOh+t,6:pOh,230:ifa$<>""tHk=aS(a$)-72:p=p+(k=2)-(k=4)
 8h=o-c+int(b/2):?"{home}{reverse on}{red}"l" {cyan}pts{purple}"i" {cyan}hi{purple}"r:ifo>1-dtHifo+d+b<17tHo=o-1+d
-9on-(l<9aNb>q)gO3:h=.:pOn,25:?"{home}{down*7}{black}{reverse on} {191*3}{red} the end {black}{191*3}":l=.:fOk=0top:nE:gO1
+9on-(l<9aNb>q)gO3:h=.:pOn,25:?"{home}{down*5}{black}{reverse on} {191*2}{red} the end {black}{191*2}":l=.:pO198,0:wA198,1:gO1
