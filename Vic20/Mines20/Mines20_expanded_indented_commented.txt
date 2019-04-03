@@ -190,5 +190,5 @@ p=p+c*(21*e+1)
 where
 - e=s and 1 -> parity of the code, i.e., vertical vs horizontal movement
 - c=s-75+e -> -1 for left/up vs +1 for right/down
-- 21e+1 -> vertical vs horizontal offset absolute value, i.e., 1 vs 22 
+- 21*e+1 -> vertical vs horizontal offset absolute value, i.e., 1 vs 22 
 
