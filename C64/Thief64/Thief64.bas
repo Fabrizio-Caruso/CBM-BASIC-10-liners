@@ -2,7 +2,7 @@
 1w=36:d=1984:p(1)=13:j=102:y=.:pOn,.:fOi=0to7:g(0,i)=4+31*(iaN1):g(1,i)=6+i*2:nE
 2z=15:x=3:p=81:u=u+1:s=h+t:pOf,90:pOn-1,.:fOa=0to39:pOo-a,j:pOd+a,j:nE:pO650,128
 3q=int(u/4):fOl=1to22:fOm=0to1:c=o+(-39+2*q)*m-q+e*l:pOc,j:pOc+t,6:nE:nE:m=87
-4pOf+t,2:pOx((i+4)aN7),m:c=int((f-o)/r):?"{home}{cyan}{122}{white}"9-ksPz)"{yellow}${white}";u:ifpE(f)=wgO2
+4pOf+t,2:pOx((i+4)aN7),m:c=int((f-o)/r):?"{home}{cyan}{122}{white}"9-ksPz)"{yellow}${white}"u:ifpE(f)=wgO2
 5pOf,p:gEa$:i=c+(yaNx):ify<0tHfOc=0to1:g=g(c,i):g(c,i)=g+sG(p(c)-g):nE:pOx(i),32
 6x(i)=b+g(0,i)+e*g(1,i):pOx(i)+t,1:pOx(i),m:on-(pE(f)=m)gO9:if(yaNz)=9tHpOh,w
 7ifa$<>""tHc=aS(a$)-72:p(0)=p(0)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3):pOf,32:pOv,z
