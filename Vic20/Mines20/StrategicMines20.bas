@@ -2,7 +2,7 @@
 1lv=3:h=81:d=8164:k=1:m=87:a=418:w=36:g=o+b:?"{clear}{white}use ijkl space":fOi=1too/4:nE
 2t=30720:j=.:?"{clear}{down}   {119*3}  {red}mines  {white}{119*3}(fc)":i=32:goS17
 3ifpE(p)=42tHj=j+20:goS16
-4ifpE(p)=83tHj=j+30:goS19:pOp,h:goS15
+4ifpE(p)=83tHj=j+30:goS19:pOp-23,i:pOp-21,i:pOp+21,i:pOp+23,i:pOp,h:goS15
 5?"{home}{yellow}${white}"9-f" {cyan}pts{white}"j" {cyan}hi{white}"r:ifpE(p)=wtHj=j+5:iff>0tHf=f-1
 6l=jaN3:c=2:if-ytHx=p-4+2*int(rN(1)*5)+44*(int(rN(1)*3)-1):pOx,m:pOx+t,1
 7s=.:gEa$:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:pOv,15:pOv,.
