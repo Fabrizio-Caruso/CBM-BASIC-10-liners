@@ -42,6 +42,7 @@
         <FileName>MiniMans20.bas</FileName>
         <FileName>Meteors20.bas</FileName>
         <FileName>Mines20.bas</FileName>
+        <FileName>StrategicMines20.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -49,6 +50,17 @@
     <SourceFiles>
         <SourceFile>
             <Name>Mines20.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>StrategicMines20.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
