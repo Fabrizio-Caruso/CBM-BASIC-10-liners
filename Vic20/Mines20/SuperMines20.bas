@@ -1,8 +1,8 @@
 0kk=1:o=7745:v=36878:h=81:m=87:n=v+1:pOn,8:ifj>rtHr=j:?"{clear}{blue}record!":fOi=1too/4:nE
 1k=1:p=7933:lf=3:t=30720:b=-65:a=418:w=36:g0=7680:u=22:?"{clear}{red}mines{home}{down*3}{white}ijkl space"
-2x=90:ll=3:wA198,1:pO198,.:j=.:d=8164:i=32:b1=.95:b2=.85:bp=100:z=500:?"{clear}":goS17
+2x=90:ll=3:wA198,1:pO198,.:j=.:d=8164:i=32:b1=.95:b2=.85:bp=100:z=400:?"{clear}":goS17
 3?"{home}{down}   {white}{119*3}  {red}mines  {white}{119*3}(fc)":ifpE(p)=88tHj=j+9:goS16:pOp,h:goS17
-4ifpE(p)=83tHj=j+14:goS15:goS19:pOp-23,i:pOp-21,i:pOp+21,i:pOp+23,i
+4ifpE(p)=83tHj=j+14:goS15:pOp,x:pOp-23,i:pOp-21,i:pOp+21,i:pOp+23,i:goS19
 5pO7701+t,2:pO7701,lf+48:?"{home}{yellow}${white}"9-f"{white}"j" {cyan}hi{white}"r:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
 6l=jaNll:c=2:if-ytHq=p-4+2*int(rN(1)*5)+44*(int(rN(1)*3)-1):pOq,m:pOq+t,1
 7s=.:gEa$:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:pOv,15:pOv,.
