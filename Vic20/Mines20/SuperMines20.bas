@@ -8,11 +8,11 @@
 7s=.:gEa$:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:pOv,15:pOv,.
 8y=.:pOn,8:ifsG(c)=ctHy=1:pOp,m:p=p+c*(21*e+1):j=j+1:jj=jj+1
 9pOp+t,2+kc:pOg+t,7:pOg,w:g=g0:ifj>=k*bptHk=k+1:pOn,k:f=.:kc=kc+1:ifkc>5tHkc=0
-10if-ytHifl=lltHg=o+1+int(rN(1)*a):pOg+t,4:pOg,x
+10on-(lf=0)gO18:if-ytHifl=lltHg=o+1+int(rN(1)*a):pOg+t,4:pOg,x
 11if-ytHifrN(1)>b1tHgg=o+1+int(rN(1)*a):q=rN(1)>b2:pOgg+t,4+q*2:pOgg,88+q*5
 12ifs=itHiff<9tHpOp,x:pOn,10:goS19:f=f+1:pOn,8
 13ifjj>kk*ztHkk=kk*2:o=o+u:d=d-u:a=a-44:ll=7-8*(kk>3):goS17:iflf<9tHlf=lf+1
-14on-((p<daNp>o)aN(pE(p)<>m)aNlf>0)gO3:pOn,0:f=.:lf=lf-1:goS19:on-(lf=0)gO18:gO3
+14on-((p<daNp>o)aN(pE(p)<>m)aNlf>0)gO3:pOn,0:f=.:lf=lf-1:pOp,i:p=7933:goS19:gO3
 15pOp,x:fOqq=0toa/8:q=o+1+int(rN(1)*a):pOq,86:pOv,15:pOv,0:pOq,i:nE:reT
 16pOp,x:fOqq=-2to2:fOq=-1to1:oo=p+qq+u*q:pOv,15:pOv,0:pOoo,102:pOoo,i:nE:nE:reT
 17fOq=0to21:pOo-q+t,1:pOd+q+t,1:pOo-q,102:pOd+q,102:nE:reT
