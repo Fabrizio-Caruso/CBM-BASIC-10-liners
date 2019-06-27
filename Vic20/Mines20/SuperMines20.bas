@@ -1,5 +1,5 @@
-0x=1:o=7745:v=36878:h=81:n=v+1:pOn,8:ifj>rtHr=j:?"{clear}{blue}record!":fOi=1too/4:nE
-1k=1:p=7955:lf=3:t=30720:b=90:a=418:w=36:g0=7680:u=22:?"{clear}{red}mines{home}{down*3}{white}ijkl space"
+0a=418:x=1:o=7745:v=36878:h=81:n=v+1:pOn,8:ifj>rtHr=j:?"{clear}{blue}record!":fOi=1too/4:nE
+1k=1:p=7955:lf=3:t=30720:b=90:w=36:g0=7680:u=22:?"{clear}{red}mines {home}{down*2}{white}use ijkl space"
 2m=87:ll=3:wA198,1:pO198,.:j=.:d=8164:i=32:b1=.94:b2=.98:bp=100:z=250:?"{clear}":goS17
 3?"{home}{down}   {white}{119*3}  {red}mines  {white}{119*3}(fc)":ifpE(p)=88tHj=j+9:goS16:pOp,h:goS17
 4ifpE(p)=83tHj=j+14:goS15:pOp,b:pOp-23,i:pOp-21,i:pOp+21,i:pOp+23,i:goS19
