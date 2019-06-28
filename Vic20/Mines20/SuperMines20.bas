@@ -11,9 +11,9 @@
 10on-(lf=0)gO18:if-ytHifl=lltHg=o+1+int(rN(1)*a):pOg+t,4:pOg,b
 11if-ytHq=rN(1):ifq>b1tHgg=o+1+int(rN(1)*a):q=x>1aNq>b2:pOgg+t,4+q*2:pOgg,88+q*5
 12ifs=iaNf<9tHpOn,10:pOp,b:pOp-1,67:pOp+1,67:pOp-u,66:pOp+u,66:goS19:f=f+1:pOn,8
-13ifjj>x*ztHx=x*2:ll=7-8*(x>2):ifx>2tHo=o+u:d=d-u:a=a-44:goS17:iflf<9tHlf=lf+1
+13ifjj>x*ztHx=x*1.7:ll=7-8*(x>2):ifx>2tHo=o+u:d=d-u:a=a-44:goS17:iflf<9tHlf=lf+1
 14on-((p<daNp>o)aN(pE(p)<>m)aNlf>0)gO3:pOn,0:f=.:lf=lf-1:pOp,i:p=7955:goS19:gO3
-15pOp,b:fOqq=-9toa/9:q=o+1+int(rN(1)*a):pOq,86:pOv,15:pOv,0:pOq,i:nE:reT
+15pOp,b:fOqq=0toa/8:q=o+1+int(rN(1)*a):pOq,86:pOv,15:pOv,0:pOq,i:nE:reT
 16pOp,b:fOqq=-2to2:fOq=-1to1:oo=p+qq+u*q:pOv,15:pOv,0:pOoo,86:pOoo,i:nE:nE:reT
 17fOq=0to21:pOo-q+t,1:pOd+q+t,1:pOo-q,102:pOd+q,102:nE:reT
 18pOn,8:pOp,h:?"{home}{down*11}{right*5}{red}  game over  ":wA198,1:pO198,.:kc=.:jj=.:gO0
