@@ -1,0 +1,42 @@
+SUPER MINES RULES
+
+Avoid the walls and the mines or destroy the mines by using the anti-mine charges $ or the special items ("clubs" and "hearts").
+
+EVEN POSITIONS
+Mines are produced ONLY at nearly "EVEN" positions with respect to the player + at the player's previous position, i.e.
+The following diagram describes what we mean by "EVEN" positions:
+o-o-o-o-o
+---------
+o-o-P-o-o
+---------
+o-o-o-o-o
+
+Remark: Advanced player can use this information to avoid the formation of mines that could block a path or remove a good item.
+
+At each step:
+1. the mine at the player's position is ALWAYS produced and 
+2. possibly an additional mine is produced at an "EVEN" position
+
+ANTI-MINE CHARGES
+The player can destroy up to 4 mines by using an anti-mine charge $ which destroys mines on top, botton, right and left of the player.
+Charges are scarse and the player can only keep a maximum of 9.
+Charges can be collected on the game area or can be totally restore by reaching the next 100 points.
+
+SPECIAL ITEMS
+The two special items will free some areas when reached:
+1. "clubs" destroys anything around it position
+2. "hearts" destroys a small local area a lots of position on all the area (about an 8th of the current game area)
+
+WALLS
+Walls will shrink after some number of steps. This makes the game more challenging.
+
+SCORE
+1. step on empty area: 1 point
+2. step on a charge $: 5 points
+3. step on the "clubs" item: 15 points
+4. step on the "hearts" item: 20 points
+
+LIVES
+The game starts with 3 lives.
+One extra life is obtained by reaching the next 1000 points 
+
