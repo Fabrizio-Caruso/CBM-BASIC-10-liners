@@ -1,0 +1,120 @@
+
+SUPER MINES 
+
+IMPORTANT VARIABLES:
+-  m: mine character 
+-  h: player's character
+-  p: is the position of the player
+-  q: is the position of the mines that appear around the player, otherwise used elsewhere as an auxiliary variable
+-  j: is the score
+- jj: is the number of steps
+-  r: is the record
+-  f: is the number of used anti-mine charges (9 - number of remaining charges)
+-  y: is the player's movement flag
+-  d: lower border position
+-  o: upper border position
+-  t: is the difference between the video memory address and the color ram address, i.e., <addr>+t is used to set the color corresponding to the position whose data (not color) is pointed by <addr>
+- ll: is used to set the number of steps necessary to produce a charge (# steps = ll+1)
+-  a: is the number of cells in the game area
+-  z: is the number of lives
+- b1: is complement q'=1-p' of the probability p' of generating a special item (clubs or hearts) [6%]
+- b2: is complement q'=1-p'' of the probability p'' of generating the hearts item [2.5%]
+
+INDENTED CODE
+
+// Initialization
+0k=1:d=8164:a=418:o=7745:v=36878:n=v+1:pOn,8:
+ifj>rtH
+	r=j:?"{clear}record":fOi=0to999:nE
+1j=.:ll=7:m=87:p=7955:z=3:t=30720:b=90:w=36:u=22:kk=1:?"{clear}{white}ready":wA198,1:pO198,.
+2h=81:x=1:i=32:b1=.94:b2=.975:bp=100:?"{clear}":goS17:
+fOq=.tob:
+	pOo+1+int(rN(1)*a),m:
+nE
+
+// Main loop starts here
+3	?"{home}{down}{white}{119*3}  {red}super  mines  {white}{119*3}":
+	ifpE(p)=88tH // Clubs reached
+		j=j+14:goS16:pOp,h:goS17
+4	z=z-zz:
+	ifpE(p)=83tH // Hearts reached
+		j=j+19:goS15:pOp,b:pOp-23,i:pOp-21,i:pOp+21,i:pOp+23,i:goS19
+5	pO38421,2-5*zz:pO7701,z+48:?"{home}{yellow}${white}"9-f"{white}"j" {cyan}hi{white}"r:
+	ifpE(p)=wtH // If charge is reached -> Increment points by 4 (to have a total of 5)
+		j=j+4:
+		iff>.tH // Decrease the number of used charges (i.e., increment charges by 1)
+			f=f-1
+6	l=jjaNll:c=2:
+	if-ytH // Generate a new mines
+		q=p-4+2*int(rN(1)*5)+44*(int(rN(1)*3)-1):pOq,m:pOq+t,1
+7	s=.:gEa$:pOp,h:pOp+t,1: // Trick: see below (*)
+	ifa$<>""tH
+		s=aS(a$):e=saN1:c=s-75+e:pOv,15:pOv,.
+8	y=.:pOn,8:
+	ifsG(c)=ctH
+		y=1:pOp,m:p=p+c*(21*e+1):j=j+1:jj=jj+1:
+		ifz>9tH // Max 9 lives
+			z=9
+9	pOp+t,2+kc:pOg+t,7:pOg,w:g=7680:
+	ifj>=k*bptH // If next 100 points reached -> Reset charges to max
+		k=k+1:pOn,k:f=.:kc=kc+1:
+		ifkc>5tH // Reset initial color (red)
+			kc=.
+10	zz=.:
+	on-(z=.) // If no lives left -> Game Over
+		gO18:
+	if-ytH
+		ifl=lltH // Generate a charge $
+			g=o+1+int(rN(1)*a):pOg+t,4:pOg,b
+11	if-ytH
+		q=rN(1):
+		ifq>b1tH // Generate a special item (hearts if q>b2 and x>1)
+			gg=o+1+int(rN(1)*a):q=x>1aNq>b2:pOgg+t,4+q*2:pOgg,88+q*5
+12	ifs=iaNf<9tH // If jey pressed and charges > 0 -> Free 4 nearby cells
+		pOn,10:pOp,b:pOp-1,67:pOp+1,67:pOp-u,66:pOp+u,66:goS19:f=f+1:pOn,8
+13	zz=j>=500*kk: // If next 500 points reached -> Set zz to -1 so that an extra life is awarded (see line 4)
+	ifjj>x*150tH // Number of steps reaches the new threshold
+		x=x*1.45: // Set new threshold
+		ll=7-8*(x>3): // Update the number of steps necessary to produce a charge
+		ifx>2tH // If on level 3 or above -> reduce the game area
+			o=o+u:d=d-u:a=a-44:goS17
+14	kk=kk-zz:
+	on-((p<daNp>o)aN(pE(p)<>m)) // Check collision with walls and mines
+		gO3: // No life is lost
+	pOn,.:f=.:z=z-1:pOp,i:p=7955:goS19:gO3 // Life is lost
+
+// Hearts frees 1/8 of the game area
+15pOp,b:fOqq=.toa/8:q=o+1+int(rN(1)*a):pOq,86:pOv,15:pOv,.:pOq,i:nE:reT
+
+// Clubs freeze a small nearby area
+16pOp,b:fOqq=-2to2:fOq=-1to1:oo=p+qq+u*q:pOv,15:pOv,.:pOoo,86:pOoo,i:nE:nE:reT
+17fOq=.tou+1:
+	pOo-q+t,1:pOd+q+t,1:pOo-q,102:pOd+q,102:
+  nE:reT
+
+// Game over
+18pOn,8:pOp,h:?"{home}{down*11}{right*5}{red}  game over  ":wA198,1:pO198,.:kc=.:jj=.:gO0
+
+// Charge freeze 4 cells around the player
+19pOp,b:pOp-1,i:pOp+1,i:pOp-u,i:pOp+u,i:
+on-((p<o+u)or(p>d-u)) // If used next to the border, then restore the borders
+	goS17:
+reT
+
+
+[TRICK] (*)
+I have come up with this trick (by myself). It may be a new trick.
+I do not use conditionals, nor precomputed offsets, nor Boolean expressions.
+I use an interpolating formula that computes the offset from the ASCII code of the pressed key.
+
+I exploit the special symmetry of the ASCII codes of the keys I J K L:
+- I and K have odd codes and a distance of 2 bytes
+- J and L have even codes and a distance of 2 bytes
+- I and K have odd ASCII codes
+- J and L have even ASCII codes
+So, given s=ASC(a$) with a$ either I or J or K or L, we update the position p with
+p=p+c*(21*e+1) 
+where
+- e=s and 1 -> parity of the code, i.e., vertical vs horizontal movement
+- c=s-75+e -> -1 for left/up vs +1 for right/down
+- 21*e+1 -> vertical vs horizontal offset absolute value, i.e., 1 vs 22 
