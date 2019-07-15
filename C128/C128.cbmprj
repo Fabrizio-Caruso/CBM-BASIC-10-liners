@@ -45,6 +45,7 @@
         <FileName>mines20_experimental_key.bas</FileName>
         <FileName>Mines128_40col.bas</FileName>
         <FileName>Mines128_80col.bas</FileName>
+        <FileName>MiniConan.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -69,6 +70,17 @@
             <Regions />
             <Breakpoints />
             <Bookmarks>7,</Bookmarks>
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>MiniConan.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
             <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
