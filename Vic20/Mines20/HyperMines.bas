@@ -24,10 +24,10 @@
 40?"{clear}":goS60:?"{down}{white}     instructions":?"{down}{green}  avoid the mines {white}{119}":?"{down}{green}  use {yellow}${green} ({white}space{green})"
 41?"  to destroy mines":?"{down}  special items {purple}{120} {red}{115}":?"{down}{green} restore {yellow}${green} at {white}100 pts"
 42?"{down}{green}  extra {red}{113}{green} at {white}500 pts":goS58
-43?"{clear}":goS60:?"{down}{white}        score":?"{down}     {yellow}${white}        5 pts":?"{down}     {purple}{120}{white}       15 pts"
+43?"{clear}":goS60:?"{down*2}{white}        score":?"{down*2}     {yellow}${white}        5 pts":?"{down}     {purple}{120}{white}       15 pts"
 44?"{down}     {red}{115}{white}       20 pts":?"{down}{blue}  empty cell {white} 1 pt":goS58:?"{clear}":goS60:?"{down}{cyan}     hiscore{white}"r
 45?"{down*2}        {yellow}controls{white}":?"{down}   movements   {purple}i":?"              {purple}jkl"
-46?"{down*2}{white}   use {yellow}${white} with {purple}space" :?"{down*2}{green}   prepare to start":goS58:reT
+46?"{down*2}{white}   use {yellow}${white} with {purple}space" :?"{down*3}{green}   prepare to start":goS58:reT
 58?"{down*3}{right*6}{white}press a key":wA198,1:pO198,.:reT
 60?"{home}{down}{white}{119*3}  {red}hyper  mines  {white}{119*3}":reT
 70?"{home}{down*12}{right*5}{yellow} you made it ":fOi=0to1999:nE:goS58:gO21
