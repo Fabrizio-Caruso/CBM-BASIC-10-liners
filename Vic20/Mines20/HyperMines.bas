@@ -2,7 +2,7 @@
 1zz=15:a=418:d=8164:o=7745:j=.:m=87:p0=7955:p=p0:z=3:b=90:w=36:u=22:kk=1:aa=102:goS40
 2t=30720:h=81:x=1:i=32:b1=.94:b2=.975:bp=100:?"{clear}":goS20:fOq=.tob:pOo+1+fnrf(a),m:nE:zz=.
 3ww=150:bb=500:wr=1.45:g0=7680:g1=7701:gt=38421
-4rem
+4ifa<70tHgO70
 5ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tob:nE:iff>.tHf=f-1
 6goS60:ifpE(p)=88tHj=j+14:goS19:pOp,h:goS20
 7z=z-zz:ifpE(p)=83tHj=j+19:goS18:pOp,b:pOp-23,i:pOp-21,i:pOp+21,i:pOp+23,i:goS19
@@ -15,7 +15,7 @@
 14if-ytHq=rN(1):ifq>b1tHgg=o+1+fnrf(a):q=x>1aNq>b2:pOgg+t,4+q*2:pOgg,88+q*5
 15ifs=iaNf<9tHpOn,10:pOp,b:pOp-1,67:pOp+1,67:pOp-u,66:pOp+u,66:goS22:f=f+1:pOn,8
 16zz=j>=bb*kk:ifjj>x*wwtHx=x*wr:ll=7-8*(x>3):ifx>2tHo=o+u:d=d-u:a=a-44:zz=15:goS20:zz=.
-17kk=kk-zz:on-((p<daNp>o)aN(pE(p)<>m))gO5:pOn,.:f=.:z=z-1:pOp,i:p=p0:goS22:gO5
+17kk=kk-zz:on-((p<daNp>o)aN(pE(p)<>m))gO4:pOn,.:f=.:z=z-1:pOp,i:p=p0:goS22:gO4
 18pOp,b:fOqq=.toa/8:q=o+1+fnrf(a):pOq,86:pOv,15:pOv,.:pOq,i:nE:reT
 19pOp,b:fOqq=-2to2:fOq=-1to1:oo=p+qq+u*q:pOv,15:pOv,.:pOoo,86:pOoo,i:nE:nE:reT
 20fOq=.tou+1:pOv,zz:pOo-q+t,1:pOd+q+t,1:pOo-q,aa:pOd+q,aa:pOv,0:nE:goS60:reT
@@ -30,3 +30,4 @@
 46?"{down*2}{white}   use {yellow}${white} with {purple}space" :?"{down*2}{green}   prepare to start":goS58:reT
 58?"{down*3}{right*6}{white}press a key":wA198,1:pO198,.:reT
 60?"{home}{down}{white}{119*3}  {red}hyper  mines  {white}{119*3}":reT
+70?"{home}{down*12}{right*5}{yellow} you made it ":fOi=0to1999:nE:goS58:gO21
