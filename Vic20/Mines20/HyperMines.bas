@@ -1,7 +1,7 @@
 0dEfnrf(x)=int(rN(1)*x):ll=7:k=1:v=36878:n=v+1:pOn,8:ifj>rtHr=j:?"{clear}record":fOi=0to999:nE
 1zz=15:a=418:d=8164:o=7745:j=.:m=87:p0=7955:p=p0:z=3:b=90:w=36:u=22:kk=1:aa=102:goS40
 2t=30720:h=81:x=1:i=32:b1=.94:b2=.975:bp=100:?"{clear}":goS20:fOq=.tob:pOo+1+fnrf(a),m:nE:zz=.
-3ww=150:bb=500:wr=1.45:g0=7680:g1=7701:gt=38421
+3ww=rN(-rnd(0)):ww=150:bb=500:wr=1.45:g0=7680:g1=7701:gt=38421
 4ifa<70tHgO70
 5ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tob:nE:iff>.tHf=f-1
 6goS60:ifpE(p)=88tHj=j+14:goS19:pOp,h:goS20
