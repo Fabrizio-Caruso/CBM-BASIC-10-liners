@@ -22,5 +22,9 @@
 21pOn,8:pOp,h:?"{home}{down*11}{right*5}{red}  game over  ":wA198,1:pO198,.:kc=.:jj=.:gO0
 22pOp,b:pOp-1,i:pOp+1,i:pOp-u,i:pOp+u,i:on-((p<o+u)or(p>d-u))goS20:reT
 43?"{home}{down}{white}{119*3}  {red}hyper  mines  {white}{119*3}":reT
-44?"{clear}":goS43
-45?"{clear}{white}ready":wA198,1:pO198,.:reT
+44?"{clear}":goS43:?"{down}{white}     instructions":?"{down}{green}  avoid the mines {white}{119}":?"{down}{green}  use {yellow}${green} (press space)"
+46?"  to destroy mines":?"{down}  special items {purple}{120} {red}{115}":?"{down}{green} restore {yellow}${green} at {white}100 pts"
+47?"{down}{green}  extra {red}{113}{green} at {white}500 pts":goS50
+48?"{clear}":goS43:?"{down}{white}        score":?"{down}     {yellow}${white}        5 pts":?"{down}     {purple}{120}{white}       15 pts":?"{down}     {red}{115}{white}       20 pts"
+49?"{down}{blue}  empty cell {white} 1 pt":goS50:?"{clear}":goS43:?"{down*2}{cyan}  high score {white}"r:?"{down*2}{green}  prepare to start":goS50:reT
+50?"{down*3}{right*6}{white}press a key":wA198,1:pO198,.:reT
