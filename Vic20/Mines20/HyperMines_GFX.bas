@@ -3,7 +3,7 @@
 2ll=7:k=1:n=v+1:zz=15:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOi=0to1999:nE
 3o=7745:j=.:m=87+128:p0=7955:p=p0:z=3:b=90+128:w=36+128:u=22:kk=1:aa=102+128:goS40
 4t=30720:h=.:x=1:i=32:b1=.94:b2=.975:bp=100:?"{clear}":goS32:fOq=.to99:pOo+1+fnrf(a),m:nE:zz=.
-5ww=15:bb=500:wr=1.45:g0=7680:g1=7701:gt=38421:cc=88+128:hh=83+128:s=75:h=2
+5ww=150:bb=500:wr=1.45:g0=7680:g1=7701:gt=38421:cc=88+128:hh=83+128:s=75:h=2
 6rem 
 7on-(a<70)gO70:rem other stuff
 8ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tob:nE:iff>.tHf=f-1
