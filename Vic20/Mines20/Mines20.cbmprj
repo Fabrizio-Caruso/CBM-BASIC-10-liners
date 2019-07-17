@@ -43,14 +43,14 @@
         <FileName>Meteors20.bas</FileName>
         <FileName>Mines20.bas</FileName>
         <FileName>SuperMines20.bas</FileName>
-        <FileName>HyperMines.bas</FileName>
+        <FileName>HyperMines_GFX.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
     <AssyBinaryFileLocation />
     <SourceFiles>
         <SourceFile>
-            <Name>HyperMines.bas</Name>
+            <Name>HyperMines_GFX.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
