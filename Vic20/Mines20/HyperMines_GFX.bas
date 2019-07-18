@@ -1,15 +1,15 @@
 0pO56,30:pO52,30:x=rN(-rnd(0)):fOp=0to47:rEb:pO7168+p,b:nE:v=36878:pO646,1:pOv-9,255
 1dEfnrf(x)=int(rN(1)*x)
 2ll=7:k=1:n=v+1:zz=15:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOi=0to1999:nE
-3o=7745:j=.:m=87+128:p0=7955:p=p0:z=3:b=90+128:w=36+128:u=22:kk=1:aa=102+128:goS40
+3o=7745:j=.:m=215:p0=7955:p=p0:z=3:b=218:w=36+128:u=22:kk=1:aa=230:goS40
 4t=30720:h=.:x=1:i=32:b1=.94:b2=.975:bp=100:?"{clear}":goS32:fOq=.to99:pOo+1+fnrf(a),m:nE:zz=.
-5ww=150:bb=500:wr=1.45:g0=7680:g1=7701:gt=38421:cc=88+128:hh=83+128:s=75:h=2
+5ww=150:bb=500:wr=1.45:g0=7680:g1=7701:gt=38421:cc=216:hh=211:s=75:h=2
 6rem 
 7on-(a<70)gO70:rem other stuff
 8ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tob:nE:iff>.tHf=f-1
 9goS60:ifpE(p)=cctHj=j+14:goS31:pOp,h:goS32
 10z=z-zz:ifpE(p)=hhtHj=j+19:goS30:pOp,b:pOp-23,i:pOp-21,i:pOp+21,i:pOp+23,i:goS31
-11pOgt,2-5*zz:pOg1,z+48:?"{home}{yellow}{reverse on}${white}"9-f"{white}"j" {cyan}hi{white}"r
+11pOgt,2-5*zz:pOg1,z+176:?"{home}{yellow}{reverse on}${white}"9-f"{white}"j" {cyan}hi{white}"r
 12l=jjaNll:c=2:ifrN(1)>.1tHq=p-4+2*fnrf(5)+44*(fnrf(3)-1):pOq,m:pOq+t,1
 13s=.:gEa$:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:pOv,15:pOv,.
 14y=.:pOn,8:ifsG(c)=ctHy=1:h=s-73:pOp,m:p=p+c*(21*e+1):j=j+1:jj=jj+1:ifz>9tHz=9
