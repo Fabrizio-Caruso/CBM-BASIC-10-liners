@@ -9,7 +9,7 @@
 8ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tou:nE:iff>.tHf=f-1
 9goS60:ifpE(p)=cctHj=j+14:goS31:pOp,h:goS32
 10z=z-zz:ifpE(p)=hhtHj=j+19:goS30:pOp,b:pOp-t3,ii:pOp-t1,ii:pOp+t1,ii:pOp+t3,ii:goS31
-11pOgt,2-5*zz:pOg1,z+176:?"{home}{yellow}{reverse on}${white}"9-f"{white}"j" {cyan}hi{white}"fre(0)
+11pOgt,2-5*zz:pOg1,z+176:?"{home}{yellow}{reverse on}${white}"9-f"{white}"j" {cyan}hi{white}"r
 12l=jjaNll:c=2:ifrN(1)>rrtHq=p-4+2*fnrf(5)+44*(fnrf(3)-1):pOq,m:pOq+t,1
 13s=.:gEa$:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:pOv,15:pOv,.
 14y=.:pOn,8:ifsG(c)=ctHy=1:h=s-23:pOp,m:p=p+c*(t1*e+1):j=j+1:jj=jj+1:ifz>9tHz=9
@@ -28,7 +28,7 @@
 36pOp+t-1,7:pOp+t+1,7:pOp+t-u,7:pOp+t+u,7:pOp-1,55:pOp+1,55:pOp-u,54:pOp+u,54:reT
 40?"{clear}":goS60:?"{down}{white}{reverse on}     instructions":?"{down}{green}{reverse on}  avoid the mines {white}{119}"
 41?"{down}{green}{reverse on}   use {yellow}${green} ({white}space{green})":?"{reverse on}   to destroy mines":?"{down}{reverse on}  special items {purple}{120} {red}{115}"
-42?"{down}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red}{113}{green} every {white}500pts":goS58
+42?"{down}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red} {green} every {white}500pts":pO7680+22*16+7,52:goS58
 43?"{clear}":goS60:?"{down}{white}{reverse on}        score":?"{down*2}{reverse on}     {yellow}${white}        5 pts":?"{down}{reverse on}     {purple}{120}{white}       15 pts"
 44?"{down}{reverse on}     {red}{115}{white}       20 pts":?"{down}{blue}{reverse on}  empty cell {white} 1 pt":goS58:?"{clear}":goS60
 45?"{down}{cyan}{reverse on}     hiscore{white}"r:?"{down*2}{reverse on}         {yellow}controls{white}":?"{down}{reverse on}    movements   {purple}i"
