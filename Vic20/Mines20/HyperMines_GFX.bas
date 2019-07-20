@@ -1,11 +1,11 @@
-0pO56,29:pO52,29:x=rN(-rnd(0)):fOp=0to47:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
+0pO56,29:pO52,29:x=rN(-rnd(0)):fOp=0to55:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
 1dEfnrf(x)=int(rN(1)*x)
 2ll=7:k=1:n=v+1:zz=15:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOi=0to1999:nE
 3rr=.4:o=7745:m=215:p0=7955:p=p0:z=3:b=218:w=164:u=22:kk=1:aa=230:goS40:ii=160:h=52
 4t=30720:x=1:i=32:b1=.94:b2=.975:bp=100:?"{clear}":goS32:fOq=.toh:pOo+1+fnrf(a),m:nE:zz=.
 5j=.:ww=150:bb=500:wr=1.45:g0=7680:g1=7701:gt=38421:cc=216:hh=211:xx=214:t1=21:t3=23
-6rem 
-7on-(a<70)gO70:rem other stuff
+6ifpE(p)=56tHj=j+9:goS37
+7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
 8ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tou:nE:iff>.tHf=f-1
 9goS60:ifpE(p)=cctHj=j+14:goS31:pOp,h:goS32
 10z=z-zz:ifpE(p)=hhtHj=j+19:goS30:pOp,b:pOp-t3,ii:pOp-t1,ii:pOp+t1,ii:pOp+t3,ii:goS31
@@ -26,6 +26,8 @@
 34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:on-((p<o+u)or(p>d-u))goS32:reT
 35o=o+u:d=d-u:a=a-44:zz=15:goS32:zz=.:rr=rr-.1:reT
 36pOp+t-1,7:pOp+t+1,7:pOp+t-u,7:pOp+t+u,7:pOp-1,55:pOp+1,55:pOp-u,54:pOp+u,54:reT
+37fOqq=-4to4:pOv,15:oo=p+qq:pOoo+t,2:pOoo,xx:pOoo,i:pOv,0:nE
+38fOqq=-4to4:pOv,15:oo=p+qq*22:pOoo+t,2:pOoo,xx:pOoo,i:pOv,0:nE:reT
 40?"{clear}":goS60:?"{down}{white}{reverse on}     instructions":?"{down}{green}{reverse on}  avoid the mines {white}{119}"
 41?"{down}{green}{reverse on}   use {yellow}${green} ({white}space{green})":?"{reverse on}   to destroy mines":?"{down}{reverse on}  special items {purple}{120} {red}{115}"
 42?"{down}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red} {green} every {white}500pts":pO7680+22*16+7,52:goS58
@@ -43,3 +45,4 @@
 83dA24,53,27,116,152,24,20,20
 84dA24,24,24,48,24,12,24,24
 85dA0,0,0,255,0,0,0,0
+86dA24,24,24,255,255,24,24,24
