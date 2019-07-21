@@ -1,4 +1,4 @@
-0pO56,30:pO52,30:x=rN(-rnd(0)):fOp=0to55:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
+0pO56,29:pO52,29:x=rN(-rnd(0)):fOp=0to55:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
 1dEfnrf(x)=int(rN(1)*x)
 2ll=7:k=1:n=v+1:zz=15:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOi=0to1999:nE
 3rr=.4:o=7745:m=215:p0=7955:p=p0:z=3:b=218:w=164:u=22:kk=1:aa=230:goS40:ii=160:h=52
@@ -20,7 +20,7 @@
 19zz=j>=bb*kk:ifjj>x*wwtHx=x*wr:ll=7-8*(x>3):ifx>2tHgoS35
 20kk=kk-zz:on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,.:f=.:z=z-1:pOp,ii:p=p0:goS34:gO6
 30pOp,b:fOqq=.toa/8:q=o+1+fnrf(a):pOq+t,2:pOq,xx:pOv,15:pOv,.:pOq,ii:nE:reT
-31pOp,b:fOqq=-2to2:fOq=-2to2:oo=p+qq+u*q:pOv,15:pOv,.:pOoo+t,2:pOoo,xx:foree=.to1:nE:pOoo,ii:nE:nE:reT
+31pOp,b:fOqq=-2to2:fOq=-2to2:oo=p+qq+u*q:pOv,15:pOv,.:pOoo+t,2:pOoo,xx:pOoo,ii:nE:nE:reT
 32fOq=.tou+1:pOv,zz:pOo-q+t,1:pOd+q+t,1:pOo-q,aa:pOd+q,aa:pOv,0:nE:goS60:reT
 33pOn,8:pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over  ":wA198,1:pO198,.:kc=.:jj=.:gO2
 34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:on-((p<o+u)or(p>d-u))goS32:reT
@@ -44,5 +44,5 @@
 82dA24,36,24,102,153,24,36,102
 83dA24,53,27,116,152,24,20,20
 84dA24,24,24,48,24,12,24,24
-85dA0,0,0,255,0,0,0,0
+85dA0,0,32,247,223,8,0,0
 86dA24,24,24,255,255,24,24,24
