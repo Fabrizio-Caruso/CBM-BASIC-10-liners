@@ -3,7 +3,7 @@
 2ll=7:k=1:n=v+1:zz=15:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOi=0to1999:nE
 3rr=.5:o=7745:m=215:p0=7955:p=p0:z=3:b=218:w=164:u=22:kk=1:aa=230:goS40:ii=160:h=52
 4t=30720:x=1:i=32:b1=.95:b2=.98:bp=100:?"{clear}":goS32:fOq=.toh:pOo+1+fnrf(a),m:nE:zz=.
-5j=.:ww=150:bb=500:wr=1.45:g0=7680:g1=7701:gt=38421:cc=216:hh=211:xx=214:t1=21:t3=23
+5j=.:ww=150:bb=500:wr=1.4:g0=7680:g1=7701:gt=38421:cc=216:hh=211:xx=214:t1=21:t3=23
 6ifpE(p)=56tHj=j+9:goS37
 7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
 8ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tou:nE:iff>.tHf=f-1
@@ -27,15 +27,17 @@
 35o=o+u:d=d-u:a=a-44:zz=15:goS32:zz=.:rr=rr-.1:reT
 36pOp+t-1,7:pOp+t+1,7:pOp+t-u,7:pOp+t+u,7:pOp-1,55:pOp+1,55:pOp-u,54:pOp+u,54:reT
 37fOqq=-3to3:pOv,15:oo=p+qq:pOoo+t,2:pOoo,xx:pOoo,i:pOv,0:nE
-38fOqq=-3to3:pOv,15:oo=p+qq*22:pOoo+t,2:pOoo,xx:pOoo,i:pOv,0:nE:reT
+38fOqq=-3to3:pOv,15:oo=p+qq*22:pOoo+t,2:pOoo,xx:pOoo,i:pOv,0:nE
+39on-((p<o+88)or(p>d-88))goS32:reT
 40?"{clear}":goS60:?"{down}{white}{reverse on}     instructions":?"{down}{green}{reverse on}  avoid the mines {white}{119}"
-41?"{down}{green}{reverse on}   use {yellow}${green} ({white}space{green})":?"{reverse on}   to destroy mines":?"{down}{reverse on}  special items {purple}{120} {red}{115}"
-42?"{down}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red} {green} every {white}500pts":pO7680+22*16+7,52:goS58
-43?"{clear}":goS60:?"{down}{white}{reverse on}        score":?"{down*2}{reverse on}     {yellow}${white}        5 pts":?"{down}{reverse on}     {purple}{120}{white}       15 pts"
-44?"{down}{reverse on}     {red}{115}{white}       20 pts":?"{down}{blue}{reverse on}  empty cell {white} 1 pt":goS58:?"{clear}":goS60
-45?"{down}{cyan}{reverse on}     hiscore{white}"r:?"{down*2}{reverse on}         {yellow}controls{white}":?"{down}{reverse on}    movements   {purple}i"
-46?"{reverse on}               {purple}jkl":?"{down*2}{white}{reverse on}    use {yellow}${white}      {purple}space" :?"{down*3}{green}{reverse on}   prepare to start"
-47goS58:reT
+41?"{down}{green}{reverse on}   use {yellow}${green} ({white}space{green})":?"{reverse on}   to destroy mines":?"{down}{reverse on}  special items   {purple}{120} {red}{115}"
+42?"{down}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red} {green} every {white}500pts":pO8039,52
+43pO7938,56:goS58:?"{clear}":goS60:?"{down}{white}{reverse on}        score":?"{down*2}{reverse on}     {yellow}${white}        5 pts"
+44?"{down}{reverse on}     {green} {white}       10 pts":pO7883,56:?"{down}{reverse on}     {purple}{120}{white}       15 pts"
+45?"{down}{reverse on}     {red}{115}{white}       20 pts":?"{down}{blue}{reverse on}  empty cell {white} 1 pt":goS58:?"{clear}":goS60
+46?"{down}{cyan}{reverse on}     hiscore{white}"r:?"{down*2}{reverse on}         {yellow}controls{white}":?"{down}{reverse on}    movements   {purple}i"
+47?"{reverse on}               {purple}jkl":?"{down*2}{white}{reverse on}    use {yellow}${white}      {purple}space" :?"{down*3}{green}{reverse on}   prepare to start"
+48goS58:reT
 58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:reT
 60?"{home}{down}{reverse on}{white}{119*3}  {red}hyper  mines  {white}{119*3}":reT
 70?"{home}{down*12}{right*5}{yellow}{reverse on} you made it! ":fOi=0to1999:nE:goS58:gO33
