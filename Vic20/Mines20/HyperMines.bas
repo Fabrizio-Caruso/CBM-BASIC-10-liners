@@ -31,11 +31,11 @@
 39on-((p<o+88)or(p>d-88))goS32:reT
 40?"{clear}":goS60:?"{down}{white}{reverse on}     instructions":?"{down}{green}{reverse on}  avoid the mines {white}{119}"
 41?"{down}{green}{reverse on}   use {yellow}${green} ({white}space{green})":?"{reverse on}   to destroy mines":?"{down}{reverse on}  special items   {purple}{120} {red}{115}"
-42?"{down}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red} {green} every {white}500pts":pO8039,52
-43pO7938,56:goS58:?"{clear}":goS60:?"{down}{white}{reverse on}        score":?"{down*2}{reverse on}     {yellow}${white}        5 pts"
-44?"{down}{reverse on}     {green} {white}       10 pts":pO7883,56:?"{down}{reverse on}     {purple}{120}{white}       15 pts"
-45?"{down}{reverse on}     {red}{115}{white}       20 pts":?"{down}{blue}{reverse on}  empty cell {white} 1 pt":goS58:?"{clear}":goS60
-46?"{down*3}{reverse on}         {yellow}controls{white}":?"{down}{reverse on}    movements   {purple}i"
+42?"{down}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red} {green} every {white}500pts":pO8039,52:pO7938,56
+43pO7940,57:pO7942,58:goS58:?"{clear}":goS60:?"{down}{white}{reverse on}        score":?"{down*2}{reverse on}     {yellow}${white}        5 pts"
+44?"{down}{reverse on}     {green} {white}       10 pts":pO7883,56:?"{down}{reverse on}     {purple}{120}{white}       15 pts":pO7927,57
+45?"{down}{reverse on}     {red} {white}       20 pts":pO7971,58:?"{down}{blue}{reverse on}  empty cell {white} 1 pt":goS58:?"{clear}":goS60
+46?"{down*2}{reverse on}         {yellow}controls{white}":?"{down*2}{reverse on}    movements   {purple}i"
 47?"{reverse on}               {purple}jkl":?"{down*2}{white}{reverse on}    use {yellow}${white}      {purple}space":?"{down*3}{green}{reverse on}   prepare to start"
 48goS58:reT
 58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:reT
