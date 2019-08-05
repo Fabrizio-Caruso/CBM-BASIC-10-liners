@@ -2,8 +2,8 @@
 1dEfnrf(x)=int(rN(1)*x)
 2ll=7:k=1:n=v+1:zz=15:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOi=0tog1:nE
 3rr=.5:o=7745:m=59:p0=7955:p=p0:z=3:b=218:w=164:u=22:kk=1:aa=230:goS40:ii=160:h=52
-4t=30720:x=1:i=32:b1=.95:b2=.983:bp=100:?"{clear}":goS32:fOq=.toh:pOo+1+fnrf(a),m:nE:zz=.
-5j=.:ww=130:bb=500:wr=1.4:g0=7680:g1=7701:gt=38421:cc=57:hh=58:xx=214:t1=21:t3=23
+4t=30720:x=1:i=32:b1=.95:b2=.982:bp=100:?"{clear}":goS32:fOq=.toh:pOo+1+fnrf(a),m:nE:zz=.
+5j=.:ww=120:bb=500:wr=1.4:g0=7680:g1=7701:gt=38421:cc=57:hh=58:xx=214:t1=21:t3=23
 6ifpE(p)=56tHj=j+9:goS37
 7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
 8ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tou:nE:iff>.tHf=f-1
