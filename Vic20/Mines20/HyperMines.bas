@@ -1,9 +1,9 @@
-0pO56,29:pO52,29:x=rN(-rnd(0)):fOp=0to55:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
+0pO56,29:pO52,29:x=rN(-rN(0)):fOp=0to71:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
 1dEfnrf(x)=int(rN(1)*x)
 2ll=7:k=1:n=v+1:zz=15:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOi=0to1999:nE
 3rr=.5:o=7745:m=215:p0=7955:p=p0:z=3:b=218:w=164:u=22:kk=1:aa=230:goS40:ii=160:h=52
 4t=30720:x=1:i=32:b1=.95:b2=.98:bp=100:?"{clear}":goS32:fOq=.toh:pOo+1+fnrf(a),m:nE:zz=.
-5j=.:ww=150:bb=500:wr=1.4:g0=7680:g1=7701:gt=38421:cc=216:hh=211:xx=214:t1=21:t3=23
+5j=.:ww=150:bb=500:wr=1.4:g0=7680:g1=7701:gt=38421:cc=57:hh=58:xx=214:t1=21:t3=23
 6ifpE(p)=56tHj=j+9:goS37
 7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
 8ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tou:nE:iff>.tHf=f-1
@@ -15,7 +15,7 @@
 14y=.:pOn,8:ifsG(c)=ctHy=1:h=s-23:pOp,m:p=p+c*(t1*e+1):j=j+1:jj=jj+1:ifz>9tHz=9
 15pOp+t,2+kc:pOg+t,7:pOg,w:g=g0:ifj>=k*bptHk=k+1:pOn,k:f=.:kc=kc+1:ifkc>5tHkc=.
 16zz=.:on-(z=.)gO33:if-ytHifl=lltHg=o+1+fnrf(a):pOg+t,4:pOg,b
-17if-ytHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>1aNq>b2:pOgg+t,4+q*2:pOgg,cc+q*5
+17if-ytHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>1aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
 18ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1:pOn,8
 19zz=j>=bb*kk:ifjj>x*wwtHx=x*wr:ll=7-8*(x>3):ifx>2tHgoS35
 20kk=kk-zz:on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,.:f=.:z=z-1:pOp,ii:p=p0:goS34:gO6
@@ -35,16 +35,12 @@
 43pO7938,56:goS58:?"{clear}":goS60:?"{down}{white}{reverse on}        score":?"{down*2}{reverse on}     {yellow}${white}        5 pts"
 44?"{down}{reverse on}     {green} {white}       10 pts":pO7883,56:?"{down}{reverse on}     {purple}{120}{white}       15 pts"
 45?"{down}{reverse on}     {red}{115}{white}       20 pts":?"{down}{blue}{reverse on}  empty cell {white} 1 pt":goS58:?"{clear}":goS60
-46?"{down}{cyan}{reverse on}     hiscore{white}"r:?"{down*2}{reverse on}         {yellow}controls{white}":?"{down}{reverse on}    movements   {purple}i"
-47?"{reverse on}               {purple}jkl":?"{down*2}{white}{reverse on}    use {yellow}${white}      {purple}space" :?"{down*3}{green}{reverse on}   prepare to start"
+46?"{down*3}{reverse on}         {yellow}controls{white}":?"{down}{reverse on}    movements   {purple}i"
+47?"{reverse on}               {purple}jkl":?"{down*2}{white}{reverse on}    use {yellow}${white}      {purple}space":?"{down*3}{green}{reverse on}   prepare to start"
 48goS58:reT
 58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:reT
 60?"{home}{down}{reverse on}{white}{119*3}  {red}hyper  mines  {white}{119*3}":reT
 70?"{home}{down*12}{right*5}{yellow}{reverse on} you made it! ":fOi=0to1999:nE:goS58:gO33
-80dA24,60,24,102,153,24,36,102
-81dA24,172,216,46,25,24,40,40
-82dA24,36,24,102,153,24,36,102
-83dA24,53,27,116,152,24,20,20
-84dA24,24,24,48,24,12,24,24
-85dA0,0,32,247,223,8,0,0
-86dA24,24,24,255,255,24,24,24
+80dA24,60,24,102,153,24,36,102,24,172,216,46,25,24,40,40,24,36,24,102,153,24,36,102
+83dA24,53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8,0,0,24,24,24
+86dA255,255,24,24,24,255,195,165,153,153,165,195,255,153,36,90,189,189,90,36,153
