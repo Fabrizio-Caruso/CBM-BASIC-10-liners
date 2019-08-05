@@ -1,8 +1,8 @@
 0pO56,29:pO52,29:x=rN(-rN(0)):fOp=0to79:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
 1dEfnrf(x)=int(rN(1)*x)
 2ll=7:k=1:n=v+1:zz=15:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOi=0tog1:nE
-3rr=.5:o=7745:m=59:p0=7955:p=p0:z=3:b=218:w=164:u=22:kk=1:aa=230:goS40:ii=160:h=52
-4t=30720:x=1:i=32:b1=.95:b2=.982:bp=100:?"{clear}":goS32:fOq=.toh:pOo+1+fnrf(a),m:nE:zz=.
+3rr=.8:o=7745:m=59:p0=7955:p=p0:z=3:b=218:w=164:u=22:kk=1:aa=230:goS40:ii=160:h=52
+4t=30720:x=1:i=32:b1=.95:b2=.982:bp=100:?"{clear}":goS32:fOq=.to40:pOo+1+fnrf(a),m:nE:zz=.
 5j=.:ww=120:bb=500:wr=1.4:g0=7680:g1=7701:gt=38421:cc=57:hh=58:xx=214:t1=21:t3=23
 6ifpE(p)=56tHj=j+9:goS37
 7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
@@ -17,7 +17,7 @@
 16zz=.:on-(z=.)gO33:if-ytHifl=lltHg=o+1+fnrf(a):pOg+t,4:pOg,b
 17if-ytHifx>1tHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>3aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
 18ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1:pOn,8
-19zz=j>=bb*kk:ifjj>x*wwtHx=x*wr:ll=7-8*(x>3):ifx>2tHgoS35
+19zz=j>=bb*kk:ifjj>x*wwtHx=x*wr:ll=7-8*(x>3):ifx>3tHgoS35
 20kk=kk-zz:on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,.:f=.:z=z-1:pOp,ii:p=p0:goS34:gO6
 30pOp,b:fOqq=.toa/8:oo=o+1+fnrf(a):goS99:nE:reT
 31pOp,b:fOqq=-2to2:fOq=-2to2:oo=p+qq+u*q:goS99:nE:nE:reT
