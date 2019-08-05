@@ -2,7 +2,7 @@
 1dEfnrf(x)=int(rN(1)*x)
 2ll=7:k=1:n=v+1:zz=15:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOi=0tog1:nE
 3rr=.5:o=7745:m=59:p0=7955:p=p0:z=3:b=218:w=164:u=22:kk=1:aa=230:goS40:ii=160:h=52
-4t=30720:x=1:i=32:b1=.95:b2=.98:bp=100:?"{clear}":goS32:fOq=.toh:pOo+1+fnrf(a),m:nE:zz=.
+4t=30720:x=1:i=32:b1=.95:b2=.983:bp=100:?"{clear}":goS32:fOq=.toh:pOo+1+fnrf(a),m:nE:zz=.
 5j=.:ww=150:bb=500:wr=1.4:g0=7680:g1=7701:gt=38421:cc=57:hh=58:xx=214:t1=21:t3=23
 6ifpE(p)=56tHj=j+9:goS37
 7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
@@ -15,7 +15,7 @@
 14y=.:pOn,8:ifsG(c)=ctHy=1:h=s-23:pOp,m:p=p+c*(t1*e+1):j=j+1:jj=jj+1:ifz>9tHz=9
 15pOp+t,2+kc:pOg+t,7:pOg,w:g=g0:ifj>=k*bptHk=k+1:pOn,k:f=.:kc=kc+1:ifkc>5tHkc=.
 16zz=.:on-(z=.)gO33:if-ytHifl=lltHg=o+1+fnrf(a):pOg+t,4:pOg,b
-17if-ytHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>1aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
+17if-ytHifx>1tHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>3aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
 18ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1:pOn,8
 19zz=j>=bb*kk:ifjj>x*wwtHx=x*wr:ll=7-8*(x>3):ifx>2tHgoS35
 20kk=kk-zz:on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,.:f=.:z=z-1:pOp,ii:p=p0:goS34:gO6
@@ -34,7 +34,7 @@
 42?"{down}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red} {green} every {white}500pts":pO8039,52:pO7938,56
 43pO7940,57:pO7942,58:goS58:?"{clear}":goS60:?"{down*4}{reverse on}     {yellow}${white}        5pts"
 44?"{down}{reverse on}     {green} {white}       10pts":pO7883,56:?"{down}{reverse on}     {purple}{120}{white}       15pts":pO7927,57
-45?"{down}{reverse on}     {red} {white}       20pts":pO7971,58:?"{down}{blue}{reverse on}  empty cell {white} 1 pt":goS58:?"{clear}":goS60
+45?"{down}{reverse on}     {red} {white}       20pts":pO7971,58:?"{down}{blue}{reverse on}  empty cell {white} 1pt":goS58:?"{clear}":goS60
 46?"{down*5}{reverse on}{white}    movements   {purple}i"
 47?"{reverse on}               {purple}jkl":?"{down*2}{white}{reverse on}    use {yellow}${white}      {purple}space":?"{down*3}{green}{reverse on}   prepare to start"
 48goS58:reT
