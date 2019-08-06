@@ -36,13 +36,11 @@
 44?"{down}{reverse on}     {green} {white}       10pts":pO7883,56:?"{down}{reverse on}     {purple}{120}{white}       15pts":pO7927,57
 45?"{down}{reverse on}     {red} {white}       20pts":pO7971,58:?"{down}{blue}{reverse on}  empty cell {white} 1pt":goS58:?"{clear}":goS60
 46?sP5)"{down*5}{reverse on}{white}controls  {purple}i"
-47?sP14)"{reverse on}{purple}jkl":?sP8)"{down*2}{reverse on}{yellow}$    {purple}space":?"{down*3}{green}{reverse on}   prepare to start"
-48goS58:reT
+47?sP14)"{reverse on}{purple}jkl":?sP8)"{down*2}{reverse on}{yellow}$    {purple}space":?"{down*3}{green}{reverse on}   prepare to start":goS58:reT
 58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:reT
 60?"{home}{down}{reverse on}{cyan}{218*3}  {red}hyper  mines  {cyan}{218*3}":reT
 70?"{home}{down*12}{right*5}{yellow}{reverse on} you made it!":fOi=0tog1:nE:goS58:gO33
-80dA24,60,24,102,153,24,36,102,24,172,216,46,25,24,40,40,24,36,24,102,153,24,36,102
-83dA24,53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8,0,0,60,24,153
-86dA231,231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189,90,36,153
-89dA0,24,36,90,90,36,24,0
-99pOv,15:pOoo+t,2:pOoo,xx:fOpp=.to19:nE:pOv,.:pOoo,ii:reT
+80dA24,60,24,102,153,24,36,102,24,172,216,46,25,24,40,40,24,36,24,102,153,24,36,102,24
+83dA53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8,0,0,60,24,153,231
+86dA231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189,90,36,153,0,24,36
+99pOv,15:pOoo+t,2:pOoo,xx:fOpp=.to19:nE:pOv,.:pOoo,ii:reT:dA90,90,36,24,0
