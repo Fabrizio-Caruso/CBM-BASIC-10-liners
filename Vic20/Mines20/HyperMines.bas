@@ -2,12 +2,12 @@
 1dEfnrf(x)=int(rN(1)*x)
 2ll=7:k=1:n=v+1:zz=15:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOi=0tog1:nE
 3rr=.8:o=7745:m=59:p0=7955:p=p0:z=3:b=218:w=164:u=22:kk=1:aa=230:goS40:ii=160:h=52
-4t=30720:x=1:i=32:b1=.95:b2=.982:bp=100:?"{clear}":goS32:fOq=.to40:pOo+1+fnrf(a),m:nE:zz=.
+4t=30720:x=1:i=32:b1=.95:b2=.982:bp=100:?"{clear}":goS39:fOq=.to40:pOo+1+fnrf(a),m:nE:zz=.
 5j=.:ww=120:bb=500:wr=1.4:g0=7680:g1=7701:gt=38421:cc=57:hh=58:xx=214:t1=21:t3=23
 6ifpE(p)=56tHj=j+9:goS37
 7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
 8ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tou:nE:iff>.tHf=f-1
-9goS60:ifpE(p)=cctHj=j+14:goS31:pOp,h:goS32
+9goS60:ifpE(p)=cctHj=j+14:goS31:pOp,h:goS39
 10z=z-zz:ifpE(p)=hhtHj=j+19:goS30:pOp,b:pOp-t3,ii:pOp-t1,ii:pOp+t1,ii:pOp+t3,ii:goS34
 11pOgt,2-5*zz:pOg1,z+176:?"{home}{yellow}{reverse on}${white}"9-f"{white}"j" {cyan}hi{white}"r
 12l=jjaNll:c=2:ifrN(1)>rrtHq=p-4+2*fnrf(5)+44*(fnrf(3)-1):pOq,m:pOq+t,1
@@ -20,14 +20,15 @@
 19zz=j>=bb*kk:ifjj>x*wwtHx=x*wr:ll=7-8*(x>3):ifx>3tHgoS35
 20kk=kk-zz:on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,.:f=.:z=z-1:pOp,ii:p=p0:goS34:gO6
 30pOp,b:fOqq=.toa/8:oo=o+1+fnrf(a):goS99:nE:reT
-31pOp,b:fOqq=-2to2:fOq=-2to2:oo=p+qq+u*q:goS99:nE:nE:reT
-32fOq=.tou+1:pOv,zz:pOo-q+t,1:pOd+q+t,1:pOo-q,aa:pOd+q,aa:pOv,0:nE:goS60:reT
-33pOn,8:pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over  ":wA198,1:pO198,.:kc=.:jj=.:gO2
-34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:on-((p<o+u)or(p>d-u))goS32:reT
-35o=o+u:d=d-u:a=a-44:zz=15:goS32:zz=.:rr=rr-.1:reT
+31pOp,b:fOqq=.to2:fOq=.to2:oo=p+qq+u*q:goS99:oo=p-qq+u*q:goS99:oo=p+qq-u*q:goS99
+32oo=p-qq-u*q:goS99:nE:nE:reT
+33pOn,8:pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over ":wA198,1:pO198,.:kc=.:jj=.:gO2
+34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:on-((p<o+u)or(p>d-u))goS39:reT
+35o=o+u:d=d-u:a=a-44:zz=15:goS39:zz=.:rr=rr-.1:reT
 36pOp+t-1,7:pOp+t+1,7:pOp+t-u,7:pOp+t+u,7:pOp-1,55:pOp+1,55:pOp-u,54:pOp+u,54:reT
 37fOqq=.to3:oo=p+qq:goS99:oo=p-qq:goS99:oo=p+qq*22:goS99:oo=p-qq*22:goS99:nE
-39on-((p<o+88)or(p>d-88))goS32:reT
+38on-((p<o+88)or(p>d-88))goS39:reT
+39fOq=.tou+1:pOv,zz:pOo-q+t,1:pOd+q+t,1:pOo-q,aa:pOd+q,aa:pOv,0:nE:goS60:reT
 40?"{clear}":goS60:?"{down*3}{green}{reverse on}  avoid the mines {white}{119}":pO7830,59
 41?"{down}{green}{reverse on}   use {yellow}${green} ({white}space{green})":?"{reverse on}   to destroy mines":?"{down}{reverse on}  special items   {purple}{120} {red}{115}"
 42?"{down}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red} {green} every {white}500pts":pO8039,52:pO7938,56
@@ -44,4 +45,4 @@
 83dA24,53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8,0,0,60,24,153
 86dA231,231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189,90,36,153
 89dA0,24,36,90,90,36,24,0
-99pOv,15:pOoo+t,2:pOoo,xx:forpp=.to9:nE:pOv,.:pOoo,ii:reT
+99pOv,15:pOoo+t,2:pOoo,xx:fOpp=.to19:nE:pOv,.:pOoo,ii:reT
