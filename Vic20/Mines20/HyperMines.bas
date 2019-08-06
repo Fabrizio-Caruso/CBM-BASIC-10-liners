@@ -20,8 +20,8 @@
 19zz=j>=bb*kk:ifjj>x*wwtHx=x*wr:ll=7-8*(x>3):ifx>3tHgoS35
 20kk=kk-zz:on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,.:f=.:z=z-1:pOp,ii:p=p0:goS34:gO6
 30pOp,b:fOqq=.toa/8:oo=o+1+fnrf(a):goS99:nE:reT
-31pOp,b:fOqq=.to2:fOq=.to2:oo=p+qq+u*q:goS99:oo=p-qq+u*q:goS99:oo=p+qq-u*q:goS99
-32oo=p-qq-u*q:goS99:nE:nE:reT
+31fOqq=.to2:fOq=.to2:uq=u*q:pOp,b:oo=p+qq+uq:goS99:oo=p-qq+uq:goS99:oo=p+qq-uq:goS99
+32oo=p-qq-uq:goS99:nE:nE:reT
 33pOn,8:pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over ":wA198,1:pO198,.:kc=.:jj=.:gO2
 34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:on-((p<o+u)or(p>d-u))goS39:reT
 35o=o+u:d=d-u:a=a-44:zz=15:goS39:zz=.:rr=rr-.1:reT
