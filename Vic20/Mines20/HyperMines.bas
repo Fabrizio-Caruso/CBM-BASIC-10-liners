@@ -35,8 +35,8 @@
 43pO7940,57:pO7942,58:goS58:?"{clear}":goS60:?"{down*4}{reverse on}     {yellow}${white}        5pts"
 44?"{down}{reverse on}     {green} {white}       10pts":pO7883,56:?"{down}{reverse on}     {purple}{120}{white}       15pts":pO7927,57
 45?"{down}{reverse on}     {red} {white}       20pts":pO7971,58:?"{down}{blue}{reverse on}  empty cell {white} 1pt":goS58:?"{clear}":goS60
-46?"{down*5}{reverse on}{white}    movements   {purple}i"
-47?"{reverse on}               {purple}jkl":?"{down*2}{white}{reverse on}    use {yellow}${white}      {purple}space":?"{down*3}{green}{reverse on}   prepare to start"
+46?sP5)"{down*5}{reverse on}{white}controls  {purple}i"
+47?sP14)"{reverse on}{purple}jkl":?sP8)"{down*2}{reverse on}{yellow}$    {purple}space":?"{down*3}{green}{reverse on}   prepare to start"
 48goS58:reT
 58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:reT
 60?"{home}{down}{reverse on}{cyan}{218*3}  {red}hyper  mines  {cyan}{218*3}":reT
