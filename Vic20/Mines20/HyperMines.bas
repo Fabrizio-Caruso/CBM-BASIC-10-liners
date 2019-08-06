@@ -26,8 +26,7 @@
 34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:on-((p<o+u)or(p>d-u))goS32:reT
 35o=o+u:d=d-u:a=a-44:zz=15:goS32:zz=.:rr=rr-.1:reT
 36pOp+t-1,7:pOp+t+1,7:pOp+t-u,7:pOp+t+u,7:pOp-1,55:pOp+1,55:pOp-u,54:pOp+u,54:reT
-37fOqq=-3to3:oo=p+qq:goS99:nE
-38fOqq=-3to3:pOv,15:oo=p+qq*22:goS99:pOv,0:nE
+37fOqq=.to3:oo=p+qq:goS99:oo=p-qq:goS99:oo=p+qq*22:goS99:oo=p-qq*22:goS99:nE
 39on-((p<o+88)or(p>d-88))goS32:reT
 40?"{clear}":goS60:?"{down*3}{green}{reverse on}  avoid the mines {white}{119}":pO7830,59
 41?"{down}{green}{reverse on}   use {yellow}${green} ({white}space{green})":?"{reverse on}   to destroy mines":?"{down}{reverse on}  special items   {purple}{120} {red}{115}"
