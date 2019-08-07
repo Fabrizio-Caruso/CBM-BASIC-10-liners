@@ -2,7 +2,7 @@
 1dEfnrf(x)=int(rN(1)*x)
 2kk=1:ll=7:k=1:n=v+1:i=32:a=418:d=8164:pOn,8:ifj>rtHr=j:?"{clear}{reverse on}record!":fOq=0tog1:nE
 3rr=.8:o=7745:m=59:p0=7955:p=p0:z=3:b=218:w=164:u=22:aa=230:goS40:ii=160:h=52
-4t=30720:x=1:b1=.95:b2=.982:bp=100:?"{clear}":qq=15:goS39:fOq=.to40:pOo+1+fnrf(a),m:nE
+4t=30720:x=1:b1=.95:b2=.982:bp=100:?"{clear}":qq=15:goS39:fOq=.tom:pOo+1+fnrf(a),m:nE
 5j=.:ww=120:bb=500:wr=1.4:g0=7680:g1=7701:gt=38421:cc=57:hh=58:xx=214:t1=21:t3=23
 6ifpE(p)=56tHj=j+9:goS37
 7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
@@ -18,7 +18,7 @@
 17if-ytHifx>2tHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>3aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
 18ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1:pOn,8
 19ifjj>x*wwtHx=x*wr:ll=7-8*(x>3):ifx>3tHgoS35
-20ifj>=bb*kktHpOn,8:kk=kk+1:z=z+1+(z=9):pOv,15:pOgt,7:fOqq=.to299:nE:pOv,.
+20ifj>=bb*kktHpOn,8:kk=kk+1:z=z+1+(z=9):pOv,15:pOgt,7:pOv,.:fOqq=.to349:nE
 25on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,.:f=.:z=z-1:pOp,ii:p=p0:goS34:gO6
 30fOqq=.toa/8:pOp,b:oo=o+1+fnrf(a):goS99:nE:reT
 31fOqq=.to2:fOq=.to2:uq=u*q:pOp,b:oo=p+qq+uq:goS99:oo=p-qq+uq:goS99:oo=p+qq-uq:goS99
