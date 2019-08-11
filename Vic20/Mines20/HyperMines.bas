@@ -1,8 +1,8 @@
 0pO56,29:pO52,29:x=rN(-rN(0)):fOp=0to87:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
-1dEfnrf(x)=int(rN(1)*x):b3=.992
+1dEfnrf(x)=int(rN(1)*x)
 2kk=1:ll=7:k=1:n=v+1:i=32:a=418:d=8164:pOn,8:ifj>rtHr=j
 3rr=.7:o=7745:m=59:p=7955:z=3:b=218:w=164:u=22:goS40:ii=160:h=52:xx=214
-4t=30720:x=1:b1=.967:b2=.988:bp=100:?"{clear}":qq=15:goS39:fOq=.to99:pOo+1+fnrf(a),m:nE
+4t=30720:x=1:b1=.97:b2=.99:bp=100:?"{clear}":qq=15:goS39:fOq=.to99:pOo+1+fnrf(a),m:nE
 5j=.:bb=500:g0=7680:g1=7701:gt=38421:cc=57:hh=58:t1=21:t3=23
 6ifpE(p)=56tHj=j+9:goS37
 7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
@@ -20,7 +20,7 @@
 19ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1:pOn,8
 20ifjj>x*bptHx=x+1:ll=15:ifx>5tHgoS35
 21ifj>=bb*kktHpOn,8:kk=kk+1:z=z+1+(z=9):pOv,15:pOgt,7:pOv,.:fOqq=.to349:nE
-22if-ytHifx>5tHifrN(1)>b3tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
+22if-ytHifx>5tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
 25on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,.:f=.:z=z-1:pOp,ii:p=7955:goS34:gO6
 30fOqq=1toa/(8-(q=w)*i):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
 31fOqq=.to2:fOgg=.to2:q=ii:uq=u*gg:pOp,b:oo=p+qq+uq:goS95:oo=p-qq+uq:goS95:oo=p+qq-uq:goS95
