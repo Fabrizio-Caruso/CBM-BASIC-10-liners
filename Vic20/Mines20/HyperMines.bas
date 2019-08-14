@@ -2,7 +2,7 @@
 1dEfnrf(x)=int(rN(1)*x)
 2kk=1:ll=7:k=1:n=v+1:i=32:a=418:d=8164:pOn,8:ifj>rtHr=j
 3rr=.8:o=7745:m=59:p=7955:z=3:b=218:w=164:u=22:goS41:ii=160:h=52:xx=214
-4t=30720:x=2:b1=.97:b2=.99:bp=100:?"{clear}":qq=15:goS39:fOq=.to99:pOo+1+fnrf(a),m:nE
+4t=30720:x=1:b1=.97:b2=.99:bp=100:?"{clear}":qq=15:goS39:fOq=.to99:pOo+1+fnrf(a),m:nE
 5j=.:bb=500:g0=7680:g1=7701:gt=38421:cc=57:hh=58:t1=21:t3=23
 6ifpE(p)=56tHj=j+9:goS37
 7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
@@ -16,11 +16,11 @@
 15y=.:pOn,8:ifsG(c)=ctHy=1:h=s-23:pOp,m:p=p+c*(t1*e+1):j=j+1:jj=jj+1:ifz>9tHz=9
 16pOp+t,2+kc:pOg+t,7:pOg,w:g=g0:ifj>=k*bptHk=k+1:pOn,k:f=.:kc=kc+1:ifkc>5tHkc=.
 17on-(z=.)gO33:if-ytHifl=lltHg=o+1+fnrf(a):pOg+t,4:pOg,b
-18if-ytHifx>3tHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>5aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
+18if-ytHifx>1tHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>2aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
 19ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1:pOn,8
-20ifjj>x*bptHx=x+1:ll=15:goS39:ifx>5tHif(xaN1)=0tHgoS35
+20ifjj>x*iitHx=x+1:ll=15:goS39:ifx>2tHgoS35
 21ifj>=bb*kktHpOn,8:kk=kk+1:z=z+1+(z=9):pOv,15:pOgt,7:pOv,.:fOqq=.to349:nE
-22if-ytHifx>6tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
+22if-ytHifx>2tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
 25on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,.:f=.:z=z-1:pOp,ii:p=7955:goS34:gO6
 30fOqq=1toa/(8-(q=w)*i):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
 31fOqq=.to2:fOgg=.to2:q=ii:uq=u*gg:pOp,b:oo=p+qq+uq:goS95:oo=p-qq+uq:goS95:oo=p+qq-uq:goS95
@@ -32,7 +32,7 @@
 37pOn,8:fOqq=.to3:pOp,b:oo=p+qq:q=ii:goS95:oo=p-qq:goS95:oo=p+qq*u:goS95:oo=p-qq*u:goS95:nE
 38qq=.:on-((p<o+88)or(p>d-88))goS39:reT
 39fOq=.tou+1:pOv,qq:pOo-q+t,1:pOd+q+t,1:pOo-q,230:pOd+q,230:pOv,0:nE:goS60
-40pO8165,x/2+176:reT
+40pO8165,x+176:reT
 41?"{clear}":goS60:?"{down*2}{green}{reverse on}  avoid the mines {white}{reverse off}{59}"
 42?"{down*2}{green}{reverse on}use {yellow}${green} to destroy mines":?"{down}{reverse on}special items {reverse off}{56} {purple}{57} {red}{58} {yellow}{60}"
 43?"{down*2}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red}{reverse off}{52}{reverse on}{green} every {white}500pts"
