@@ -13,24 +13,24 @@
 12pOgt,2:pOg1,z+176:?"{home}{yellow}{reverse on}${white}"9-f"{white}"j" {cyan}hi{white}"r
 13l=jjaNll:c=2:ifrN(1)>rrtHq=p-4+2*fnrf(5)+44*(fnrf(3)-1):pOq,m:pOq+t,1
 14s=.:gEa$:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:pOv,15:pOv,.
-15y=.:pOn,8:ifsG(c)=ctHy=1:h=s-23:pOp,m:p=p+c*(t1*e+1):j=j+1:jj=jj+1:ifz>9tHz=9
-16pOp+t,2+kc:pOg+t,7:pOg,w:g=g0:ifj>=k*bptHk=k+1:pOn,k:f=.:kc=kc+1:ifkc>5tHkc=.
+15y=.:ifsG(c)=ctHy=1:h=s-23:pOp,m:p=p+c*(t1*e+1):j=j+1:jj=jj+1:ifz>9tHz=9
+16pOp+t,2+kc:pOg+t,7:pOg,w:g=g0:ifj>=k*bptHk=k+1:pOn,k:f=0:kc=kc+1:pOn,8:ifkc>5tHkc=.
 17on-(z=.)gO33:if-ytHifl=lltHg=o+1+fnrf(a):pOg+t,4:pOg,b
 18if-ytHifx>1tHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>2aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
-19ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1:pOn,8
+19ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1
 20ifjj>x*iitHx=x+1:ll=15:goS39:ifx>2tHgoS35
-21ifj>=bb*kktHpOn,8:kk=kk+1:z=z+1+(z=9):pOv,15:pOgt,7:pOv,.:fOqq=.to349:nE
-22if-ytHifx>2tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
-25on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,.:f=.:z=z-1:pOp,ii:p=7955:goS34:gO6
-30fOqq=1toa/(8-(q=w)*i):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
-31fOqq=.to2:fOgg=.to2:q=ii:uq=u*gg:pOp,b:oo=p+qq+uq:goS95:oo=p-qq+uq:goS95:oo=p+qq-uq:goS95
-32oo=p-qq-uq:goS95:nE:nE:reT
-33pOn,8:pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over":wA198,1:pO198,.:kc=.:jj=.:gO2
-34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:qq=.:on-((p<o+u)or(p>d-u))goS39:reT
+21ifj>=bb*kktHkk=kk+1:z=z+1+(z=9):pOv,15:pOgt,7:pOv,.:fOqq=.to349:nE
+22if-ytHifx>3tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
+25on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,0:f=.:z=z-1:pOp,ii:p=7955:goS34:pOn,8:gO6
+30fOqq=.toa/(8-(q=w)*i):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
+31fOqq=.to2:fOgg=.to2:q=ii:uq=u*gg:pOp,b:oo=p+qq+uq:goS95:oo=p-qq+uq:goS95
+32oo=p+qq-uq:goS95:oo=p-qq-uq:goS95:nE:nE:reT
+33pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over":wA198,1:pO198,.:kc=.:jj=.:gO2
+34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:qq=.:pOn,8:on-((p<o+u)or(p>d-u))goS39:reT
 35o=o+u:d=d-u:a=a-44:qq=15:goS39:rr=rr-.1:reT
 36pOp+t-1,7:pOp+t+1,7:pOp+t-u,7:pOp+t+u,7:pOp-1,55:pOp+1,55:pOp-u,54:pOp+u,54:reT
-37pOn,8:fOqq=.to3:pOp,b:oo=p+qq:q=ii:goS95:oo=p-qq:goS95:oo=p+qq*u:goS95:oo=p-qq*u:goS95:nE
-38qq=.:on-((p<o+88)or(p>d-88))goS39:reT
+37fOqq=.to3:pOp,b:oo=p+qq:q=ii:goS95:oo=p-qq:goS95:oo=p+qq*u:goS95
+38oo=p-qq*u:goS95:nE:qq=.:on-((p<o+88)or(p>d-88))goS39:reT
 39fOq=.tou+1:pOv,qq:pOo-q+t,1:pOd+q+t,1:pOo-q,230:pOd+q,230:pOv,0:nE:goS60
 40pO8165,x+176:reT
 41?"{clear}":goS60:?"{down*2}{green}{reverse on}  avoid the mines {white}{reverse off}{59}"
