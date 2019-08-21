@@ -19,7 +19,7 @@
 18if-ytHifx>1tHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>2aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
 19ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1
 20ifjj>x*iitHx=x+1:ll=15:goS39:ifx>2tHgoS35
-21ifj>=bb*kktHkk=kk+1:z=z+1+(z=9):pOv,15:pOgt,7:pOv,.:fOqq=.tobb:nE:pOv,15:pOv,.
+21ifj>=bb*kktHkk=kk+1:z=z+1+(z=9):pOgt,7:fOpp=.to4:pOv,15:fOqq=.tobp:nE:pOv,.:nE
 22if-ytHifx>3tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
 25on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,0:f=.:z=z-1:pOp,ii:p=7955:goS34:pOn,8:gO6
 30fOqq=.toa/(8-(q=w)*i):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
