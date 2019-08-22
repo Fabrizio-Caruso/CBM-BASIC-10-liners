@@ -19,7 +19,7 @@
 18if-ytHifx>1tHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>2aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
 19ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1
 20ifjj>x*iitHx=x+1:ll=15:goS39:ifx>2tHgoS35
-21ifj>=bb*kktHkk=kk+1:z=z+1+(z=9):pOgt,7:fOpp=.to4:pOv,15:fOqq=.tobp:nE:pOv,.:nE
+21ifj>=bb*kktHkk=kk+1:z=z+1+(z=9):fOpp=.to4:pOv,15:pOgt,pp:fOqq=.tom:nE:pOv,.:nE
 22if-ytHifx>3tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
 25on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,0:f=.:z=z-1:pOp,ii:p=7955:goS34:pOn,8:gO6
 30fOqq=.toa/(8-(q=w)*i):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
@@ -40,7 +40,7 @@
 45?sP8)"{down}{reverse on}{purple}{reverse off}{57}{reverse on}{white}  15pts":?sP8)"{down}{reverse on}{red}{reverse off}{58}{reverse on}{white}  20pts"
 46?sP6)"{down}{blue}{reverse on}empty{white} 1pt":goS58:?"{clear}":goS60:?sP6)"{down*4}{reverse on}{white}controls  {purple}i"
 47?sP14)"{reverse on}{purple} jkl":?sP9)"{down*2}{reverse on}{yellow}$   {purple}space":?"{down*3}{green}{reverse on}   prepare to start":goS58:reT
-58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:reT
+58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:pOv,15:pOv,.:reT
 60?"{home}{down}{reverse on}{cyan}{218*3}  {red}hyper  mines  {cyan}{218*3}":reT
 70?"{home}{down*12}{right*5}{yellow}{reverse on} you made it!":fOq=0tog1:nE:goS58:gO33
 80dA24,60,24,102,153,24,36,102,24,172,216,46,25,24,40,40,24,36,24,102,153,24,36,102,24
