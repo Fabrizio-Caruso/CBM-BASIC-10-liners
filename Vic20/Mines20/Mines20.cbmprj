@@ -44,6 +44,7 @@
         <FileName>Mines20.bas</FileName>
         <FileName>SuperMines20.bas</FileName>
         <FileName>HyperMines.bas</FileName>
+        <FileName>HyperMines_ALT.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -51,6 +52,17 @@
     <SourceFiles>
         <SourceFile>
             <Name>HyperMines.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>HyperMines_ALT.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
