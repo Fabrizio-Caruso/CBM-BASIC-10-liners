@@ -11,7 +11,7 @@
 10ifpE(p)=hhtHj=j+19:q=ii:goS30:pOp,b:pOp-t3,ii:pOp-t1,ii:pOp+t1,ii:pOp+t3,ii:goS34
 11ifpE(p)=60tHpOv,15:pOv,.:q=w:goS30
 12pOgt,2:pOg1,z+176:?"{home}{yellow}{reverse on}${white}"9-f"{white}"j" {cyan}hi{white}"r
-13l=jjaNll:c=2:ifrN(1)>rrtHq=p-4+4*fnrf(3)+88*(fnrf(3)-1):pOq,m:pOq+t,1
+13l=jjaNll:c=2:ifrN(1)>rrtHq=p-4+2*fnrf(5)+44*(fnrf(3)-1):pOq,m:pOq+t,1
 14s=.:gEa$:pOp,h:pOp+t,1:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:pOv,15:pOv,.
 15y=.:ifsG(c)=ctHy=1:h=s-23:pOp,m:p=p+c*(t1*e+1):j=j+1:jj=jj+1:ifz>9tHz=9
 16pOp+t,2+kc:pOg+t,7:pOg,w:g=g0:ifj>=k*bptHk=k+1:pOn,k:f=0:kc=kc+1:pOn,8:ifkc>5tHkc=.
