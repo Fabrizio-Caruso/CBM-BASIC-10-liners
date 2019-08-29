@@ -1,6 +1,6 @@
 0pO56,29:pO52,29:x=rN(-rN(0)):fOp=0to87:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
 1dEfnrf(x)=int(rN(1)*x):kk=1:ll=7:k=1:n=v+1:i=32:b1=.97:b2=.99:pOn,8:bp=100:ifj>rtHr=j
-2j=.:f=.:rr=.8:m=59:z=3:b=218:w=164:u=22:goS41:ii=160:h=52:xx=214:t=30720:uu=ii
+2j=.:f=.:rr=.9:m=59:z=3:b=218:w=164:u=22:goS41:ii=160:h=52:xx=214:t=30720:uu=ii
 3jj=.:a=418:p=7955:o=7745:d=8164:x=1:?"{clear}":qq=15:goS39:fOq=.touu:pOo+1+fnrf(a),m:nE
 4f=.:bb=500:g0=7680:g1=7701:gt=38421:cc=57:hh=58:t1=21:t3=23
 5ifpE(p)=56tHj=j+9:goS37
@@ -41,7 +41,7 @@
 47?sP14)"{reverse on}{purple} jkl":?sP9)"{down*2}{reverse on}{yellow}$   {purple}space":?"{down*3}{green}{reverse on}   prepare to start":goS58:reT
 58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:pOv,15:pOv,.:reT
 60?"{home}{down}{reverse on}{cyan}{218*3}  {red}hyper  mines  {cyan}{218*3}":reT
-70?"{home}{down*12}{right*5}{yellow}{reverse on} you made it!":fOq=0tog1:nE:uu=uu+xx:b1=b1+.003:gO3
+70?"{home}{down*12}{right*5}{yellow}{reverse on} you made it!":fOq=0tog1:nE:uu=uu+m:b1=b1+.002:gO3
 80dA24,60,24,102,153,24,36,102,24,172,216,46,25,24,40,40,24,36,24,102,153,24,36,102,24
 83dA53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8,0,0,60,24,153,231
 86dA231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189,90,36,153,0,24,36
