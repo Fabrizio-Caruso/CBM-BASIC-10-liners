@@ -1,13 +1,13 @@
 0pO56,29:pO52,29:x=rN(-rN(0)):fOp=0to87:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
-2dEfnrf(x)=int(rN(1)*x):kk=1:ll=7:k=1:n=v+1:i=32:b1=.97:b2=.99:pOn,8:bp=100:ifj>rtHr=j
-3j=.:f=.:rr=.8:m=59:z=3:b=218:w=164:u=22:goS41:ii=160:h=52:xx=214:t=30720:uu=ii
-4jj=.:a=418:p=7955:o=7745:d=8164:x=1:?"{clear}":qq=15:goS39:fOq=.touu:pOo+1+fnrf(a),m:nE
-5f=.:bb=500:g0=7680:g1=7701:gt=38421:cc=57:hh=58:t1=21:t3=23
-6ifpE(p)=56tHj=j+9:goS37
-7on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
-8ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tou:nE:iff>.tHf=f-1
-9pOg1,z+176:goS60:ifpE(p)=cctHj=j+14:goS31:pOp,h:qq=.:goS39
-10ifpE(p)=hhtHj=j+19:q=ii:goS30:pOp,b:pOp-t3,ii:pOp-t1,ii:pOp+t1,ii:pOp+t3,ii:goS34
+1dEfnrf(x)=int(rN(1)*x):kk=1:ll=7:k=1:n=v+1:i=32:b1=.97:b2=.99:pOn,8:bp=100:ifj>rtHr=j
+2j=.:f=.:rr=.8:m=59:z=3:b=218:w=164:u=22:goS41:ii=160:h=52:xx=214:t=30720:uu=ii
+3jj=.:a=418:p=7955:o=7745:d=8164:x=1:?"{clear}":qq=15:goS39:fOq=.touu:pOo+1+fnrf(a),m:nE
+4f=.:bb=500:g0=7680:g1=7701:gt=38421:cc=57:hh=58:t1=21:t3=23
+5ifpE(p)=56tHj=j+9:goS37
+6on-(a<70)gO70:ifytHif(jjaN31)=31tHxc=o+89+fnrf(a-176):pOxc+t,5:pOxc,56
+7ifpE(p)=wtHpOv,15:j=j+4:pOv,0:pOg0,b:pOg0+t,2:fOq=.tou:nE:iff>.tHf=f-1
+8pOg1,z+176:goS60:ifpE(p)=cctHj=j+14:goS31:pOp,h:qq=.:goS39
+9ifpE(p)=hhtHj=j+19:q=ii:goS30:pOp,b:pOp-t3,ii:pOp-t1,ii:pOp+t1,ii:pOp+t3,ii:goS34
 11ifpE(p)=60tHpOv,15:pOv,.:q=w:goS30
 12pOgt,2:pOg1,z+176:?"{home}{yellow}{reverse on}${white}"9-f"{white}"j" {cyan}hi{white}"r
 13l=jjaNll:c=2:ifrN(1)>rrtHq=p-3+3*fnrf(3)+66*(fnrf(3)-1):pOq,m:pOq+t,1
@@ -20,11 +20,11 @@
 20ifjj>x*iitHx=x+1:ll=15:on-(x>2)goS35:goS39:rr=rr-.1
 21ifj>=bb*kktHkk=kk+1:z=z+1+(z=9):fOpp=.to4:pOv,15:pOgt,pp:fOqq=.tom:nE:pOv,.:nE
 22if-ytHifx>3tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
-25on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,0:z=z-1:pOp+t,1:p=7955:goS34:pOn,8:gO5
+25on-((p<daNp>o)aN(pE(p)<>m))gO5:pOn,0:z=z-1:pOp+t,1:p=7955:goS34:pOn,8:gO4
 30fOqq=.toa/(8-(q=w)*i):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
 31fOqq=.to2:fOgg=.to2:q=ii:uq=u*gg:pOp,b:oo=p+qq+uq:goS95:oo=p-qq+uq:goS95
 32oo=p+qq-uq:goS95:oo=p-qq-uq:goS95:nE:nE:reT
-33pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over":wA198,1:pO198,.:kc=.:gO2
+33pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over":wA198,1:pO198,.:kc=.:gO1
 34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:qq=.:pOn,8:on-((p<o+u)or(p>d-u))goS39:reT
 35o=o+u:d=d-u:a=a-44:qq=15:reT
 36pOp+t-1,7:pOp+t+1,7:pOp+t-u,7:pOp+t+u,7:pOp-1,55:pOp+1,55:pOp-u,54:pOp+u,54:reT
@@ -41,7 +41,7 @@
 47?sP14)"{reverse on}{purple} jkl":?sP9)"{down*2}{reverse on}{yellow}$   {purple}space":?"{down*3}{green}{reverse on}   prepare to start":goS58:reT
 58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:pOv,15:pOv,.:reT
 60?"{home}{down}{reverse on}{cyan}{218*3}  {red}hyper  mines  {cyan}{218*3}":reT
-70?"{home}{down*12}{right*5}{yellow}{reverse on} you made it!":fOq=0tog1:nE:uu=uu+xx:b1=b1+.003:gO4
+70?"{home}{down*12}{right*5}{yellow}{reverse on} you made it!":fOq=0tog1:nE:uu=uu+xx:b1=b1+.003:gO3
 80dA24,60,24,102,153,24,36,102,24,172,216,46,25,24,40,40,24,36,24,102,153,24,36,102,24
 83dA53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8,0,0,60,24,153,231
 86dA231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189,90,36,153,0,24,36
