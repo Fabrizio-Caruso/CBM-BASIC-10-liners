@@ -17,7 +17,7 @@
 17on-(z=.)gO33:if-ytHifl=lltHg=o+1+fnrf(a):pOg+t,4:pOg,b
 18if-ytHifx>1tHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>2aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
 19ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1
-20ifjj>x*iitHx=x+1:ll=15:ifx>2tHgoS35
+20ifjj>x*iitHx=x+1:ll=15:on-(x>2)goS35:goS39:rr=rr-.1
 21ifj>=bb*kktHkk=kk+1:z=z+1+(z=9):fOpp=.to4:pOv,15:pOgt,pp:fOqq=.tom:nE:pOv,.:nE
 22if-ytHifx>3tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
 25on-((p<daNp>o)aN(pE(p)<>m))gO6:pOn,0:z=z-1:pOp+t,1:p=7955:goS34:pOn,8:gO5
@@ -26,7 +26,7 @@
 32oo=p+qq-uq:goS95:oo=p-qq-uq:goS95:nE:nE:reT
 33pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over":wA198,1:pO198,.:kc=.:gO2
 34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:qq=.:pOn,8:on-((p<o+u)or(p>d-u))goS39:reT
-35o=o+u:d=d-u:a=a-44:qq=15:goS39:rr=rr-.1:reT
+35o=o+u:d=d-u:a=a-44:qq=15:reT
 36pOp+t-1,7:pOp+t+1,7:pOp+t-u,7:pOp+t+u,7:pOp-1,55:pOp+1,55:pOp-u,54:pOp+u,54:reT
 37fOqq=.to3:pOp,b:oo=p+qq:q=ii:goS95:oo=p-qq:goS95:oo=p+qq*u:goS95
 38oo=p-qq*u:goS95:nE:qq=.:goS39:reT
