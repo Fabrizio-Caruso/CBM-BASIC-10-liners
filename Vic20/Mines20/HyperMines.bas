@@ -21,7 +21,7 @@
 21ifj>=bb*kktHkk=kk+1:z=z+1+(z=9):fOpp=.to4:pOv,15:pOgt,pp:fOqq=.tom:nE:pOv,.:nE
 22if-ytHifx>3tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
 25on-((p<daNp>o)aN(pE(p)<>m))gO5:pOn,0:z=z-1:pOp+t,1:p=7955:pOn,8:goS31:gO4
-30fOqq=.toa/(8-(q=w)*i):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
+30fOqq=.toa/(8-(q=w)*u):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
 31fOqq=.to2:fOgg=.to2:q=ii:uq=u*gg:pOp,b:oo=p+qq+uq:goS95:oo=p-qq+uq:goS95
 32oo=p+qq-uq:goS95:oo=p-qq-uq:goS95:nE:nE:reT
 33pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over":wA198,1:pO198,.:kc=.:gO1
