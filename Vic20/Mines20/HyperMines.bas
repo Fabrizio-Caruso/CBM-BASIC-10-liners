@@ -41,7 +41,7 @@
 47?sP14)"{reverse on}{purple} jkl":?sP9)"{down*2}{reverse on}{yellow}$   {purple}space":?"{down*3}{green}{reverse on}   prepare to start":goS58:reT
 58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:pOv,15:pOv,.:reT
 60?"{home}{down}{reverse on}{cyan}{218*3}  {red}hyper  mines  {cyan}{218*3}":reT
-70?"{home}{down*2}{right*5}{yellow}{reverse on} you made it!":fOq=0tog1:nE:uu=uu+u:b1=b1+.002:ll=7:gO3
+70?"{home}{down*2}{right*5}{yellow}{reverse on} you made it!":fOq=0tog1:nE:uu=uu+u:b1=b1+.003:ll=7:gO3
 80dA24,60,24,102,153,24,36,102,24,172,216,46,25,24,40,40,24,36,24,102,153,24,36,102,24
 83dA53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8,0,0,60,24,153,231
 86dA231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189,90,36,153,0,24,36
