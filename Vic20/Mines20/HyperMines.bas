@@ -31,7 +31,7 @@
 37fOqq=.to3:pOp,b:oo=p+qq:q=ii:goS95:oo=p-qq:goS95:oo=p+qq*u:goS95
 38oo=p-qq*u:goS95:nE:qq=.:goS39:reT
 39fOq=.tou+1:pOv,qq:pOo-q+t,1:pOd+q+t,1:pOo-q,230:pOd+q,230:pOv,0:nE:goS60
-40pO8165,x+176:reT
+40pO8165,x+176:reT:dA24,60,24,102,153,24,36,102,24,172,216,46,25,24,40,40,24,36,24,102
 41?"{clear}":goS60:?"{down*2}{green}{reverse on}  avoid the mines {white}{reverse off}{59}"
 42?"{down*2}{green}{reverse on}use {yellow}${green} to destroy mines":?"{down}{reverse on}special items {reverse off}{56} {purple}{57} {red}{58} {yellow}{60}"
 43?"{down*2}{green}{reverse on}restore {yellow}${green} every {white}100pts":?"{down}{green}{reverse on} extra {red}{reverse off}{52}{reverse on}{green} every {white}500pts"
@@ -42,8 +42,7 @@
 58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:pOv,15:pOv,.:reT
 60?"{home}{down}{reverse on}{cyan}{218*3}  {red}hyper  mines  {cyan}{218*3}":reT
 70?"{home}{down*2}{right*5}{yellow}{reverse on} you made it!":fOq=0tog1:nE:uu=uu+u:b1=b1+.003:ll=7:gO3
-80dA24,60,24,102,153,24,36,102,24,172,216,46,25,24,40,40,24,36,24,102,153,24,36,102,24
-83dA53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8,0,0,60,24,153,231
-86dA231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189,90,36,153,0,24,36
-92dA90,90,36,24,0,0,60,102,90,90,102,60,0
+80dA153,24,36,102,24,53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8
+83dA0,0,60,24,153,231,231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189
+86dA90,36,153,0,24,36,90,90,36,24,0,0,60,102,90,90,102,60,0
 95pOv,9:pOoo+t,2:pOoo,xx:fOpp=.to19:nE:pOv,.:pOoo+t,7:pOoo,q:reT
