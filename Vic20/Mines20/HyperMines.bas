@@ -18,7 +18,7 @@
 18if-ytHifx>1tHq=rN(1):ifq>b1tHgg=o+44+fnrf(a-88):q=x>2aNq>b2:pOgg+t,4+q*2:pOgg,cc-q
 19ifs=itHiff<9tHpOn,10:pOp,b:goS36:goS34:f=f+1
 20ifjj>x*bptHx=x+1:ll=15:on-(x>2)goS35:goS39:rr=rr-.1
-21ifj>=bb*kktHkk=kk+1:z=z+1+(z=9):fOpp=.to4:pOv,15:pOgt,pp:fOqq=.tom:nE:pOv,.:nE
+21ifj>=bb*kktHkk=kk+1:goS75
 22if-ytHifx>3tHifrN(1)>b2tHgg=o+1+fnrf(a):pOgg+t,7:pOgg,60
 25on-((p<daNp>o)aN(pE(p)<>m))gO5:pOn,0:z=z-1:pOp+t,1:p=7955:pOn,8:goS31:gO4
 30fOqq=.toa/(8-(q=w)*u):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
@@ -41,7 +41,8 @@
 47?sP14)"{reverse on}{purple} jkl":?sP9)"{down*2}{reverse on}{yellow}$   {purple}space":?"{down*3}{green}{reverse on}   prepare to start":goS58:reT
 58?"{down*3}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:pOv,15:pOv,.:reT
 60?"{home}{down}{reverse on}{cyan}{218*3}  {red}hyper  mines  {cyan}{218*3}":reT
-70?"{home}{down*2}{right*5}{yellow}{reverse on} you made it!":fOq=0tog1:nE:uu=uu+u:b1=b1+.003:ll=7:gO3
+70?"{home}{down*2}{right*5}{yellow}{reverse on} extra life!":fOq=0tog1:nE:uu=uu+u:b1=b1+.003:ll=7:goS75:gO3
+75z=z+1+(z=9):fOpp=.to4:pOv,15:pOgt,pp:fOqq=.tom:nE:pOv,.:nE:reT
 80dA153,24,36,102,24,53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8
 83dA0,0,60,24,153,231,231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189
 86dA90,36,153,0,24,36,90,90,36,24,0,0,60,102,90,90,102,60,0
