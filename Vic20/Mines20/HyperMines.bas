@@ -41,7 +41,7 @@
 47?sP14)"{reverse on}{purple} jkl":?sP9)"{down*2}{reverse on}{yellow}$   {purple}space":?sP7)"{down*3}{white}{reverse on}to start":goS58:reT
 58fOq=0to500:nE:?"{down*2}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:pOv,15:pOv,.:reT
 60?"{home}{down}{reverse on}{cyan}{218*3}  {red}hyper  mines  {cyan}{218*3}":reT
-70?"{home}{down*2}{right*5}{yellow}{reverse on} extra life":uu=uu+u:b1=b1+.003:ll=7:goS58:goS75:gO3
+70?"{home}{down*2}{right*5}{yellow}{reverse on} extra life":uu=uu+u:b1=b1+.003:rr=.5:ll=7:goS58:goS75:gO3
 75z=z+1+(z=9):fOpp=.to4:pOv,15:pOgt,pp:fOqq=.tom:nE:pOv,.:nE:reT
 80dA153,24,36,102,24,53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8
 83dA0,0,60,24,153,231,231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189
