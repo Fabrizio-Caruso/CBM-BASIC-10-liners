@@ -24,7 +24,7 @@
 30fOqq=.toa/(8-(q=w)*u):pOp,b:oo=o+1+fnrf(a):goS95:nE:reT
 31fOqq=.to2:fOgg=.to2:q=ii:uq=u*gg:pOp,b:oo=p+qq+uq:goS95:oo=p-qq+uq:goS95
 32oo=p+qq-uq:goS95:oo=p-qq-uq:goS95:nE:nE:reT
-33pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over":wA198,1:pO198,.:kc=.:gO1
+33pOp,h:?"{home}{down*11}{right*5}{red}{reverse on}  game over":goS58:kc=.:gO1
 34pOp,b:pOp-1,ii:pOp+1,ii:pOp-u,ii:pOp+u,ii:qq=.:pOn,8:on-((p<o+u)or(p>d-u))goS39:reT
 35o=o+u:d=d-u:a=a-44:qq=15:reT
 36pOp+t-1,7:pOp+t+1,7:pOp+t-u,7:pOp+t+u,7:pOp-1,55:pOp+1,55:pOp-u,54:pOp+u,54:reT
@@ -39,9 +39,9 @@
 45?sP8)"{down}{reverse on}{purple}{reverse off}{57}{reverse on}{white} 15pts":?sP8)"{down}{reverse on}{red}{reverse off}{58}{reverse on}{white} 20pts"
 46?sP6)"{down}{blue}{reverse on}step {white}1pt":goS58:?"{clear}":goS60:?sP6)"{down*4}{reverse on}{white}controls  {purple}i"
 47?sP14)"{reverse on}{purple} jkl":?sP9)"{down*2}{reverse on}{yellow}$   {purple}space":?sP7)"{down*3}{white}{reverse on}to start":goS58:reT
-58?"{down*2}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:pOv,15:pOv,.:reT
+58fOq=0to500:nE:?"{down*2}{right*5}{white}{reverse on} press a key":wA198,1:pO198,.:pOv,15:pOv,.:reT
 60?"{home}{down}{reverse on}{cyan}{218*3}  {red}hyper  mines  {cyan}{218*3}":reT
-70?"{home}{down*2}{right*5}{yellow}{reverse on} extra life":fOq=0tog1:nE:uu=uu+u:b1=b1+.003:ll=7:goS75:gO3
+70?"{home}{down*2}{right*5}{yellow}{reverse on} extra life":uu=uu+u:b1=b1+.003:ll=7:goS58:goS75:gO3
 75z=z+1+(z=9):fOpp=.to4:pOv,15:pOgt,pp:fOqq=.tom:nE:pOv,.:nE:reT
 80dA153,24,36,102,24,53,27,116,152,24,20,20,24,24,24,48,24,12,24,24,0,0,32,247,223,8
 83dA0,0,60,24,153,231,231,153,24,60,126,195,165,153,153,165,195,126,153,36,90,189,189
