@@ -18,7 +18,7 @@ Goals:
 
 SCORE:
 - Walk into an empty position: 1 point
-- Walk into a anti-mine charge "$": 5 points
+- Walk into an anti-mine charge "$": 5 points
 
 CONTROLS:
 - Use I J K L to move 
