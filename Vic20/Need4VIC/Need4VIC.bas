@@ -7,4 +7,4 @@
 6?"{home}{down}{left}{148}":pOz,x:pOp+t,2:pOp,1:ifpE(p-e)=4tHl=9:dA255,195,93,114,101,66,93,114,101
 7?sPo)l$sPs)c$sPb-s)r$:ifa$<>""tHk=aS(a$):p=p+(k=74)-(k=76):dA66,93,39,83,33,93
 8?"{home}{reverse on}{red}"l" {purple}"i" {black}"r:f=(iaNa)=0:l=l+f:ifo>1-dtHifo+d+b<17tHo=o-1+d:dA39,83,33,8,28
-9on-(l<9)gO3:?"{home}{down*2}{right*3}{black}{reverse on} {191*2}{red} the end {black}{191*2}":l=.:pO198,0:wA198,1:gO1:dA28,62,62,8,8,
+9on-(l<9)gO3:?"{home}{down*2}{right*3}{black}{reverse on} {191*2}{red} the end {black}{191*2}":l=.:pO198,0:wA198,1:gO1:dA62,28,62,8,8,
