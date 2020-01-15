@@ -6,5 +6,5 @@
 5rem
 6on-(l<1ore<100)goto2:on-(e<100)gosub9:print"you are dead":gosub8:goto0
 7rem
-8wait198,1:poke198,0:return
+8getkeya$:return
 9print"you won":gosub8:return
