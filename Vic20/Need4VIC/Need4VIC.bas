@@ -6,5 +6,5 @@
 5c$=" ":gEa$:ifiaN1tHc$="{31}@":ifl<.tHl=.:dA36,189,255,165,90,102,90,60,36,219,255
 6?"{home}{down}{left}{148}":pOz,x:pOp+t,2:pOp,1:ifpE(p-e)=4tHl=9:dA195,93,114,101,66,93,114,101,66
 7?sPo)l$sPs)c$sPb-s)r$:ifa$<>""tHk=aS(a$):p=p+(k=74)-(k=76):dA93,39,83,33,93,39
-8?"{home}{reverse on}{red}"l" {purple}"i" {black}"b:f=(iaNa)=.:l=l+f:ifo>1-dtHifo+d+b<17tHo=o-1+d:dA83,33,8,28,62
+8?"{home}{reverse on}{red}"l" {purple}"i" {black}"r:f=(iaNa)=.:l=l+f:ifo>1-dtHifo+d+b<17tHo=o-1+d:dA83,33,8,28,62
 9on-(l<9)gO3:?"{home}{down*2}{right*4}{black}{reverse on} {191*2}{red} end {black}{191*2}":fOs=ztop/2:nE:l=.:pO198,0:gO1:dA28,62,8,8,
