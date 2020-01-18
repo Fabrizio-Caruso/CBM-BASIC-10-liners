@@ -1,4 +1,4 @@
-0l=10:s=1:e=1:i=1:d=1:print"{clear}":fori=1to4:read a$(i):next
+0sprite1:l=10:s=1:e=1:i=1:d=1:print"{clear}":fori=1to4:read a$(i):next
 1print"you r @ the adventurer's inn":print"choose your quest"
 2fori=1to4:printi,a$(i):next:inputj:on-(j<1orj>4)goto2:on-(j=4)goto5:gosub6:goto2
 3gosub5

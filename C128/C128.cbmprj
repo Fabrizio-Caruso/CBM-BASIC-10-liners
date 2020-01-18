@@ -41,12 +41,13 @@
         <FileName>mines.bas</FileName>
         <FileName>optimized_mines.bas</FileName>
         <FileName>optimized_mines_long.bas</FileName>
-        <FileName>test.bas</FileName>
         <FileName>mines20.bas</FileName>
         <FileName>mines20_experimental_key.bas</FileName>
         <FileName>Mines128_40col.bas</FileName>
         <FileName>Mines128_80col.bas</FileName>
         <FileName>MiniConan.bas</FileName>
+        <FileName>test.bas</FileName>
+        <FileName>MinesPlus128.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -73,7 +74,18 @@
             <IncludeInBuild>True</IncludeInBuild>
             <Regions />
             <Breakpoints />
-            <Bookmarks>7,</Bookmarks>
+            <Bookmarks>0,</Bookmarks>
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>MinesPlus128.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
             <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
@@ -85,7 +97,7 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
+            <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>
