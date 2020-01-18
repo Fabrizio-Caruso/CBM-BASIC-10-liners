@@ -1,6 +1,6 @@
 0q=.9:bo$="":p=910:qq=8429:of=128:pp=1501:fA:gR5,1:b=8192:o=236:n=53280:poKn,0:poKn+1,0:g=o-209:fOi=.topp:poKqq+i,.:nE
 1i=87:c=1:fOl=1to79:a=o+1+int(rN(1)*pp):goS9:bo$=bo$+"{230}":nE:k=1:chA1,36,1,"{gray}{119} {red}mines {gray}{119}":chA1,.,2,bo$:chA1,.,22,bo$:i=m
-2v=54296:m=87:d=1738:h=81:w=36:u=32:?"{home}"sP(27)"{yellow}$:{white}"9-f"{cyan}  score:{white}"j"  {cyan}hi:{white}"r:ifpeE(p+b)=wtHj=j+4:iff>0tHf=f-1
+2v=54296:m=87:d=1738:h=81:w=36:u=32:?"{home}"spC27)"{yellow}$:{white}"9-f"{cyan}  score:{white}"j"  {cyan}hi:{white}"r:ifpeE(p+b)=wtHj=j+4:iff>0tHf=f-1
 3l=jaN3:s=.:ifrN(1)>qtHx=p-4+2*int(rN(1)*5)+158*(int(rN(1)*3)-1):i=m:a=x:c=1:goS9
 4gEa$:y=.:i=h:a=p:cc=2-k*(k<14):c=cc:goS9:ifa$<>""tHs=aS(a$):e=saN1:ifj>k*100-2tHk=k+1:f=.
 5z=s-75+e:poKn,0:ifsG(z)=ztHy=1:poKv,15:poKv,0:i=m:a=p:c=1:goS9:p=p+z*(78*e+1):j=j+1:q=q-.001
