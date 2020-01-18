@@ -47,7 +47,8 @@
         <FileName>Mines128_80col.bas</FileName>
         <FileName>MiniConan.bas</FileName>
         <FileName>test.bas</FileName>
-        <FileName>MinesPlus128.bas</FileName>
+        <FileName>MinesPlus128_40col.bas</FileName>
+        <FileName>MinesPlus128_80col.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -79,7 +80,7 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>MinesPlus128.bas</Name>
+            <Name>MinesPlus128_40col.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -87,6 +88,17 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>MinesPlus128_80col.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
