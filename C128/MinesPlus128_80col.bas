@@ -6,5 +6,5 @@
 5z=s-75+e:poKn,0:ifsG(z)=ztHy=1:poKv,15:poKv,0:i=m:a=p:c=1:goS9:p=p+z*(78*e+1):j=j+1:q=q-.001
 6ifs=utHiff<9tHcolO6,3:i=u:c=1:a=p-1:goS9:a=p+1:goS9:a=p-79:goS9:a=p+79:goS9:colO6,1:f=f+1:i=90:c=2:a=p:goS9
 7of=.:i=w:a=g:c=7:goS9:of=128:g=o-209:if-ytHifl=3tHg=o+1+int(rN(1)*pp):i=90:a=g:c=4:goS9
-8on-((p<daNp>o)aN(peE(p)<>m))gO2:b=b-1:on-(b>0)gO2:f=.:i=h:a=p:c=2:goS9:?"{home}{down}{white}end":gEkEa$:r=-j*(j>r)-r*(j<=r):j=.:gO0
+8on-((p<daNp>o)aN(peE(p)<>m))gO2:b=b-1:f=.:on-(b>0)gO2:f=.:i=h:a=p:c=2:goS9:?"{home}{down}{white}end":gEkEa$:r=-j*(j>r)-r*(j<=r):j=.:gO0
 9colO5,c+1:qq=a-8192:ay=int(qq/79):poKa,i:chA1,qq-ay*79,ay,cH(i+of):reT
