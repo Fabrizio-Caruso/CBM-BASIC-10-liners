@@ -1,5 +1,5 @@
-0g=8219:k=1:c=1:q=.6:b=3:bo$="":p=9102:qq=8429:of=128:n=1501:fA:gR5,1:o=8428:poKn,0:poKn+1,0:fOi=.ton:poKqq+i,.:nE
-1i=87:fOl=9toi:a=o+1+int(rN(1)*n):goS9:bo$=bo$+"{230}":nE:chA1,38,1,"{red}mines+     {gray}use ijkl space":chA1,.,2,bo$:chA1,.,22,bo$
+0i=87:g=8219:k=1:c=1:q=.6:b=3:bo$="":p=9102:qq=8429:of=128:n=1501:fA:gR5,1:o=8428:poKn,0:poKn+1,0:fOl=.ton:poKqq+l,.:nE
+1fOl=9toi:a=o+1+int(rN(1)*n):goS9:bo$=bo$+"{230}":nE:chA1,38,1,"{red}mines+     {gray}use ijkl spc":chA1,.,2,bo$:chA1,.,22,bo$:gEkEa$
 2v=54296:m=87:d=9930:h=81:l=jaN3:s=.:ifpeE(p)=36tHcolO6,8:fOii=0to2:poKv,7:poKv,0:nE:j=j+4:colO6,1:iff>0tHf=f-1
 3?"{home}"spC27)"{yellow}${white}"9-f" {cyan}{Q}{white}"b"{cyan}  score:{white}"j"  {cyan}hi:{white}"r:ifrN(1)>qtHx=p-4+2*int(rN(1)*5)+158*(int(rN(1)*3)-1):i=m:a=x:c=1:goS9
 4gEa$:y=.:i=h:a=p:cc=2-k*(k<14):c=cc:goS9:ifa$<>""tHs=aS(a$):e=saN1:ifj>k*500-2tHk=k+1:f=.:ifb<9tHb=b+1
