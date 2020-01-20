@@ -46,8 +46,8 @@
         <FileName>Mines128_40col.bas</FileName>
         <FileName>MiniConan.bas</FileName>
         <FileName>MinesPlus128_40col.bas</FileName>
-        <FileName>MinesPlus128_80col.bas</FileName>
         <FileName>test.bas</FileName>
+        <FileName>MinesPlus128_80col.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
