@@ -1,10 +1,10 @@
-0t=1024:n=65305:pOn-4,0:pOn,0:w=36:a=32:q=.9:ifj>rtHr=j:?"{clear}{blue}record!":fOi=1tot:nE
-1o=3191:p=3572:j=.:b=-117:g=o+b:h=81:d=3992:?"{clear}{white}use ijkl space":fOi=1tot:nE:m=87
-2vO5:k=1:?"{clear}{down}";sP12);"{119}{119}{119} {red}mines {white}{119}{119}{119}(fc)":fOi=0to39:pOo-i,102:pOd+i,102:nE:i=75
-3?"{home}  {yellow}$:{white}";9-f;"  {green}score:{white}";j;"  {green}high score:{white}";r:ifpE(p)=wtHj=j+4:iff>0tHf=f-1
-4l=jaN3:s=.:ifrN(1)>qtHx=p-4+2*int(rN(1)*5)+80*(int(rN(1)*3)-1):pOx,m:pOx-t,113
-5y=.:gEa$:pOp,h:pOp-t,113:ifa$<>""tHs=aS(a$):e=saN1:ifj>k*100-2tHk=k+1:pOn,k:f=0
-6c=s-i+e:ifsG(c)=ctHy=1:pOp,m:p=p+c*(39*e+1):j=j+1:q=q-0.001:sO2,40,2
-7pOg-t,119:pOg,w:g=o+b:pOp-t,1+k:ifytHifl=3tHg=o+1+int(rN(1)*760):pOg-t,4:pOg,90
-8ifs=atHiff<9tHpOn,2:pOp,90:pOp-1,a:pOp+1,a:pOp-40,a:pOp+40,a:f=f+1:pOn,0
-9pOn,0:on-((p<daNp>o)aN(pE(p)<>m))gO3:f=.:pOp,h:?"the end":fOi=1tot:nE:gO0
+0colO0,1:h=500:b=-119:o=3191:g=o+b:p=o+h:q=.7:dEfnu(x)=int(rN(1)*x):n=3:k=1:m=87
+1colO4,1:j=.:w=39:?"{white}{clear}ijkl sp":gEkEc$:?"{clear}":b$="":fOi=1tow:b$=b$+"{230}":pOo+1+fnu(800),m:nE
+2vO5:t=1024:d=3992:?sP16)"{red}mines+{white}":?"{home}{down*2}"b$:chA1,.,23,b$:pOo,102:pOd+w,102
+3a=32:?"{home}{yellow}${white}"9-f" {red}Q{white}"n"  {cyan}score{white}"j" {blue}hi{white}"r:ifpE(p)=36tHsO2,h,2:j=j+4:f=f+(f>0)
+4l=jaN3:s=.:y=.:gEa$:ifrN(.)>qtHx=p-4+2*fnu(5)+80*(fnu(3)-1):pOx,m:pOx-t,113
+5r=-j*(j>r)-r*(j<=r):pOp,81:pOp-t,113:ifa$<>""tHs=aS(a$):e=saN1:q=q-0.001:sO2,w,2
+6c=s-75+e:ifsG(c)=ctHy=1:pOp,m:p=p+c*(w*e+1):j=j+1:ifj>=k*htHk=k+1:f=.:n=n-(n<9)
+7pOg-t,119:pOg,36:g=o+b:pOp-t,1+k:ifytHifl=3tHg=o+1+fnu(800):pOg-t,4:pOg,90
+8ifs=atHiff<9tHcolO4,11:pOp,90:pOp-1,a:pOp+1,a:pOp-i,a:pOp+i,a:f=f+1:colO4,1:gO2
+9on-((p<daNp>o)aN(pE(p)<>m))gO3:n=n-1:f=.:sO2,m,3:on-(n>0)gO3:pOp,81:gEkEc$:gO0
