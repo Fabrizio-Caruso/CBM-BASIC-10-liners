@@ -48,6 +48,7 @@
         <FileName>Meteors16.bas</FileName>
         <FileName>Thief16.bas</FileName>
         <FileName>ExperimentalMines16.bas</FileName>
+        <FileName>MinesPlus16.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -80,6 +81,17 @@
         </SourceFile>
         <SourceFile>
             <Name>Mines16.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>MinesPlus16.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
