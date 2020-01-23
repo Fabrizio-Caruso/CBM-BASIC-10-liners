@@ -46,8 +46,9 @@
         <FileName>TestScrollDown.bas</FileName>
         <FileName>Thief16.bas</FileName>
         <FileName>ExperimentalMines16.bas</FileName>
-        <FileName>MinesPlus16.bas</FileName>
         <FileName>ExperimentalMines16.bas</FileName>
+        <FileName>MinesPlus16.bas</FileName>
+        <FileName>MinesPlus16_exp.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -74,7 +75,18 @@
             <IncludeInBuild>True</IncludeInBuild>
             <Regions />
             <Breakpoints />
-            <Bookmarks>0,1,</Bookmarks>
+            <Bookmarks />
+            <Topmost>True</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>MinesPlus16_exp.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
             <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
