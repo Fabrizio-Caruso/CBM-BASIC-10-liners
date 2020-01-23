@@ -7,4 +7,4 @@
 6c=s-75+e:ifsG(c)=ctHy=1:pOp,m:p=p+c*(w*e+1):j=j+1:ifj>=k*htHk=k+1:f=.:n=n-(n<9)
 7pOg-t,119:pOg,b:g=3072:pOp-t,1+k:ifytHifl=3tHg=o+1+fnu(840):pOg-t,4:pOg,90
 8ifs=atHiff<9tHcoL4,11:pOp,90:pOp-1,a:pOp+1,a:pOp-i,a:pOp+i,a:f=f+1:coL4,1:gO2
-9on-((p<daNp>o)aN(pE(p)<>m))gO3:n=n-1:f=.:sO2,m,3:on-(n>0)gO3:pOp,81:gEkEa$:gO0
+9on-(p<daNp>oaNpE(p)<m)gO3:n=n-1:f=.:sO2,m,3:on-(n>0)gO3:fOk=-htot:nE:gEkEa$:gO0
