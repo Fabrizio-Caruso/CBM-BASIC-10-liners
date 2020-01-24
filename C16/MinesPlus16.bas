@@ -1,6 +1,6 @@
 0h=500:g=3073:o=3191:coL0,1:k=1:n=3:coL4,1:m=87:dEfnu(x)=int(rN(1)*x):ifj>rtHr=j
 1d=4032:t=1024:j=.:p=o+h:q=.7:?"{white}{clear}ijkl {gray}spc":gEkEa$:fOi=0tom:pOo+1+fnu(840),m:nE
-2w=39:b=36:?sP18)"{red}mines":ifj=.orp<o+41orp>d-41tHfOi=.tow:pOo-i,102:pOd+i,102:nE
+2w=39:b=36:?sP18)"{red}mines+":ifj=.orp<o+morp>d-41tHfOi=.tow:pOo-i,102:pOd+i,102:nE
 3s=.:?"{home}{yellow} ${white}"9-f"{red}Q{white}"n;sP5)"{cyan}score{white}"j" {blue}hi{white}"r:ifpE(p)=btHsO2,h,2:j=j+9:f=f+(f>0)
 4l=jaN3:y=.:gEa$:ifrN(.)>qtHx=p-4+2*fnu(5)+80*fnu(2-(p<3990))-80:pOx,m:pOx-t,113
 5vO5:n=-n*(p<daNp>o):pOp,81:pOp-t,113:ifa$<>""tHs=aS(a$):e=saN1:q=q-.001:sO2,w,2
