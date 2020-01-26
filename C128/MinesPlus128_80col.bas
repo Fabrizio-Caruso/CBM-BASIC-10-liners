@@ -1,5 +1,5 @@
 0c=1:d=128:n=1659:fA:gR5,1:o=8428:?"{cyan}{down*2}{right*2}use ijkl space";:gEkEa$:?"{red}  wait":dEfnx(n)=int(rN(1)*n):fOl=o+1too+n:poKl,.:nE
-1x=79:bo$="":p=9102:b=93:k=1:g=8209:w=10088:q=.7:i=87:fOl=9toi:a=o+1+fnx(n):goS9:bo$=bo$+"{230}":nE:?"{home}{down*2}"bo$:chA1,.,24,bo$
+1x=79:bo$="":p=9102:b=3:k=1:g=8209:w=10088:q=.7:i=87:fOl=9toi:a=o+1+fnx(n):goS9:bo$=bo$+"{230}":nE:?"{home}{down*2}"bo$:chA1,.,24,bo$
 2chA1,33,1,"   {red}mines+   ":l=jaN3:s=.:ifpeE(p)=36tHfOii=.to2:vO7:vO.:nE:j=j+9:f=f+(f>0)
 3?"{home}"spC17)"{yellow}${white}"9-f"  {cyan}{Q}{white}"b"     {light blue}score{white}"j"  {cyan}hi{white}"r:ifrN(.)>qtHa=p-4+2*fnx(5)+158*(fnx(2-(p<9999))-1):i=87:c=1:goS9
 4gEa$:y=.:i=81:a=p:c=2-k*(k<14):goS9:ifa$<>""tHs=aS(a$):e=saN1
