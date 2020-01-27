@@ -49,6 +49,7 @@
         <FileName>test.bas</FileName>
         <FileName>MinesPlus128_80col.bas</FileName>
         <FileName>test.bas</FileName>
+        <FileName>test.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -87,7 +88,7 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
+            <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>

@@ -1,10 +1,10 @@
-0sprite1:l=10:s=1:e=1:i=1:d=1:print"{clear}":fori=1to4:read a$(i):next
-1print"you r @ the adventurer's inn":print"choose your quest"
-2fori=1to4:printi,a$(i):next:inputj:on-(j<1orj>4)goto2:on-(j=4)goto5:gosub6:goto2
-3gosub5
-4on-(l<1ore<100)goto2:on-(e<100)gosub9:print"you are dead":gosub8:goto0
-5print"at the merchant":goto2
-6fori=1toj*5:print"journey - day"i:gosub7:nexti:return
-7print"nothing here":return
-8rem
-9print"you won":gosub8:return:dataenchanted forest,mysterious cave,dark woods,merchant
+0l=1:s=1:e=100:i=1:d=1:p=0:g=2000:?"{clear}":fOi=1to4:reAj$(i):nE:fOi=1to3:reAm$(i):reAp(i):reAs(i):nE
+1?"lv:";l;" en:";e;" str:";s;" gold:";g:?"you r @ the adventurer's inn":?"choose your quest"
+2fOi=1to4:?i,j$(i):nE:inputj:on-(j<1orj>4)gO2:on-(j=4)gO4:gO5
+3on-(l<10ore>0)gO2:on-(e>0)goS9:?"you are dead"
+4?"at the merchant":fOi=1to3:?i,m$(i),p(i):nE:inputj:on-(j<1orj>3)gO4:on-(j=1)gO8:s=s-(w(j)=0)*s(j):g=g+(w(j)=0)*p(j):w(j)=1:gO1
+5fOi=1toj*5:?"journey - day"i:goS7:nEi:gO1
+6rem
+7?"nothing here":reT
+8p=p-(p<9):gO2:dAenchantedfOest,mysteriouscave,darkwoods,merchant
+9?"you won":goS8:reT:dApOion,10,0,heavysword,100,10,dragon'ssword,1000,50
