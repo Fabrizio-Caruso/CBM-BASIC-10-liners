@@ -1,8 +1,8 @@
-0pO56,29:pO52,29:v=36878:pOv-9,255:fOi=.to47:rEb:pO7568+i,b:nE:n=v+1:h=1:h=52:u=22:a=418:pOn,8:print"{clear}{reverse on}ijkl":wait198,1
-1j=.:pO650,128:t=30720:p=7955:o=7745:d=8164:c=.:o1=o+2:dEfnr(x)=o1+q*x+int(rN(1)*20)
-2fOq=0to417:pOo+1+q+t,.:nE:m=55:w=54:g=218:fOq=.to19:f=fnr(22):pOf,m:fOi=.to5:pOfnr(44),w:nE:f=fnr(44):pOf,g::nE
-3fOq=.to20:pOo-q,w:pOd+q,w:pOo+2+u*q,w:pOd-2-u*q+u,w:nE:t0=ti:t1=.:c=1:goS9
-4t1=9-int((ti-t0)/500):t2=t1+j:t1=-9*(t2>9)-t2*(t2<=9):?"{home}{reverse on}{green}pts{white}"j" {cyan}time{white}"t1:ifpE(p)=gtH:pOn,255:pOv,15:j=j+1:pOv,.:pOn,8
+0pO56,29:pO52,29:pO36869,255:fOi=.to47:rEb:pO7568+i,b:nE:n=36879:h=52:u=22:pOn,8:print"{clear}{reverse on}ijkl":wait198,1
+1j=.:pO650,128:t=30720:p=7955:o=7745:d=8164:c=.:o1=o+2:dEfnr(x)=o1+q*u*x+int(rN(1)*20)
+2m=55:w=54:g=218:fOq=.to19:pOfnr(1),m:nE:fOq=.to9:pOfnr(2),w:pOfnr(2),g:nE
+3fOq=0to417:pOo1+q+t,.:nE:fOq=.to20:pOo-q,w:pOd+q,w:pOo+2+u*q,w:pOd-2-u*q+u,w:nE:t0=ti:t1=.:c=1:goS9
+4t1=9-int((ti-t0)/500):t2=t1+j:t1=-9*(t2>9)-t2*(t2<=9):?"{home}{reverse on}{green}pts{white}"j" {cyan}"t1:ifpE(p)=gtH:pOn,255:j=j+1:pOn,8
 5c=2:gEa$:pOp+t,3:pOp,h:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:pOv,15:pOv,.
 6y=.:ifsG(c)=ctHy=1:h=s-23:pOp,32:q=p+c*(21*e+1)
 7if-ytHifpE(q)<>wtHc=.:goS9:i=i+1:p=q:c=1:goS9:if(iaN15)=7tHq=int(rN(.)*20):pOfnr(22),g
