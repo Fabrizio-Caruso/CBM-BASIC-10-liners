@@ -5,7 +5,7 @@
 4?"{home}{reverse on}{green}pts{white}"j" {cyan}"9-x:ifpE(p)=gtH:pOn,255:j=j+1:pOn,8:x=x+(x>.)
 5c=2:gEa$:pOp+t,3:pOp,h:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:x=x-((iaN15)=7)
 6ifsG(c)=ctHh=s-23:pOp,32:q=p+c*(21*e+1):ifpE(q)<>wtHp=q:goS9:i=i+1
-8on-((pE(p)<>m)aNx<9)gO4:?"{home}{down*3}{right*3}{reverse on}end":fOi=.to999:nE:pO198,0:wA198,1:?"{clear}":gO1
+8on-((pE(p)<>m)aNx<9)gO4:?"{home}{reverse on}end":fOi=.to999:nE:pO198,0:wA198,1:?"{clear}":gO1
 9fOa=-2to2:b=p+t+a:pOb-2*u,1:pOb-u,1:pOb,1:pOb+u,1:pOb+2*u,1:nE:reT
 10dA24,60,24,102,153,24,36,102
 11dA24,44,152,110,25,24,40,40
