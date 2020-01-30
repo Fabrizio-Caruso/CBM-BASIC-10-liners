@@ -1,6 +1,6 @@
-0d=1:pO56,26:pO52,26:v=36878:x=132:pO646,1:pOv-9,255:fOp=.to39:rEb:pO7168+p,b:nE
-1e=22:o=4:y=7:z=218:b=9:p=8174:pO650,z:?"{clear}{black}{reverse on}jl":l$="{green}{68*2}{black}{66}":r$="{black}{67}{green}{68*2}":ifi>rtHr=i
-2a=127:n=v+1:t=30720:pOn,59:wA198,1:fOi=0to19:?tA5)"{black}{reverse on}{230}{191}"sP10)"{191}{230}":nE:d=1:i=.
+0pO56,26:pO52,26:v=36878:x=132:pOv-9,255:fOp=.to39:rEb:pO7168+p,b:nE:e=22:z=218
+1a=127:o=4:y=7:b=9:p=8174:pO650,z:?"{clear}{black}{reverse on}use j l":l$="{green}{68*2}{black}{66}":r$="{black}{67}{green}{68*2}":ifi>rtHr=i
+2n=v+1:t=30720:pOn,59:wA198,1:?"{clear}":fOi=3toe:?tA4)"{green}{68}{black}{reverse on}{230}{191}"sP10)"{191}{230}{reverse off}{green}{68}":nE:d=1:i=.
 3b=b+f:i=i+1:if(iaNy)=ytHd=int(rN(.)*3):ifb<5tHifo<2tHb=5:y=3:dA24,189,255,165
 4s=int(rN(.)*(b+1)):ifpE(p-e)<>32tHpOn,42:pOv,15:pOv,.:l=l+1:fOf=-9tox:nE:pOn,59
 5c$=" ":gEa$:ifiaN1tHc$="{31}@":ifl<.tHl=.:dA36,189,255,165,90,102,90,60,36,219,255
