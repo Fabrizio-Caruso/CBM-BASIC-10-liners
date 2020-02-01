@@ -1,15 +1,15 @@
-0pO52,29:pO56,29:j=.:n=36879:v=255:pOn-10,v:fOi=.to23:rEb:pO7599-i,b:pO7583-i,b:nE
-1g=211:pOn,13:?"{clear}":l=.:i=.:u=22:p=7955:o=7723:d=8186:dEfnr(x)=2+o+q*u*x+int(rN(1)*20)
-2t=30720:fOa=.to19:q=int(a/2):f=fnr(2):pOf+t,5:pOf,216:q=a:f=fnr(1):pOf,g
-3pOf+t,2:nE:h=52:x=.:wA198,1:fOq=.to439:pOo+q+t,.:nE
-4?"{home}{reverse on}{cyan}"j" {red}"9-int(x):ifpE(p)=gtH:pOn,v:j=j+1:l=l+1:pOn,13:x=x+(x>1)
-5c=2:gEa$:pOp+t,2:pOp,h:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:x=x+.2
-6ifsG(c)=ctHh=s-23:pOp,32:q=p+c*(21*e+1):ifpE(q)<>216tHp=q:goS9:i=i+1
-8on-(x<9aNp<daNp>oaNl<20)gO4:on-(l=20)gO1:fOi=.too:nE:j=.:pO198,0:reS:gO0
-9fOa=-2to2:b=p+t+a:fOk=-2to2:pOb+k*u,1:nE:nE:reT
-10dA20,20,24,152,118,25,52,24
-11dA102,36,24,153,102,24,36,24
-12dA40,40,24,25,110,152,44,24
+0pO52,29:j=.:n=36879:v=255:pOn-10,v:g=211:fOi=.to23:rEb:pO7599-i,b:pO7583-i,b:nE
+1pO56,29:t=30720:x=.:u=22:p=7955:o=7723:l=.:dEfnr(x)=2+o+q*u*x+int(rN(1)*20)
+2pOn,13:?"{clear}":fOa=.to19:q=int(a/2):f=fnr(2):pOf+t,5:pOf,216:q=a:f=fnr(1):pOf,g
+3pOf+t,2:nE:h=52:wA198,1:fOq=.to439:pOo+q+t,.:nE:pO7569,60:dA20,20,24,152,118,25
+4?"{home}{reverse on}{cyan}"j" {red}"9-int(x):ifpE(p)=gtHpOn,v:j=j+1:l=l+1:pOn,13:x=x+(x>1):dA52,24,102
+5c=2:gEa$:pOp+t,2:pOp,h:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:x=x+.2:dA36,24,153
+6ifsG(c)=ctHh=s-23:pOp,32:q=p+c*(21*e+1):ifpE(q)<>216tHp=q:goS9:dA102,24,36,24
+8on-(x<9aNp<8186aNp>oaNl<20)gO4:on-(l=20)gO1:fOi=.too:nE:j=.:pO198,0:reS:gO0
+9fOa=-2to2:b=p+t+a:fOk=-2to2:pOb+k*u,1:nE:nE:reT:dA40,40,24,25,110,152,44,24
+10
+11dA102,
+12dA
 13rem
 
 20rem 
