@@ -1,6 +1,6 @@
-0pO56,28:pO52,28:j=.:n=36879:v=255:pOn-10,v:g=211:fOi=.to31:rEb:pO7599-i,b:pO7583-i,b:nE
-1pO7561,60:w=53:t=30720:x=.:u=22:p=7955:o=7723:l=.:dEfnr(x)=2+o+q*u*x+int(rN(1)*20)
-2pOn,13:?"{clear}":fOa=.to19:fOd=.to9:q=int(a/2):f=fnr(2):pOf+t,5:pOf,w:nE:q=a:f=fnr(1)
+0pO56,28:w=53:j=.:n=36879:v=255:pOn-10,v:fOi=.to31:rEb:pO7599-i,b:pO7583-i,b:nE
+1pO52,28:pO7561,60:t=30720:x=.:u=22:o=7723:l=.:dEfnr(x)=2+o+2*a*u+int(rN(1)*20)
+2p=7955:g=211:pOn,13:?"{clear}":fOa=.to9:fOd=.to9:f=fnr(.):pOf+t,5:pOf,w:nE:f=fnr(.)
 3pOf,g:pOf+t,2:nE:h=52:wA198,1:fOq=.to439:pOo+q+t,.:nE:dA,4,4,31,14,31,14,4,10
 4?"{home}{reverse on}{cyan}"j" {red}"9-int(x):ifpE(p)=gtHpOn,v:j=j+1:l=l+1:pOn,13:x=x+(x>1):dA10,12,76,59
 5c=2:gEa$:pOp+t,2:pOp,h:ifa$<>""tHs=aS(a$):e=saN1:c=s-75+e:x=x+.2:dA12,26,12,102

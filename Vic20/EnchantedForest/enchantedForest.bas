@@ -7,10 +7,7 @@
 6ifsG(c)=ctHh=s-23:pOp,160:q=p+c*(21*e+1):ifpE(q)<>216tHp=q:goS9:dA102,24,36,24
 8on-(x<9aNp<8186aNp>oaNl<10)gO4:on-(l=10)gO1:fOi=.too:nE:j=.:pO198,0:reS:gO
 9fOa=-2to2:b=p+t+a:fOk=-2to2:pOb+k*u,1:nE:nE:reT:dA40,40,24,25,110,152,44,24
-10
-11dA102,
-12dA
-13rem
+
 
 20rem 
 25rem pOn-10,255:g=211:w=54
