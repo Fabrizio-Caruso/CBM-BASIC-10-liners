@@ -9,7 +9,7 @@
 9fOa=-2to2:b=p+t+a:fOk=-2to2:pOb+k*u,1:nE:nE:reT:dA40,40,24,25,110,152,44,24
 
 
-20rem 
+20rem 8,28,62,28,62,8,8, tree
 25rem pOn-10,255:g=211:w=54
 35rem fOa=-2to2:b=p+t+a:pOb-2*u,1:pOb-u,1:pOb,1:pOb+u,1:pOb+2*u,1:nE:reT
 45rem 24,60,24,102,153,24,36,102 up
