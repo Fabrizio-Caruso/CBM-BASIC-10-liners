@@ -1,11 +1,11 @@
-10 bb=12288
+10 rem
 20 print chr$(142)
-30 poke54,48:poke58,48:clr
+30 poke54,48:poke58,48:clr:bb=12288
 40 bank14
-50 fori=1to511:pokei+bb,peek(i+53248):next
+50 fori=1to63:pokei+bb,peek(i+53248):next
 60 bank15
 70 poke2604,(peek(2604)and240)+12
-80 fori=bbtobb+8:pokei,reada:nexti
+80 fori=bbtobb+63:pokei,3:nexti
 90 scnclr
 100 print"@abcdef"
 150 end
