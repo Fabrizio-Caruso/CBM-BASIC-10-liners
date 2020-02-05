@@ -53,6 +53,7 @@
         <FileName>ThiefPlus128_exp.bas</FileName>
         <FileName>test.bas</FileName>
         <FileName>ThiefPlus128.bas</FileName>
+        <FileName>exp.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -124,7 +125,7 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
+            <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
@@ -147,6 +148,17 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>exp.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>
