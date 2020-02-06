@@ -1,4 +1,4 @@
-0colO0,1:colO4,1:x=160:y=x:fOi=1to7:x(i)=80+(iaN1)*x:y(i)=45+i*25:nE::dA7,60,66
+0colO0,1:colO4,1:x=160:y=x:fOi=1to7:x(i)=80+(iaN1)*x:y(i)=45+i*25:nE:dA7,60,66
 1a(3)=1:a(7)=-1:dowH(jO(2)=0):loO:fOi=1to5:reAs:s=4032-s*64:goS8:nE:p=.:dA165
 2?"{cyan}{clear}":sP8,1,3:fOi=1to7:poK2039+i,56:mOi,x(i),y(i):sPi,1,2:nE:w=1564:ifbU(1)tH:
 3c=1+int((y-50)/50):fOi=ctoc+3:mO8,x,y:q=q+1:j=jO(2):x=x+6*a(j):y=y+6*a(8-j)
