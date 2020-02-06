@@ -49,10 +49,13 @@
         <FileName>test.bas</FileName>
         <FileName>test.bas</FileName>
         <FileName>test.bas</FileName>
-        <FileName>ThiefPlus128.bas</FileName>
         <FileName>exp.bas</FileName>
         <FileName>exp2.bas</FileName>
         <FileName>exp3.bas</FileName>
+        <FileName>ThiefPlus128_udg_exp.bas</FileName>
+        <FileName>ThiefPlus128_exp.bas</FileName>
+        <FileName>ThiefPlus128.bas</FileName>
+        <FileName>ThiefPlus128_exp2.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -146,8 +149,41 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
+            <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>ThiefPlus128_exp.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>ThiefPlus128_exp2.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>ThiefPlus128_udg_exp.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>False</FileOpen>
         </SourceFile>
     </SourceFiles>
 </Project>

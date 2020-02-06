@@ -1,18 +1,10 @@
-0z=15:x=3:p=.:b=1024:u=-1:n=53281:p(0)=20:v=54296:t=v-24:o=1103:r=176:h=1524:e=40:f=h+e:?"{blue}{clear}"
-1fOi=0to7:x(i)=2024:nE:bb=12288:poK54,48:poK58,48:bA14:fori=.to7:readaa:pokei+bb,aa:next:fOi=8to64:poKi+bb,peE(i+53248):nE:bA15:poK2604,(peE(2604)aN240)+12:w=36:d=1984:p(1)=13:j=102:y=.:poKn,.:fOi=0to7:g(i)=4+31*(iaN1):h(i)=6+i*2:nE:m=87
-2ifu=0tHfOa=0to39:poKo-a,j:poKd+a,j:nE:poK650,128
-3u=u+1:s=h+t:poKf,90:poKn-1,.:q=int(u/4):if(uaN3)=0tHfOl=1to22:c=o-q+e*l:poKc,j:poKc+t,6:c=o-39+q+e*l:poKc,j:poKc+t,6:nE
-4poKf+t,2:poKx((i+4)aN7),m:c=int((f-o)/r):?"{home}{cyan}{122}{white}"9-kspCz)"{yellow}${white}"u:ifpeE(f)=wgO3
-5poKf,p:gEa$:i=c+(yaNx):ify<.tHg=g(i):g(i)=g+sG(p(.)-g):g=h(i):h(i)=g+sG(p(1)-g):poKx(i),32
-6x(i)=b+g(i)+e*h(i):poKx(i)+t,1:poKx(i),m:on-(peE(f)=m)gO9:if(yaNz)=9tHpoKh,w
-7ifa$<>""tHc=aS(a$)-72:ifc<5tHifc>0tHp(.)=p(.)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3):poKf,32:poKv,z
-8poKv,.:f=b+p(.)+e*p(1):ifc=-etHifk<9tHpoKn,2:y=a:k=k+1:poKn,4:fOc=0to39:nE:poKv,z
-9poKn,.:y=y-1:poKs,7:on-(peE(f)<m)gO4:k=.:poKf,p:fOi=0tod:nE:gO0
-10data24,36,24,102,153,24,36,102
-20rem 8,28,62,28,62,8,8, tree
-25rem pOn-10,255:g=211:w=54
-35rem fOa=-2to2:b=p+t+a:pOb-2*u,1:pOb-u,1:pOb,1:pOb+u,1:pOb+2*u,1:nE:reT
-45rem 24,60,24,102,153,24,36,102 up
-46rem 24,44,152,110,25,24,40,40  left
-47rem 24,36,24,102,153,24,36,102 down
-48rem 24,52,25,118,152,24,20,20  right
+0colO0,1:colO4,12:?"{home}{white}{clear}joy2{yellow}":x=170:y=x:fOi=1to7:x(i)=80+(iaN1)*x:y(i)=45+i*30:nE
+1dowH(jO(2)=0):loO:fOi=1to5:reAs:s=4032-s*64:goS8:poK2040+i,56:sPi,1,2,1,1:nE
+2p=.:h=4:sP8,1,3,1,1:?"{clear}":w=1564:fOa=0to39:poK1103-a,102:poK1944+a,102:nE
+3c=1+int((y-60)/45):fOi=ctoc+2:mO8,x,y:q=q+1:j=jO(2):x(i)=x(i)+6*sG(x-x(i))
+4y(i)=y(i)+6*sG(y-y(i)):if(qaN63)=1tHpoKw,32:w=1184+int(rN(.)*840):poKw,36:l=1
+5if(jaN1)=1tHpoK2047,64-j:x=x-5*(j=3)+5*(j=7):y=y-5*(j=5)+6*(j=1)
+6h=-h*(y>61):h=-h*(y<230):mOi,x(i),y(i):nE:ifbU(2)=128tHif-ltHl=.:p=p+1:poKw,32
+7?"{home}"spC22)"{cyan}energy{gray}"h:on-(bU(1)<128aNh>0)gO3:h=h-1:on-(h>0)gO3:reS:gO0
+8fOk=.to63:poKs+k,.:nE:reAa$:fOk=0to23stE3:poKs+k,aS(mI(a$,1+k/3,1)):nE:reT
+9dA7,"{60}{66}{165}{129}{90}{36}{36}{60}",,"{24}{60}{24}{102}{153}{24}{36}{102}",2,"{24}{52}{25}{118}{152}{24}{40}{40}",4,"{24}{36}{24}{102}{153}{24}{36}{102}",6,"{24}{44}{152}{110}{25}{24}{40}{40}"
