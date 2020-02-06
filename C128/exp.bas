@@ -1,9 +1,9 @@
 0colO0,1:colO4,1:x=170:y=x:fOi=1to7:x(i)=80+(iaN1)*x:y(i)=45+i*25:nE
-1a(3)=1:a(7)=-1:dowH(jO(2)=0):loO:fOi=1to5:reAs:s=4032-s*64:goS8:nE:p=.:h=4
+1dowH(jO(2)=0):loO:fOi=1to5:reAs:s=4032-s*64:goS8:nE:p=.:h=4
 2?"{cyan}{clear}":sP8,1,3,1,1,1:fOi=1to7:poK2039+i,56:mOi,x(i),y(i):sPi,1,2,1,1:nE:w=1564
-3c=1+int((y-50)/50):fOi=ctoc+3:mO8,x,y:q=q+1:j=jO(2)aN7:x(i)=x(i)+6*sG(x-x(i))
-4if(qaN63)=1tHpoKw,32:w=1104+int(rN(.)*920):poKw,90:mO8,x,y:l=1
-5y(i)=y(i)+6*sG(y-y(i)):if(jaN1)=1tHpoK2047,64-j:x=x+6*a(j):y=y+6*a(8-j)
+3c=1+int((y-50)/50):fOi=ctoc+3:mO8,x,y:q=q+1:j=jO(2):x(i)=x(i)+6*sG(x-x(i))
+4y(i)=y(i)+6*sG(y-y(i)):if(qaN63)=1tHpoKw,32:w=1184+int(rN(.)*840):poKw,90:l=1
+5if(jaN1)=1tHpoK2047,64-j:x=x-6*(j=3)+6*(j=7):y=y-6*(j=5)+6*(j=1)
 6mOi,x(i),y(i):nE:ifbU(2)=128tHif-ltHl=.:p=p+1:poKw,32:?"{home}"spc(9)"{yellow}score{white}"p
 7on-(bU(1)<128)gO3:h=h-1:?"{home}"spc(22)"{green}energy {gray}"h:on-(h>0)gO3:reS:gO0
 8fOk=0to23stE3:poKs+k-1,.:reAa:poKs+k,a:poKs+k+1,.:nE:fOk=23to63:poKs+k,.:nE:reT
