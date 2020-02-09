@@ -1,4 +1,4 @@
-0colO0,1:colO4,12:h=9:g=40:a=3:fOi=1to7:x(i)=(iaN1)*340:y(i)=i*g:nE:dA"{60}{66}{165}{129}{90}{36}{36}{60}"
+0colO0,1:colO4,12:h=9:g=40:a=5:fOi=1to7:x(i)=(iaN1)*340:y(i)=i*g:nE:dA"{60}{66}{165}{129}{90}{36}{36}{60}"
 1w=1524:y=146:x=180:?"{green}{clear}":f=102:fOi=1to5:s=3520+i*64:fOk=.to63:poKs+k,.:nE:reAa$
 2o=1143:b=56:fOk=0to23stE3:poKs+k,aS(mI(a$,1+k/3)):nE:d=38:nE:t=32:z=19:fOi=1to8
 3e=8:c=1:poK2039+i,b:sPi,1,2,,1:nE:fOk=0to39:poKo-k,f:poK1984+k,f:nE:sP8,1,3,,1
