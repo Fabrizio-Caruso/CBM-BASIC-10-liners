@@ -6,5 +6,5 @@
 5c=1+(y-g)/b:fOi=ctoc+3:mOe,x,y:x(i)=x(i)+a*sG(x-x(i)):w=w+m+l*g:dA"{24}{44}{152}{110}{25}{24}{40}{40}"
 6y(i)=y(i)+a*sG(y-y(i)):mOi,x(i),y(i):m=(j=7)-(j=3):l=(j=1)-(j=5):j=jO(2)aN7
 7u=peE(w):h=-h*(u<>f):x=x+e*m:y=y+e*l:ifu=87tHp=p+1:vO9:vO.:poKw,t:a=3+q/f
-8nE:chA,4+rN(.)*t,4+rN(.)*z,"{yellow}W":?"{home}"spC15)"{yellow}W{white}"p"  {red}S{white}"h:ifjtHpoK2047,b+(j+1)/2
+8nE:chA,4+rN(pi)*t,4+rN(pi)*z,"{yellow}W":?"{home}"spC15)"{yellow}W{white}"p"  {red}S{white}"h:ifjtHpoK2047,b+(j+1)/2
 9q=q+1:on-(bU(1)<128aNh>0)gO5:h=h-v:v=1:on-(h>0)gO5:sL3:reS:q=.:v=.:m=.:l=.:gO0

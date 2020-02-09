@@ -50,7 +50,7 @@
         <FileName>test.bas</FileName>
         <FileName>test.bas</FileName>
         <FileName>TC_exp2.bas</FileName>
-        <FileName>exp2.bas</FileName>
+        <FileName>TreasureChamber_IJKL.bas</FileName>
         <FileName>TC_exp.bas</FileName>
         <FileName>ThiefPlus128_udg_exp.bas</FileName>
         <FileName>ThiefPlus128_exp.bas</FileName>
@@ -79,17 +79,6 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>exp2.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
-        <SourceFile>
             <Name>MinesPlus128_40col.bas</Name>
             <PrgName />
             <FileType>1</FileType>
@@ -98,7 +87,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>MinesPlus128_80col.bas</Name>
@@ -207,11 +196,22 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
+            <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>TreasureChamber_3step.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>TreasureChamber_IJKL.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
