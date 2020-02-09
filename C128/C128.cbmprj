@@ -56,9 +56,9 @@
         <FileName>ThiefPlus128_exp.bas</FileName>
         <FileName>ThiefPlus128.bas</FileName>
         <FileName>ThiefPlus128_exp2.bas</FileName>
-        <FileName>TreasureChamber.bas</FileName>
+        <FileName>TreasureChamber_3step.bas</FileName>
         <FileName>bug.bas</FileName>
-        <FileName>fast.bas</FileName>
+        <FileName>TreasureChamber.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -90,14 +90,14 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>fast.bas</Name>
+            <Name>TreasureChamber.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>False</Topmost>
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
@@ -175,7 +175,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
+            <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>ThiefPlus128_exp.bas</Name>
@@ -186,7 +186,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
+            <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>ThiefPlus128_exp2.bas</Name>
@@ -197,7 +197,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
+            <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>ThiefPlus128_udg_exp.bas</Name>
@@ -211,14 +211,14 @@
             <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>TreasureChamber.bas</Name>
+            <Name>TreasureChamber_3step.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
+            <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>
