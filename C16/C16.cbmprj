@@ -58,17 +58,6 @@
     <!--End of screen designer settings-->
     <SourceFiles>
         <SourceFile>
-            <Name>boing.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>True</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
-        <SourceFile>
             <Name>ExperimentalMines16.bas</Name>
             <PrgName />
             <FileType>1</FileType>
@@ -87,7 +76,7 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>False</Topmost>
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
