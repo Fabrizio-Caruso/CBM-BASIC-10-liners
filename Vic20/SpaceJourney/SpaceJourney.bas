@@ -1,10 +1,10 @@
-0v=36878:pO56,26:pO52,26:n=v+1:fOp=0to31:rEb:pO7168+p,b:nE:x=132:y=22:ifi>rtHr=i
-1w=8185:p=w-9:pOn,8:m=5:l=3:t=30720:pOv-9,255:i=.:?"{clear}{reverse on}{white}use j l [space]":wA198,1
-2pOn,127:pO650,128:j$="{home}{down}":g=w-y:q=32:u=218:?"{clear}":pOn,8:dA24,36,24,60,165,165,165
-3i=i+1:b=int(i/512):fOk=.tob:?j$tAint(rN(.)*21))"{white}{67}":nE:if(iaN127)=.tHb$="{yellow}{66}"
-4if(iaN31)=.tHs=int(rN(.)*21):?j$tAs)b$;:if(iaN511)=.tH?tAs)"{left}{purple}{64}":dA153,,8,28,28
-5c=pE(p-y):ifc<5tHpOv,15:pOv,.:ifc>2tHl=l-1:fOh=-9to8:pOn,16-h:m=5:nE:if(l>.)gO2
-6f=.:gEa$:ifa$<>""tHf=aS(a$):k=p+(f=74)-(f=76):ifk<wtHifk>gtHp=k:dA28,42,,,,36
+0q=32:w=8185:fOb=.to4:rEb$:fOp=1to8:pO7167+b*8+p,aS(mI(b$,p))-1:nE:nE:ifi>rtHr=i
+1i=.:y=22:v=36878:p=w-9:n=v+1:pOn,8:pOv-9,255:m=5:l=3:?"{clear}{reverse on}{white}use j l spc":wA198,1
+2pO56,26:pO52,26:x=132:t=30720:pOn,127:pO650,128:j$="{home}{down}":g=w-y:u=218:?"{clear}":pOn,8
+3i=i+1:b=i/512:fOk=.tob:?j$tArN(.)*21)c$:nE:if(iaN127)=.tHb$="{yellow}{66}":dA"{ 25}{ 37}{ 25}{ 61}{166}{166}{166}{154}"
+4if(iaN31)=.tHs=rN(.)*21:?j$tAs)b$;:if(iaN511)=.tH?tAs)"{left}{green}{64}":dA"{  1}{  9}{ 29}{ 29}{ 29}{ 43}{  1}{  1}"
+5c=pE(p-y):ifc<5tHpOv,15:pOv,.:ifc>2tHl=l-1:pOp+t,4:fOh=.to999:m=5:nE:if(l>.)gO2
+6f=.:gEa$:ifa$<>""tHf=aS(a$):k=p+(f=74)-(f=76):ifk<wtHifk>gtHp=k:dA"{  1}{ 37}{ 91}{ 53}{ 45}{ 91}{ 37}{  1}"
 7?"{home}{down}{left}{148}":pOu,x:pOp+t,2:pOp,.:iff=qtHifm>.tHm=m-1:fOh=1to9:pOp-y*h,1:pOp-y*h,q:nE
-8b$="{cyan}{65}":?"{home}{reverse on}{purple}"l"{cyan}"m"{white}"i"{blue}"r:ifc<2tHm=m-(m<9):ifl<9tHl=l-(c=.):dA90,52,44,90,36,
-9on-(c=2)gO2:on-(l>.)gO3:fOh=9tow/2:nE:pO198,.:reS:gO0:dA42,20,62,58,46,62,58,28
+8b$="{cyan}{65}":?"{home}{reverse on}{purple}"l"{cyan}"m"{white}"i"{blue}"r:ifc<2tHm=m-(m<9):ifl<9tHl=l-(c=.):dA"{ 11}{ 22}{ 11}{ 32}{ 24}{ 30}{ 32}{15}"
+9c$="{white}"+cH(67+(iaN1)):on-(c=2)gO2:on-(l>.)gO3:pO198,.:reS:gO0:dA"{ 43}{ 21}{ 63}{ 59}{ 47}{ 63}{ 59}{ 29}"
