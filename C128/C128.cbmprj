@@ -49,9 +49,7 @@
         <FileName>test.bas</FileName>
         <FileName>test.bas</FileName>
         <FileName>test.bas</FileName>
-        <FileName>TC_exp2.bas</FileName>
         <FileName>TreasureChamber_IJKL.bas</FileName>
-        <FileName>TC_exp.bas</FileName>
         <FileName>ThiefPlus128_udg_exp.bas</FileName>
         <FileName>ThiefPlus128_exp.bas</FileName>
         <FileName>ThiefPlus128.bas</FileName>
@@ -112,28 +110,6 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>TC_exp.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
-        <SourceFile>
-            <Name>TC_exp2.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
-        <SourceFile>
             <Name>test.bas</Name>
             <PrgName />
             <FileType>1</FileType>
@@ -164,7 +140,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>ThiefPlus128_exp2.bas</Name>
@@ -175,7 +151,7 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
             <Name>ThiefPlus128_udg_exp.bas</Name>

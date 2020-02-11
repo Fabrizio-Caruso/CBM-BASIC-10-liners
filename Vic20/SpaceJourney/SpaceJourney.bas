@@ -6,5 +6,5 @@
 5c=pE(p-y):ifc<5tHpOv,15:pOv,.:ifc>2tHl=l-1:pOp+t,4:fOh=.to999:m=5:nE:if(l>.)gO2
 6f=.:gEa$:ifa$<>""tHf=aS(a$):k=p+(f=74)-(f=76):ifk<wtHifk>gtHp=k:dA"{  1}{ 37}{ 91}{ 53}{ 45}{ 91}{ 37}{  1}"
 7?"{home}{down}{left}{148}":pOu,x:pOp+t,2:pOp,.:iff=qtHifm>.tHm=m-1:fOh=1to9:pOp-y*h,1:pOp-y*h,q:nE
-8b$="{cyan}{65}":?"{home}{reverse on}{purple}"l"{cyan}"m"{white}"i"{blue}"r:ifc<2tHm=m-(m<9):ifl<9tHl=l-(c=.):dA"{ 11}{ 22}{ 11}{ 32}{ 24}{ 30}{ 32}{15}"
+8b$="{cyan}{65}":?"{home}{red}@{reverse on}{white}"l"{reverse off}{cyan}a{reverse on}"m"{white}"i"{blue}"r:ifc<2tHm=m-(m<9):ifl<9tHl=l-(c=.):dA"{ 11}{ 22}{ 11}{ 32}{ 24}{ 30}{ 32}{15}"
 9c$="{white}"+cH(67+(iaN1)):on-(c=2)gO2:on-(l>.)gO3:pO198,.:reS:gO0:dA"{ 43}{ 21}{ 63}{ 59}{ 47}{ 63}{ 59}{ 29}"
