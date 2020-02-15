@@ -7,4 +7,4 @@
 6mOi,x(i),y(i):u=peE(w):m=(j=7)-(j=3):l=(j=1)-(j=5):ifu>ttHp=p+1:vOe:vO.:poKw,t
 7j=jO(2)aN7:h=-h*(u<>f):x=x+e*m:y=y+e*l:nE:a=4+q/f:c=1+(y-g)/b:dA"{24}{44}{152}{110}{25}{24}{40}{40}"
 8q=q+1:chA,4+rN(.)*t,4+rN(.)*z,b$+"W":?"{home}"spC15)"W{white}"p" {red}S{white}"h:ifjtHpoKr,b+(j+1)/2
-9b$=cH(158+(qaN1)):on-(bU(1)<saNh>.)gO5:h=h-1:on-(h>.)gO5:sL3:mO8,x(1),y(1):rU
+9b$=cH(158+(qaN1)):on-(bU(1)<saNh>.)gO5:h=h-1:on-(h>.)gO5:sL4:mO8,x(1),y(1):rU
