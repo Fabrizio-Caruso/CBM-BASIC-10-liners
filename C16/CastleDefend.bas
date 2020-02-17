@@ -4,7 +4,7 @@
 3?"{home}{cyan}score{white}"j" {gray}record{light gray}"r:i=fnu(40):h=e(i):ifi=ngO3
 4pOg+h+i,32
 5e(i)=h-40:pOg+e(i)+i,81:ifytHifm=e(n)tHe(n)=24*40:j=j+1:y=.
-6gEa$:ifa$<>""tHa=aS(a$):pOp+q,32:q=q+(a=74)-(a=76)
+6gEa$:ifa$<>""tHa=aS(a$):pOp+q,32:k=q+(a=74)-(a=76):ifk>=0tHifk<40tHq=k
 7pOp+q,88:ifa=32tHify=.tHy=1:n=q:m=0:a=.
-8pOp+m+n,32:ifytHm=m+40:pOp+m+n,90:ifm>3952tHy=.
+8pOp+m+n,32:ifytHm=m+40:pOp+m+n,66:ifm>3952tHy=.
 9on-(e(i)>=120)gO3:chA1,15,10,"{red}game over ":fOi=.top:nE:gEkEk$:gO1
