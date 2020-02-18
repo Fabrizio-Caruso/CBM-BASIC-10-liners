@@ -50,8 +50,7 @@
         <FileName>MinesPlus16.bas</FileName>
         <FileName>boing.bas</FileName>
         <FileName>test.bas</FileName>
-        <FileName>CastleDefend.bas</FileName>
-        <FileName>CastleDefend_UDG.bas</FileName>
+        <FileName>TheHorde_UDG.bas</FileName>
         <FileName>TheHorde.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
@@ -61,28 +60,6 @@
     <AssyExportList />
     <!--End of screen designer settings-->
     <SourceFiles>
-        <SourceFile>
-            <Name>CastleDefend.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
-        <SourceFile>
-            <Name>CastleDefend_UDG.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
         <SourceFile>
             <Name>ExperimentalMines16.bas</Name>
             <PrgName />
@@ -136,6 +113,17 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>TheHorde_UDG.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
