@@ -4,7 +4,7 @@
 3d=76:t=1024:vO5:g=3072:fOi=0to39:e(i)=u:pOp+i-t,66:pOp-s+i,34:nE:j=.:q=20
 4?"{home}"sP13)"{cyan}score{white}"j"  {gray}hi{light gray}"r:dA"{24}{60}{24}{102}{153}{24}{36}{102}{24}{36}{24}{102}{153}{24}{36}{102}{56}{16}{56}{16}{16}{16}{16}{16}"
 5i=rN(.)*s:h=e(i):pOg+h+i,l:e(i)=h-s:y=y*(m<u):pOg+m+n,l:ifytHm=m+s:pOg+m+n,2
-6pOg+e(i)+i,.:ifytHifm>e(n)tHpOg+e(n)+n,l:e(n)=u:j=j+1:y=.:sO2,b,3:gO4
+6pOg+e(i)+i,.:ifytHifm>=e(n)tHpOg+e(n)+n,l:e(n)=u:j=j+1:y=.:sO2,b,3:gO4
 7gEa$:ifa$<>""tHa=aS(a$):pOp+q,l:k=q+(a=c)-(a=d):ifk>=.tHifk<stHq=k
 8pOp+q,1:ifa=ltHify=.tHsO2,99,2:y=1:n=q:m=b:a=.
 9a=.:on-(e(i)>b)gO4:?"{home}{red}end":fOy=.tot:nE:gEkEk$:y=.:reS:gO2
