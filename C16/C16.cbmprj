@@ -50,9 +50,8 @@
         <FileName>MinesPlus16.bas</FileName>
         <FileName>boing.bas</FileName>
         <FileName>test.bas</FileName>
-        <FileName>TheHorde_UDG.bas</FileName>
+        <FileName>TheHorde_PETSCII.bas</FileName>
         <FileName>TheHorde.bas</FileName>
-        <FileName>TheHorde_ALT.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -117,18 +116,7 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>TheHorde_ALT.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>True</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
-        <SourceFile>
-            <Name>TheHorde_UDG.bas</Name>
+            <Name>TheHorde_PETSCII.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
@@ -146,7 +134,7 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>False</Topmost>
+            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>
