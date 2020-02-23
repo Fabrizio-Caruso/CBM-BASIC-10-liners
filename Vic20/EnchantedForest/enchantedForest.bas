@@ -5,5 +5,5 @@
 4pOn,8:?"{home}"sP7)"{reverse on}{red}S{cyan}"j"  {red}{reverse off}4{green}{reverse on}"9-xaN15:ifpE(p)=gtHpOn,90:j=j+1:l=l+1:x=x+(x>1)
 5z=8186:gEa$:pOp+t,2:pOp,h:s=aS(a$+"{001}"):e=saN1:c=s-75+e:dA"{24}{44}{152}{110}{25}{24}{40}{40}","{24}{36}{24}{102}{153}{24}{36}{102}"
 6on-(l=10)gO1:ifc=sG(c)tHx=x+.1:h=s-23:pOp,160:q=p+c*(21*e+1):if(pE(q)<>w)gO9
-8on-(x<9aNp<zaNp>o)gO4:pOn,109:?"  {green}1111 {white}{reverse on}game over {green}{reverse off}1111":fOi=tton:nE:pO198,0:j=.:gO1
+8on-(x<9aNp<zaNp>o)gO4:pOn,109:?sP6)"{yellow}{reverse on}game over":fOi=tton:nE:pO198,0:j=.:gO1
 9p=q:pOv,9:pOv,.:fOa=-2to2:b=p+t+a:fOk=-2to2:pOb+k*u,1:nE:nE:gO8:dA"{24}{52}{25}{118}{152}{24}{40}{40}"
