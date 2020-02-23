@@ -31,8 +31,8 @@ Conan can carry money that he can spend at the merchant.
 
 - The Merchant
 The merchant sells 3 types of items:
-1. Potion (+8 energy, consumed immediately)
-2. Boots (+5 boot level, consumed when escaping from enemy encounters): Each set provides safety in the next 5 escpape attempts
+1. Potion (+5 energy, consumed immediately)
+2. Boots (+8 boot level, consumed when escaping from enemy encounters): Each upgrade provides safety in the next 8 escpape attempts
 3. Armor: (+1 armor level, never consumed): It provides a dammage reduction factor both when you fight and when you fail an escape
 
 Remark: There is a constant supply of potions upon your return from quests. Other items are never supplied again.
