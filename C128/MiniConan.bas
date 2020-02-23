@@ -5,6 +5,6 @@
 4e=e+(j=1)*(w(1)>.)*5:b=b-(j=2)*8:z=z-(j=3):g=g-p(j):w(j)=w(j)-1:gO2:dA"{green}dark woods","{brown}armor",300,"{green}elves","{blue}merchant"
 5fOk=.to1:fOi=1toj*3:?"{clear}"j$(j)"{home}{down}{white}day {gray}"i;q$:r=1+int(rN(1)*(j+1)):n=2+int(t+rN(1)*2.5*j):?"you are attacked by"n;e$(r)
 6?"{light gray}1.attack":?"2.run":inputa:a=aaN1:h=fnf(f(r)/z):ifa*h>ftH?"{red}you are hit for"h"p":e=e-h:sL1:dA"{gray} exit",,"{green}werewolves"
-7ife<.tHsL1:?"{clear}{red}end":sL1:gEkEk$:rU:elseifatH?"{cyan}you kill the "e$(r):f=f+1:p=int(rN(1)*r*n):?"{cyan}you get {yellow}${orange}"p:g=g+p:sL2:gO9
+7ife<.tH?"{clear}{red}end{cyan}"f;v:sL1:gEkEk$:rU:elseifatH?"{cyan}you kill the "e$(r):f=f+1:p=int(rN(1)*r*n):?"{cyan}you get {yellow}${orange}"p:g=g+p:sL2:gO9
 8m=fnf(v(r)):ifm>vaNb<1tHx=1+int(m/8/z):?"{red}they grab you and take"x"p":e=e-x:sL1:gO6:else?"{cyan}escaped":sL2:v=v+1:b=b+(b>.)
 9nE:p=j*int(5+rN(1)*6):ifk=.tHt=t+.4:q$=r$:?"{clear}you find {yellow}${orange}";p:g=g+p:sL2:nE:else:q$="":f=f+j:v=v+j:nE:w(1)=w(1)+j:gO2
