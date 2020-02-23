@@ -51,8 +51,8 @@
         <FileName>test.bas</FileName>
         <FileName>ThiefPlus128_udg_exp.bas</FileName>
         <FileName>bug.bas</FileName>
-        <FileName>TreasureChamber_color.bas</FileName>
         <FileName>TreasureChamber.bas</FileName>
+        <FileName>TreasureChamber_no_color.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -124,7 +124,7 @@
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>True</Topmost>
+            <Topmost>False</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
@@ -139,15 +139,15 @@
             <FileOpen>False</FileOpen>
         </SourceFile>
         <SourceFile>
-            <Name>TreasureChamber_color.bas</Name>
+            <Name>TreasureChamber_no_color.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
             <Regions />
             <Breakpoints />
             <Bookmarks />
-            <Topmost>False</Topmost>
-            <FileOpen>False</FileOpen>
+            <Topmost>True</Topmost>
+            <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>
 </Project>
