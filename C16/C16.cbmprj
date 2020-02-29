@@ -52,6 +52,7 @@
         <FileName>test.bas</FileName>
         <FileName>TheHorde.bas</FileName>
         <FileName>XChase_C16.bas</FileName>
+        <FileName>test2.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -84,6 +85,17 @@
         </SourceFile>
         <SourceFile>
             <Name>test.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
+            <Name>test2.bas</Name>
             <PrgName />
             <FileType>1</FileType>
             <IncludeInBuild>True</IncludeInBuild>
