@@ -6,5 +6,5 @@
 5pOb+18,51-k:on-(pE(f)=87)gO8:on-(pE(x(i))=w)goS9:pOx(i),87:pOx(i)-t,n:nE:y=y-1
 6gEa$:on-(a$="")gO6:c=aS(a$)-72:p(.)=p(.)+(c=2)-(c=4):p(1)=p(1)+(c=1)-(c=3)
 7pOf,32:chA,17,.,"{cyan}Z":pOx-t,115:j=(pE(f)<>w):ifc=-vaNk<3tHsO1,m,3:y=9:n=99:k=k+1
-8z=z-.2:?"{home}{down}{red}"zaN7:f=b+p(.)+v*p(1):on-(pE(f)<waNjaNz>1)gO3:fOi=.tox:nE:gEkEk$:rU
-9z=8:u=u+1:k=k+(k>.)/9:?"{home}"sPa)"{white}W{yellow}"u:g(.,i)=4*i+4:g(1,i)=s:x(i)=b+4*i+4+s*v:reT
+8z=z-.2:?"{home}{down}{cyan}"zaN7:f=b+p(.)+v*p(1):on-(pE(f)<waNjaNz>1)gO3:fOi=.tox:nE:gEkEk$:rU
+9z=8:u=u+1:k=k+(k>.)/9:?"{home}"sPa)"{white}W{light gray}"u:g(.,i)=4*i+4:g(1,i)=s:x(i)=b+4*i+4+s*v:reT
