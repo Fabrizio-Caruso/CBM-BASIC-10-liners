@@ -33,8 +33,8 @@ Remark: There is a constant supply of potions when your return from a quest. Boo
 - Enemies
 1. Trolls (fast and weak)
 2. Orcs (slow and strong)
-3. Elves (very fast and average strong)
-4. Werewolves (very strong and average fast)
+3. Elves (very fast and moderately strong)
+4. Werewolves (very strong and moderately fast)
 
 - The Quests
 1. Eerie Forest (only trolls and orcs here)
