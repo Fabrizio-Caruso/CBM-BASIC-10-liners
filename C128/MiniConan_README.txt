@@ -8,7 +8,7 @@ http://ready64.org/giochi/scheda_gioco/id/858/conan
 You are Conan, an adventurer who goes on quests to recover treasures and slaughter enemies.
 
 - The Inn
-The Inn is your base from which you can choose to go on, either on one of 3 quests or go to the merchant to by some of its items.
+The Inn is your base from which you can choose to go on, either on one of 3 quests or go to the merchant to buy some of its items.
 
 - Conan's abilities
 
