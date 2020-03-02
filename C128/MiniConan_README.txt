@@ -22,26 +22,19 @@ Conan (as well as the enemies) has 2 main abilities:
 2. speed (used when fleeing enemies): it increases by succeding escapes and completing quests
 
 
--- Items
-Conan can carry two types of items:
-1. boots (which have a level that decreases when he tries to escape enemies)
-2. armor (it never decreases)
-
-Conan can carry money that he can spend at the merchant.
-
 - The Merchant
 The merchant sells 3 types of items:
-1. Potion (+5 energy, consumed immediately)
-2. Boots (+8 boot level, consumed when escaping from enemy encounters): Each upgrade provides safety in the next 8 escpape attempts
+1. Potion (+10 energy, consumed immediately)
+2. Boots (+10 boot level, consumed when escaping from enemy encounters): Each upgrade provides safety in the next 10 escpape attempts
 3. Armor: (+1 armor level, never consumed): It provides a dammage reduction factor both when you fight and when you fail an escape
 
-Remark: There is a constant supply of potions upon your return from quests. Other items are never supplied again.
+Remark: There is a constant supply of potions when your return from a quest. Boots and armor upgrades are never replenished.
 
 - Enemies
 1. Trolls (fast and weak)
 2. Orcs (slow and strong)
-3. Elves (very fast and strong)
-4. Werewolves (very strong and fast)
+3. Elves (very fast and average strong)
+4. Werewolves (very strong and average fast)
 
 - The Quests
 1. Eerie Forest (only trolls and orcs here)
