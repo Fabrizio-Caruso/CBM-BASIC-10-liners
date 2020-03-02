@@ -39,14 +39,14 @@ Remark: There is a constant supply of potions upon your return from quests. Othe
 
 - Enemies
 1. Trolls (fast and weak)
-2. Kobolds (slow and strong)
+2. Orcs (slow and strong)
 3. Elves (very fast and strong)
 4. Werewolves (very strong and fast)
 
 - The Quests
-1. Eerie Forest (only trolls and kobolds leave here)
-2. Cave (only trolls, kobolds and elves leave here)
-3. Dark Woods (trolls, kobolds, elves amd werewolves leave here)
+1. Eerie Forest (only trolls and orcs here)
+2. Cave (only trolls, orcs and elves here)
+3. Dark Woods (trolls, orcss, elves amd werewolves here)
 
 
 - Enemies fights
