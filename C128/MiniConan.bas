@@ -1,6 +1,6 @@
 0dEfnf(x)=int(rN(1)*n*n*x*x/20):fOi=1to5:w(i)=4:reAj$(i),m$(i),p(i),e$(i):v(i)=2+i+4*(iaN1):dA"{light green}eerie forest","{cyan}potion{yellow}"
 1nE:e=100:colO4,1:colO0,1:r$="return":z=1:v=1:g=e:b=5:t=.:f=1:dA20,"{light green}trolls","{brown}cave","{light green}boots{yellow}",100,"{orange}orcs","{green}dark woods"
-2goS9:?"{orange}the inn":fOi=1to4:?"{white}"i;j$(i):nE:inputj:on-(j<4)gO4:goS9:?j$(4):fOi=1to3:?"{white}"i"{dark gray}"w(i)m$(i)p(i):dA"{brown}shield{yellow}",300
+2goS9:?"{orange}the inn":fOi=1to4:?"{white}"i;j$(i):nE:inputj:on-(j<4)gO4:goS9:?j$(4):fOi=1to3:?"{white}"i"{dark gray}"w(i)m$(i)p(i):dA"{brown}armor{yellow}",300
 3nE:?" {white}4 "m$(4):inputj:on-(j=4org<p(j)orw(j)=.)gO2:e=e+(j=1)*(w(1)>.)*10:b=b-(j=2)*10:z=z-(j=3):g=g-p(j):w(j)=w(j)-1:gO2
 4fOk=.to1:fOi=1toj*3:goS9:?j$(j):?"{down}{white}day{gray}"i;q$:r=1+int(rN(1)*(j+1)):n=2+int(rN(1)*(2*j+t)):?"you are attacked by"n;e$(r)
 5g$="ou and take":?"{light gray}1.fight":?"2.run":inputa:a=aaN1:h=fnf(v(r+1)/(.8+z/5)):h=a*h-f:ifh>.tH:?"{red}you lose"h"p":e=e-h:vO9:vO.
