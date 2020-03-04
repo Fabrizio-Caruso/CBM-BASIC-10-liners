@@ -53,7 +53,6 @@
         <FileName>TheHorde.bas</FileName>
         <FileName>XChase_C16.bas</FileName>
         <FileName>test2.bas</FileName>
-        <FileName>broken.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -62,17 +61,6 @@
     <AssyExportList />
     <!--End of screen designer settings-->
     <SourceFiles>
-        <SourceFile>
-            <Name>broken.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
         <SourceFile>
             <Name>ExperimentalMines16.bas</Name>
             <PrgName />
