@@ -1,5 +1,5 @@
 0fOb=.to4:rEb$:fOp=1to8:pO7167+b*8+p,aS(mI(b$,p))-1:pO7421+p,.:nE:nE:ifi>rtHr=i
-1i=.:l=3:q=32:y=22:v=36878:p=8176:n=v+1:pOn,8:pOv-9,255:m=5:?"{clear}{reverse on}{white}jl spc":wA198,1
+1i=.:l=3:q=32:y=22:v=36878:p=8174:n=v+1:pOn,8:pOv-9,255:m=5:?"{clear}{reverse on}{white}jl spc":wA198,1
 2pO56,26:pO52,26:x=132:t=30720:pOn,127:pO650,128:j$="{home}{down}":g=8163:u=218:?"{clear}":pOn,8
 3i=i+1:b=i/512:fOk=.tob:?j$tArN(.)*21)c$:nE:if(iaN127)=.tHb$="{yellow}{66}":dA"{ 25}{ 37}{ 25}{ 61}{166}{166}{166}{154}"
 4if(iaN31)=.tHs=rN(.)*21:?j$tAs)b$;:if(iaN511)=.tH?tAs)"{left}{green}{64}":dA"{  1}{  9}{ 29}{ 29}{ 29}{ 43}{  1}{  1}"
