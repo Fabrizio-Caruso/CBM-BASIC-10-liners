@@ -1,10 +1,10 @@
-0e=8:t=32:b=56:colO0,1:colO4,1:y=146:fOi=1to7:x(i)=b:y(i)=t:nE:w=1524:g=40:x=180
-1s=128:r=2047:?"{light green}{clear}{cyan}joy2":fOi=1to5:c=3520+i*64:o=1143:fOk=.to63:poKc+k,.:nE:reAa$
-2z=19:f=86:fOk=0to7:poKc+3*k,aS(mI(a$,1+k)):nE:d=38:nE:c=1:fOi=1toe:poK2039+i,b
-3h=9:sPi,1,2+i,,1,1:nE:fOk=0to39:poKo-k,f:poK1984+k,f:nE:p=.:fOi=1to22:fOk=.to1
-4poKo-39*k+g*i,f:nE:nE:sP8,1,3,,,0:dA"{62}{127}{73}{127}{119}{62}{42}{42}","{24}{60}{24}{102}{153}{24}{36}{102}","{24}{52}{25}{118}{152}{24}{40}{40}","{24}{36}{24}{102}{153}{24}{36}{102}"
+0e=8:t=32:b=56:colO.,1:colO4,1:y=146:fOi=1to7:x(i)=b:y(i)=t:nE:w=1524:g=40:x=180
+1o=1143:z=19:f=86:s=128:r=2047:?"{light green}{clear}{cyan}joy2":reAa$:fOi=.totstEe:c=3581+i*8:fOk=.to64
+2poKc+k,.:nE:fOk=1to8:poKc+3*k,aS(mI(a$,i+k)):nE:nE:h=9:d=4:fOi=1toe:poK2039+i,b
+3sPi,1,2+i,,1,1:nE:n=158:c=1:fOk=.to39:poKo-k,f:poK1984+k,f:nE:fOi=1to22:fOk=.to1
+4poKo-39*k+g*i,f:nE:nE:sP8,1,3,,,.:dA"{62}{127}{73}{127}{119}{62}{42}{42}{24}{60}{24}{102}{153}{24}{36}{102}{24}{52}{25}{118}{152}{24}{40}{40}{24}{36}{24}{102}{153}{24}{36}{102}{24}{44}{152}{110}{25}{24}{40}{40}"
 5fOi=ctoc+3:mOe,x,y:x(i)=x(i)+a*sG(x-x(i)):w=w+m+l*g:y(i)=y(i)+a*sG(y-y(i))
 6mOi,x(i),y(i):u=peE(w):m=(j=7)-(j=3):l=(j=1)-(j=5):ifu>ttHp=p+1:vOe:vO.:poKw,t
-7j=jO(2)aN7:h=-h*(u<>f):x=x+e*m:y=y+e*l:nE:a=4+q/f:c=1+(y-g)/b:dA"{24}{44}{152}{110}{25}{24}{40}{40}"
-8q=q+1:chA,4+rN(.)*t,4+rN(.)*z,b$+"W":?"{home}"spC15)"W{white}"p" {red}S{white}"h:ifjtHpoKr,b+(j+1)/2
-9b$=cH(158+(qaN1)):on-(bU(1)<saNh>.)gO5:h=h-1:on-(h>.)gO5:sL4:mO8,x(1),y(1):rU
+7j=jO(2)aN7:x=x+e*m:y=y+e*l:ifu=ftHh=.:elsenE:a=d+q/f:c=1+(y-g)/b:q=q+1
+8chA,d+rN(.)*t,d+rN(.)*z,b$+"W":?"{home}"spC15)"W{white}"p" {red}S{white}"h:ifjtHpoKr,b+(j+1)/2
+9b$=cH(n+(qaN1)):on-(bU(1)<saNh>.)gO5:h=h-1:on-(h>.)gO5:sL4:mO8,x(1),y(1):rU
