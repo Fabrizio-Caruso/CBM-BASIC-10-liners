@@ -8,4 +8,3 @@
 7m=fnf(v(r)):ifm>vaNb<1tHx=1+int(m/9/z):?"{red}they grab y"g$;x"p":e=e-x:vO9:vO.:sL1:gO5:else?"{cyan}escaped":sL1:v=v+1:b=b+(b>.)
 8nE:p=j*j*int(7+rN(1)*9):ifk=.tHt=t+.2-(t>2)*.2:q$=r$:?"{clear}{light green}you find {orange}${yellow}"p"{light green}!!{007}":g=g+p:sL2:nE:elseq$="":nE:w(1)=w(1)+1:gO2
 9?"{clear}{red}S{pink}"e" {red}pw{white}"f"{cyan}sp{white}"v" {light green}bt{green}"b"{brown}ar{light gray}"z"{orange}${yellow}"g:?"{gray}score:{white}";v+f-2:?:reT:dA"{green}elves","{blue}merchant","{gray} exit",,"{red}werewolves",,,,
- 
