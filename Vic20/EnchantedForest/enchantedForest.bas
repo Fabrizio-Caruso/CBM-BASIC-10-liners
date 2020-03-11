@@ -1,5 +1,5 @@
 0pO56,28:pO52,28:n=36879:w=49:rEb$:fOk=1to48:pO7559+k,aS(mI(b$,k)):pO7421+k,.:nE
-1v=n-1:pOv-9,255:g=198:u=22:z=8186:t=30720:pOn,8:?"{clear}{reverse on}{green}use ijkl":wAg,1:pO650,128
+1v=n-1:pOv-9,255:g=198:u=22:z=8186:t=30720:h=52:pOn,8:?"{clear}{reverse on}{green}ijkl":wAg,1:pO650,128
 2l=.:x=5:y=44:m=9:o=7723:?"{clear}":p=7933:fOa=.to9:fOd=.to9+j/2:goS9:pOf+t,5:pOf,w:nE
 3b=54:pOf,b:pOf+t,1:goS9:pOf+t,2:pOf,211:nE:pOg,.:wAg,1:fOq=.to439:pOo+q+t,.:nE
 4pOn,8:?"{home}"sP6)"{reverse on}{red}S{cyan}"j"   {red}{reverse off}4{cyan}{reverse on}"m-xaN15:ifpE(p)=211tHpOn,90:j=j+1:l=l+1:x=x+(x>1)
