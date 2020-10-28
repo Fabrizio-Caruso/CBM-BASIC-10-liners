@@ -1,4 +1,4 @@
-1 clr:printchr$(14):printchr$(8):print"{clear}{white}":poke65301,14:poke65305,14:dimos$(120):tk=1:bt=0:goto100
+1 clr:printchr$(14):printchr$(8):print"{clear}{white}":poke65301,14:poke65305,14:poke1344,0:dimos$(120):tk=1:bt=0:goto100
 20 print"{down}{reverse on}Per tirare premi un tasto{reverse off}"
 30 getp$:ifp$=""then30
 40 d6=int(21*rnd(0))+1:printtab(26)"{up}Hai fatto {reverse on}"d6"{left}{reverse off}":return
