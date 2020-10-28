@@ -55,6 +55,7 @@
         <FileName>test2.bas</FileName>
         <FileName>MinusPlus16_test.bas</FileName>
         <FileName>TheHorde_test.bas</FileName>
+        <FileName>Conan264.bas</FileName>
     </BuildList>
     <DetermineBuildOrder>0</DetermineBuildOrder>
     <PaddingByte>234</PaddingByte>
@@ -63,6 +64,17 @@
     <AssyExportList />
     <!--End of screen designer settings-->
     <SourceFiles>
+        <SourceFile>
+            <Name>Conan264.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>True</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
         <SourceFile>
             <Name>ExperimentalMines16.bas</Name>
             <PrgName />
@@ -141,6 +153,17 @@
             <FileOpen>True</FileOpen>
         </SourceFile>
         <SourceFile>
+            <Name>TheHorde_test.bas</Name>
+            <PrgName />
+            <FileType>1</FileType>
+            <IncludeInBuild>True</IncludeInBuild>
+            <Regions />
+            <Breakpoints />
+            <Bookmarks />
+            <Topmost>False</Topmost>
+            <FileOpen>True</FileOpen>
+        </SourceFile>
+        <SourceFile>
             <Name>Thief16.bas</Name>
             <PrgName />
             <FileType>1</FileType>
@@ -160,17 +183,6 @@
             <Breakpoints />
             <Bookmarks />
             <Topmost>False</Topmost>
-            <FileOpen>True</FileOpen>
-        </SourceFile>
-        <SourceFile>
-            <Name>TheHorde_test.bas</Name>
-            <PrgName />
-            <FileType>1</FileType>
-            <IncludeInBuild>True</IncludeInBuild>
-            <Regions />
-            <Breakpoints />
-            <Bookmarks />
-            <Topmost>True</Topmost>
             <FileOpen>True</FileOpen>
         </SourceFile>
     </SourceFiles>

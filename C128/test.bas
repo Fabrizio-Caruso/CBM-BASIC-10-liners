@@ -1,11 +1,2 @@
-10fori=1to4
-20f(i)=6+i-3*(iaN1):v(i)=2+i+4*(iaN1)
-30nexti
-35print
-40fori=1to4
-50print f(i),v(i)
-60nexti
-65print
-70fori=1to4
-80print f(i),f(i+1)
-90nexti
+1poK52,48:poK56,48:cL:fA:b=56334:c=53272:bA14:fOa=c-24to54343:poKa-40960,peE(a):nE:bA15:poK2604,peE(2604)aN240or12:poKb,peE(b)aN254
+5poK1,peE(1)aN251:poK1,peE(1)or4:poKb,peE(b)or1:poKc,peE(c)aN240or12:slO
