@@ -7,4 +7,4 @@
 6on-(((m(.)=.)or(m(.)>=c(.)))aN((m(1)=.)or(m(1)>=c(1))))gO1:goS8:?"{red}end":goS7:rU
 7fOi=.to2:fOj=.tog:c$(i+z)="{black}":d$(i+z)="{216}":c$(i+68)="{red}":d$(i+68)="{113}":nE:nE:reT
 8?"{clear}{red}{113}{black}{216} {blue}mini-brainstorm {black}{216}{red}{113}{down*2}":fOi=.to5:?sPo(p(i+z)));c$(i+z);d$(i+z);cH(i+z)
-9pO38476+22*i,3:pO7756+22*i,102:nE:?sPo(t));"{green}{223}{210*2}{169}":v=36878:pOv+1,25:pO19,1:reT
+9pO38476+22*i,3:pO7756+22*i,102:nE:?sPo(t));"{left}{green}{223}{185*2}{169}":v=36878:pOv+1,25:pO19,1:reT
