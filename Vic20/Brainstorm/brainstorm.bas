@@ -1,7 +1,7 @@
 0dIp(99):dIc$(99):dId$(99):z=65:fOi=.to5:p(i+z)=.:nE:t=.:q=.:g=32:o(1)=14:goS7
 1o(.)=5:goS8:input"{down*4}{purple}>";a$:a$=a$+"  ":f=aS(mI(a$,1,1)):s=aS(mI(a$,2,1)):pOv,9
-2pOv,.:on-(((f=g)or(f<z)or(f>70)or(f=s))or((s<>g)aN(s<z)or(s>70))or(p(f)<>t))gO1
-3on-((s<>g)aN(p(s)<>t))gO1:p(f)=p(f)+1aN1:p(s)=p(s)+1aN1:q=q+1:?"{cyan}....":fOw=.to1
+2pOv,.:iff=gorf<zorf>70orf=sors<>gaN(s<zors>70)orp(f)<>tgO1
+3on-(s<>gaNp(s)<>t)gO1:p(f)=p(f)+1aN1:p(s)=p(s)+1aN1:q=q+1:?"{cyan}....":fOw=.to1
 4m(w)=.:c(w)=.:fOi=.to2:m(w)=m(w)+(p(i+z)+waN1):c(w)=c(w)+(p(i+68)+waN1):nE
 5nE:t=t+1aN1:on-((m(.)<>c(.))or(c(.)<3))gO6:goS8:?"{down*2}{blue}done in"q"steps!":goS7:rU
 6on-(((m(.)=.)or(m(.)>=c(.)))aN((m(1)=.)or(m(1)>=c(1))))gO1:goS8:?"{red}end":goS7:rU
