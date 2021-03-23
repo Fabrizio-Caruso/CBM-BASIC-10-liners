@@ -5,6 +5,6 @@
 4m(w)=.:c(w)=.:fOi=.to2:m(w)=m(w)+(p(i+z)+waN1):c(w)=c(w)+(p(i+68)+waN1):nE:nE
 5t=t+1aN1:on-((m(.)<>c(.))or(c(.)<3))gO6:goS8:?"{down*2}{blue}done in"q"steps!":goS7:rU
 6on-(((m(.)=.)or(m(.)>=c(.)))aN((m(1)=.)or(m(1)>=c(1))))gO1:goS8:?"{red}end":goS7:rU
-7fOi=.to2:fOj=9toz:c$(i+z)="{black}":d$(i+z)="{216}":c$(i+68)="{red}":d$(i+68)="{113}":nE:nE:reT
+7fOi=.to2:fOj=9toz:c$(i+z)="{black}":d$(i+z)="{120}":c$(i+68)="{red}":d$(i+68)="{113}":nE:nE:reT
 8?"{clear}{red}{113}{black}{216} {blue}mini-brainstorm {black}{216}{red}{113}{down*2}":fOi=.to5:?sPo(p(i+z)));c$(i+z);d$(i+z);cH(i+z)
 9pO38476+22*i,3:pO7756+22*i,102:nE:?sPo(t));"{left}{green}{223}{185*2}{169}":v=36878:pOv+1,25:pO19,1:reT
