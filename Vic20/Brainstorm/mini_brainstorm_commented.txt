@@ -1,0 +1,119 @@
+
+EXPANDED CODE (CBM Prg Studio syntax)
+
+0dimp(99):dimc$(99):dimd$(99):z=65:fori=.to5:p(i+z)=.:next:t=.:q=.:g=32:o(1)=14:gosub7
+1o(.)=5:gosub8:input"{down*4}{purple}>";a$:a$=a$+"  ":f=asc(mid$(a$,1,1)):s=asc(mid$(a$,2,1)):pokev,9
+2pokev,.:iff=gorf<zorf>70orf=sors<>gand(s<zors>70)or(p(f)<>t)or(s<>gandp(s)<>t)goto1
+3p(f)=p(f)+1and1:p(s)=p(s)+1and1:q=q+1:print"{cyan}....":print"{blue}{down}step:";q:foru=-ztoz:next:forw=.to1
+4m(w)=.:c(w)=.:fori=.to2:m(w)=m(w)+(p(i+z)+wand1):c(w)=c(w)+(p(i+68)+wand1):next:next
+5t=t+1and1:on-((m(.)<>c(.))or(c(.)<3))goto6:gosub8:print"{down*2}{blue}done in"q"steps!":gosub7:run
+6on-(((m(.)=.)or(m(.)>=c(.)))and((m(1)=.)or(m(1)>=c(1))))goto1:gosub8:print"{red}end":gosub7:run
+7fori=.to2:forj=9toz:c$(i+z)="{black}":d$(i+z)="{120}":c$(i+68)="{red}":d$(i+68)="{113}":next:next:return
+8print"{clear}{red}{113}{black}{216} {blue}mini-brainstorm {black}{216}{red}{113}{down*2}":fori=.to5:printspc(o(p(i+z)));c$(i+z);d$(i+z);chr$(i+z)
+9poke38476+22*i,3:poke7756+22*i,102:next:printspc(o(t));"{left}{green}{223}{185*2}{169}":v=36878:pokev+1,25:poke19,1:return
+
+
+MAIN VARIABLES
+
+
+
+EXPLAINED CODE
+
+0
+// Initialization
+dimp(99):dimc$(99):dimd$(99):
+
+// Z is the index of the first position (A)
+z=65:
+
+// Initialize all characters on the left bank of the river
+fori=.to5:p(i+z)=.:next:t=.:
+
+q=.:g=32:o(1)=14:gosub7
+
+
+1
+// Initialize spacing for left bank to 5
+o(.)=5:
+
+// Just to routine at line 8 to re-display the screen with the new positions
+gosub8:
+
+// Read input and make sure that fewer of two characters does not break the code
+input"{down*4}{purple}>";a$:a$=a$+"  ":
+
+// Store ASCII values of the first two characters including spaces if 0 or 1 character were input
+f=asc(mid$(a$,1,1)):s=asc(mid$(a$,2,1)):
+
+// Initialize sound volume
+pokev,9
+
+
+2
+// Set volume to zero in order to produce a short click sound (bit banging)
+pokev,.:
+
+// If impossible characters or characters combinations were use then go back to line 1
+iff=gorf<zorf>70orf=sors<>gand(s<zors>70)or(p(f)<>t)or(s<>gandp(s)<>t)goto1
+
+3
+// Move the two selected characters
+p(f)=p(f)+1and1:p(s)=p(s)+1and1:
+
+// Increase number of steps. Display short animation with the current number.
+q=q+1:print"{cyan}....":print"{blue}{down}step:";q:
+
+// Short pause
+foru=-ztoz:next:
+
+// Start loop to compute m(0), c(0), m(1), c(1)
+forw=.to1
+
+
+4
+// Compute m(0), c(0), m(1), c(1), i.e., number of missionaries and cannibals on both banks
+m(w)=.:c(w)=.:fori=.to2:m(w)=m(w)+(p(i+z)+wand1):c(w)=c(w)+(p(i+68)+wand1):next:next
+
+
+5
+// Change bank of the river
+t=t+1and1:
+
+// Verify non-victory condition. If yes, go back to line 6.
+// Otherwise print victory message, use routine at 7 as a short pause, restart the game. 
+on-((m(.)<>c(.))or(c(.)<3))goto6:gosub8:print"{down*2}{blue}done in"q"steps!":gosub7:run
+
+
+6
+// Verify non-defeat condition. If yes go back to line 1. 
+// Otherwise Go to routine at line 8 to redraw the screen. Print "end". Use routine at 7 as a short pause. Restart the game.
+on-(((m(.)=.)or(m(.)>=c(.)))and((m(1)=.)or(m(1)>=c(1))))goto1:gosub8:print"{red}end":gosub7:run
+
+
+7
+// Initialize some strings. Also used as a short pause.
+fori=.to2:forj=9toz:c$(i+z)="{black}":d$(i+z)="{120}":c$(i+68)="{red}":d$(i+68)="{113}":next:next:return
+
+
+8
+// Display the title, the characters
+print"{clear}{red}{113}{black}{216} {blue}mini-brainstorm {black}{216}{red}{113}{down*2}":fori=.to5:printspc(o(p(i+z)));c$(i+z);d$(i+z);chr$(i+z)
+
+
+9
+// Draw the river
+poke38476+22*i,3:poke7756+22*i,102:next:
+
+// Display the boat
+printspc(o(t));"{left}{green}{223}{185*2}{169}":
+
+// Initialize v 
+v=36878:
+
+// Set screen to blue
+pokev+1,25:
+
+// Disable "?" character in INPUT command
+poke19,1:return
+
+
