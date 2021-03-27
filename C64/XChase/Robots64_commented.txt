@@ -11,17 +11,133 @@ EXPANDED CODE (CBM Prg Studio syntax)
 9u=u+1:k=k+(k>.)/5:print"{home}{white}"spc(l)"{W}"u:g(.,i)=1+rnd(.)*38:g(1,i)=2+(iand1)*21:x(i)=x:return
 
 
-
-
+MAIN VARIABLES
+u score
+r high score
+o top-right wall position 
+d bottom-left wall position
+y counter that handle frozen enemies and death of player that has not killed any enemy for too many steps
+v volume register used to produce clicks by bit-banging
+a flag to toggle death of the player that has not killed any enemy after too many steps
+p(0),p(1): x and y player's coordinates
+f: player position on screen ram
+g(q,i): i-th enemy q-th coordinate value
+x(i): i-th enemy position on screen ram
+c: enemy character (87)
+w: wall character
+j: flag that stores whether the player is not on wall
 
 EXPLAINED CODE
-0h=40:d=1984:p(0)=20:b=1024:o=1103:r=-r*(r>u)-u*(u>=r):print"{green}{clear}{right*5}{dark gray}{gray}ijkl{light gray}z {cyan}hi{white}";r
-1f=1564:m=102:fori=0to39:pokeo-i,m:poked+i,m:next:fori=.to22:pokeo+h*i,m:poked-h*i,m:next:w=86
-2z=198:k=.:p(1)=13:u=-8:t=54272:x=1063:fori=.to7:gosub9:p=o+i*m+m:pokep,w:pokep+t,2:next
-3c=87:v=54296:l=32:a=1:poke53280,.:poke53281,.:pokef+t,s:pokef,81:s=7:fori=.to7:pokex(i),l
-4ify<.thenx(i)=b+g(.,i)+h*g(1,i):forq=.to1:g=int(g(q,i)):g(q,i)=g+sgn(p(q)-g):n=1:next
-5on-(peek(f)=c)goto8:on-(peek(x(i))=w)gosub9:pokex(i),c:pokex(i)+t,n:next:y=y-1:ify<-hthena=.
-6geta$:on-(a$="")goto6:i=asc(a$)-72:ifathenp(.)=p(.)+(i=2)-(i=4):p(1)=p(1)+(i=1)-(i=3)
-7print"{home}{cyan}{Z}{white}"int(9-k):pokev,7:pokev,.:j=(peek(f)<>w):pokef,l:ifi=18andk<=8theny=9:n=3:s=3:k=k+1
-8f=b+p(.)+h*p(1):on-(peek(f)<wandj)goto3:print"{home}{down}{right}{white}end":fori=-dtod:next:waitz,1:pokez,.:y=.:goto0
-9u=u+1:k=k+(k>.)/5:print"{home}{white}"spc(l)"{W}"u:g(.,i)=1+rnd(.)*38:g(1,i)=2+(iand1)*21:x(i)=x:return
+0
+
+Initialize some variables
+h=40:d=1984:p(0)=20:b=1024:o=1103:
+
+// Update high score
+r=-r*(r>u)-u*(u>=r):
+
+// Display instructions
+print"{green}{clear}{right*5}{dark gray}{gray}ijkl{light gray}z {cyan}hi{white}";r
+
+
+1
+// Initialize more variables
+f=1564:m=102:
+
+// Display Walls
+fori=0to39:pokeo-i,m:poked+i,m:next:fori=.to22:pokeo+h*i,m:poked-h*i,m:next:w=86
+
+
+2
+// Initial more variables
+z=198:k=.:p(1)=13:u=-8:t=54272:x=1063:
+
+// Loop that displays enemy at new position through routine at line 9 and displays mines
+fori=.to7:gosub9:p=o+i*m+m:pokep,w:pokep+t,2:next
+
+
+3
+// More variables initialization. Screen colors set to black.
+c=87:v=54296:l=32:a=1:poke53280,.:poke53281,.:
+
+// Display player
+pokef+t,s:pokef,81:s=7:
+
+// Start of loop that updates and displays enemy positions
+fori=.to7:
+
+// Delete i-th enemy 
+pokex(i),l
+
+4
+// if enemy is not frozem than compute new position (move closer to player both horizontal and vertically if possible)
+ify<.thenx(i)=b+g(.,i)+h*g(1,i):forq=.to1:g=int(g(q,i)):g(q,i)=g+sgn(p(q)-g):n=1:next
+
+
+5
+// If player on enemy go to line 8. 
+on-(peek(f)=c)goto8:
+
+// Otherwise, if enemy on a mine, go to line 9
+on-(peek(x(i))=w)gosub9:
+
+// Otherwise, display enemy 
+pokex(i),c:pokex(i)+t,n:next:
+
+// Decrease counter y (to thaw frozen enemies)
+y=y-1:
+
+// If counter reaches a too low value, flag a is unset in order to kill the player
+ify<-hthena=.
+
+6
+// Read keyboard and wait for an input
+geta$:on-(a$="")goto6:
+
+// Update the new player coordinates
+i=asc(a$)-72:ifathenp(.)=p(.)+(i=2)-(i=4):p(1)=p(1)+(i=1)-(i=3)
+
+
+7
+// Display number of freezing bombs
+print"{home}{cyan}{Z}{white}"int(9-k):
+
+// Produce a clicking sound
+pokev,7:pokev,.:
+
+// Compute the flag for the player not on a mine
+j=(peek(f)<>w):
+
+// Delete player
+pokef,l:
+
+// If key pressed was Z and enough freezing bombs are available, then set y=9, increse the number k of used bombs, set n and s to 3 to have the player and the enemies in cyan color 
+ifi=18andk<=8theny=9:n=3:s=3:k=k+1
+
+
+8
+// Compute player position in screen video memory
+f=b+p(.)+h*p(1):
+
+// If check player is not on a wall, nor on an enemy, nor on a mine. If yes, go back to line 3. 
+on-(peek(f)<wandj)goto3:
+
+// Otherwise print "end". Short pause. Wait for a key press. Reset y to 0 and go back to line 0
+print"{home}{down}{right}{white}end":fori=-dtod:next:waitz,1:pokez,.:y=.:goto0
+
+
+9
+// Routine that handle the death of an enemy
+// Increase score.
+u=u+1:
+
+// Increase bomb counter k by 0.2 so that the player has to kill 5 enemies to get an extra bomb
+k=k+(k>.)/5:
+
+// Display updated score 
+print"{home}{white}"spc(l)"{W}"u:
+
+// Compute coordiantes for the newly spawned enemy
+g(.,i)=1+rnd(.)*38:g(1,i)=2+(iand1)*21:x(i)=x:return
+
+

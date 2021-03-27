@@ -7,4 +7,4 @@
 6gEa$:on-(a$="")gO6:f=aS(a$)-z:on-(f=23)gO2:on-(f<.orf>6orf=sors<.ors>6)gO6:dA98
 7x=pE(b+f*2):on-((x=1)aN(((s-f)>2)or(f>s)))gO6:on-((x=0)aN(((f-s)>2)or(s>f)))gO6
 8pOb+f*2,g:q=q+1:j=b+f*2-22-sG(f-s):pOj+t,c(x):pOj,x:pOv,9:pOv,0:p(s)=x:p(f)=g
-9k=tan(9.9):s=f:pOj,g:on-(p(4)*p(5)*p(6)<>1orp(3)<2)gO5:?"{home}"spc(9)d$:pOv+1,h:gO5
+9k=tan(9.9):s=f:pOj,g:on-(p(4)*p(5)*p(6)<>1orp(3)<2)gO5:?"{home}"sP9)d$:pOv+1,h:gO5
