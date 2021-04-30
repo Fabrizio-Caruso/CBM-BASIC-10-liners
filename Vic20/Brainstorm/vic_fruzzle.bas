@@ -1,5 +1,5 @@
 0v=36878:t=30720:pOv+1,110:b=7816:c=b+12:z=65:q=.:g=160:dIc(g):dA17,85:pOv-9,255
-1fOi=1to16:rEe:pO7167+i,255-e:pO7424+i,.:nE:s$="{home}{down*3}{reverse on} {white}step{yellow}":dA17,,254,,,70,136
+1fOi=1to16:rEe:pO7167+i,255-e:pO7423+i,.:nE:s$="{home}{down*3}{reverse on} {white}step{yellow}":dA17,,254,,,70,136
 2s=3:fOi=.to3:p(i)=1:p(6-i)=0:nE:c(0)=3:c(1)=5:?"{clear}{reverse on}  {cyan}{reverse off}@{green}a{reverse on} {white}vic {green}fruzzle {cyan}{reverse off}@{green}a"
 3h=42:q=.:p(s)=g:?"{down*18}{reverse on}{yellow}    use {white}abcdefg{down}"sP11)"{yellow}reset with {white}x"
 4e=22:fOi=.to6:pO8036+i*2,i+129:fOj=1to8:pOb+e*j+i*2,230:pOb+e*j+i*2+t,7:nE:nE
