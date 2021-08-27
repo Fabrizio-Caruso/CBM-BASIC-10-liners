@@ -1,4 +1,4 @@
-0pO56,29:pO52,29:x=rN(-rN(0)):fOp=0to87:rEb:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
+0pO56,29:pO52,29:fOp=0to87:rEb:pO7400+p,.:pO7568+p,b:nE:v=36878:pO646,1:pOv-9,255
 1dEfnrf(x)=int(rN(1)*x):kk=1:ll=7:k=1:n=v+1:i=32:b1=.97:b2=.99:pOn,8:bp=100:ifj>rtHr=j
 2j=.:f=.:rr=.9:m=59:z=3:b=218:w=164:u=22:goS41:ii=160:h=52:xx=214:t=30720:uu=ii
 3jj=.:a=418:p=7955:o=7745:d=8164:x=1:?"{clear}":qq=15:goS39:fOq=.touu:pOo+1+fnrf(a),m:nE:goS31
